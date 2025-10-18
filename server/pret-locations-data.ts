@@ -3,8 +3,7 @@ import type { Location } from "@shared/schema";
 // Real Pret A Manger UK locations
 // Scraped from https://www.pret.co.uk/en-GB/shop-finder
 // Total: 491 locations across the UK
-// London: 275 locations
-// Other UK cities: 216 locations
+// Includes opening hours and phone numbers
 
 export const pretLocations: Location[] = [
   {
@@ -15,7 +14,9 @@ export const pretLocations: Location[] = [
     "postcode": "WC2H 9HN",
     "latitude": 51.51468871,
     "longitude": -0.12496523,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:30-20:00, Sat: 07:30-20:00, Sun: 08:00-18:30",
+    "phone": "+44 20 7932 5466"
   },
   {
     "id": "10439",
@@ -25,7 +26,9 @@ export const pretLocations: Location[] = [
     "postcode": "W1T 5LL",
     "latitude": 51.5241459,
     "longitude": -0.1389788,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Wed: 06:00-18:00, Thu: 06:00-18:30, Fri: 06:00-17:30, Sat: 07:00-16:30, Sun: Closed",
+    "phone": "+44 20 7387 6661"
   },
   {
     "id": "10145",
@@ -35,7 +38,9 @@ export const pretLocations: Location[] = [
     "postcode": "W1T 2EY",
     "latitude": 51.5202627,
     "longitude": -0.1342397,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:30-18:00, Sat-Sun: Closed",
+    "phone": "+44 20 7932 5205"
   },
   {
     "id": "10560",
@@ -45,7 +50,9 @@ export const pretLocations: Location[] = [
     "postcode": "N1C 4QP",
     "latitude": 51.531427,
     "longitude": -0.126133,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sun: Closed",
+    "phone": "+44 20 7278 2563"
   },
   {
     "id": "10317",
@@ -55,7 +62,9 @@ export const pretLocations: Location[] = [
     "postcode": "N1C 9AP",
     "latitude": 51.53154315,
     "longitude": -0.12457351,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sat: 05:00-24:00, Sun: 05:30-24:00",
+    "phone": "+44 20 7932 5465"
   },
   {
     "id": "10563",
@@ -65,7 +74,9 @@ export const pretLocations: Location[] = [
     "postcode": "N1C 4AP",
     "latitude": 51.527607,
     "longitude": -0.1331756,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 06:00-21:00, Fri: 06:00-24:00, Sat: 00:00-23:59, Sun: 00:00-21:00",
+    "phone": "+44 20 7278 8054"
   },
   {
     "id": "10567",
@@ -75,7 +86,9 @@ export const pretLocations: Location[] = [
     "postcode": "EH3 9BE",
     "latitude": 55.9459618,
     "longitude": -3.2058397,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:30-17:00, Sat: 08:30-16:00, Sun: Closed",
+    "phone": "+44 131 228 2169"
   },
   {
     "id": "10555",
@@ -85,7 +98,9 @@ export const pretLocations: Location[] = [
     "postcode": "W2 2EH",
     "latitude": 51.5137263,
     "longitude": -0.160508,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:00-21:00, Sat-Sun: 07:30-21:00",
+    "phone": "+44 20 7723 1141"
   },
   {
     "id": "10438",
@@ -95,7 +110,9 @@ export const pretLocations: Location[] = [
     "postcode": "WC2R 1AT",
     "latitude": 51.5132807,
     "longitude": -0.1127745,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon: 06:30-21:00, Tue-Fri: 06:00-21:00, Sat-Sun: 07:00-19:00",
+    "phone": "+44 20 7936 4839"
   },
   {
     "id": "10433",
@@ -105,7 +122,9 @@ export const pretLocations: Location[] = [
     "postcode": "SW3 4NB",
     "latitude": 51.49020613,
     "longitude": -0.16199477,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 05:00-21:00, Sat: 06:30-20:00, Sun: 07:00-19:00",
+    "phone": "+44 20 7730 9655"
   },
   {
     "id": "10440",
@@ -115,7 +134,9 @@ export const pretLocations: Location[] = [
     "postcode": "N1 0PS",
     "latitude": 51.5342006,
     "longitude": -0.1060342,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:30-20:30, Sat-Sun: 07:00-20:30",
+    "phone": "+44 20 7226 4292"
   },
   {
     "id": "10680",
@@ -125,7 +146,9 @@ export const pretLocations: Location[] = [
     "postcode": "EH12 9DN",
     "latitude": 55.94879058,
     "longitude": -3.36381354,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sun: 04:00-22:00",
+    "phone": "+44 131 333 1714"
   },
   {
     "id": "10578",
@@ -135,7 +158,9 @@ export const pretLocations: Location[] = [
     "postcode": "NW1 5LA",
     "latitude": 51.52267336,
     "longitude": -0.15630102,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:45-18:00, Sat-Sun: 08:00-17:00",
+    "phone": "+44 20 7486 2023"
   },
   {
     "id": "10382",
@@ -145,7 +170,9 @@ export const pretLocations: Location[] = [
     "postcode": "SE1 7NQ",
     "latitude": 51.5032988,
     "longitude": -0.1124044,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 05:00-24:00, Sat: 05:30-23:00, Sun: 05:30-22:30",
+    "phone": "+44 20 7633 9233"
   },
   {
     "id": "10444",
@@ -155,7 +182,9 @@ export const pretLocations: Location[] = [
     "postcode": "W2 1HB",
     "latitude": 51.5166744,
     "longitude": -0.1769328,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 04:30-22:30, Sat: 05:00-22:00, Sun: 06:00-22:00",
+    "phone": "+44 20 7262 9784"
   },
   {
     "id": "10445",
@@ -165,7 +194,9 @@ export const pretLocations: Location[] = [
     "postcode": "EC1Y 8NX",
     "latitude": 51.5220227,
     "longitude": -0.0924261,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 07:00-16:00, Sat: 08:00-16:00, Sun: 08:30-16:00",
+    "phone": "+44 20 7256 8280"
   },
   {
     "id": "10657",
@@ -175,7 +206,9 @@ export const pretLocations: Location[] = [
     "postcode": "SE1 9SP",
     "latitude": 51.5046203181577,
     "longitude": -0.0859852813422683,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 05:00-23:30, Sat: 05:30-23:30, Sun: 06:00-23:30",
+    "phone": "+44 20 7378 0366"
   },
   {
     "id": "10413",
@@ -185,7 +218,9 @@ export const pretLocations: Location[] = [
     "postcode": "E15 1DA",
     "latitude": 51.5416798,
     "longitude": -0.0026537,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sat: 05:00-22:00, Sun: 06:00-21:30",
+    "phone": "+44 20 8519 6859"
   },
   {
     "id": "10200",
@@ -195,7 +230,9 @@ export const pretLocations: Location[] = [
     "postcode": "M17 8DA",
     "latitude": 53.4664691,
     "longitude": -2.3472996,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 09:00-21:30, Sat: 09:00-20:30, Sun: 11:30-17:30",
+    "phone": "+44 161 755 0942"
   },
   {
     "id": "10140",
@@ -205,7 +242,9 @@ export const pretLocations: Location[] = [
     "postcode": "M3 3EB",
     "latitude": 53.47981987,
     "longitude": -2.25192072,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:30-18:00, Sat-Sun: Closed",
+    "phone": "+44 161 832 1471"
   },
   {
     "id": "10530",
@@ -215,7 +254,9 @@ export const pretLocations: Location[] = [
     "postcode": "E16 2PX",
     "latitude": 51.50397136,
     "longitude": 0.04858966,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 05:00-22:00, Sat: 05:00-12:00, Sun: 11:00-22:00",
+    "phone": "+44 20 7511 1736"
   },
   {
     "id": "10316",
@@ -225,7 +266,9 @@ export const pretLocations: Location[] = [
     "postcode": "W1S 1HN",
     "latitude": 51.5145178,
     "longitude": -0.1439031,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 05:30-21:30, Sat: 06:00-21:00, Sun: 07:00-21:00",
+    "phone": "+44 20 7932 5464"
   },
   {
     "id": "10261",
@@ -235,7 +278,9 @@ export const pretLocations: Location[] = [
     "postcode": "NW5 2TJ",
     "latitude": 51.5505322,
     "longitude": -0.1409513,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:15-18:30, Sat: 06:30-18:00, Sun: 07:00-17:00",
+    "phone": "+44 20 7932 5383"
   },
   {
     "id": "10659",
@@ -245,7 +290,9 @@ export const pretLocations: Location[] = [
     "postcode": "LU2 9LY",
     "latitude": 51.88056977,
     "longitude": -0.37525119,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sun: 05:00-20:00",
+    "phone": "+44 1582 730224"
   },
   {
     "id": "102",
@@ -255,7 +302,9 @@ export const pretLocations: Location[] = [
     "postcode": "SW1V 1JU",
     "latitude": 51.49534556,
     "longitude": -0.14390863,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon: 05:30-21:30, Tue-Sat: 05:30-22:00, Sun: 05:30-21:30",
+    "phone": "+44 20 7932 5318"
   },
   {
     "id": "10322",
@@ -265,7 +314,9 @@ export const pretLocations: Location[] = [
     "postcode": "BA16 0BB",
     "latitude": 51.129095,
     "longitude": -2.740114,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Wed: 08:30-19:00, Thu: 08:30-20:00, Fri-Sat: 08:30-19:00, Sun: 09:00-17:30",
+    "phone": "+44 1458 445406"
   },
   {
     "id": "10519",
@@ -275,7 +326,9 @@ export const pretLocations: Location[] = [
     "postcode": "M90 1QX",
     "latitude": 53.3619363,
     "longitude": -2.2729717,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sun: 03:30-20:00",
+    "phone": "+44 161 437 3453"
   },
   {
     "id": "10385",
@@ -285,7 +338,9 @@ export const pretLocations: Location[] = [
     "postcode": "NW8 6PG",
     "latitude": 51.53421,
     "longitude": -0.1716,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon: 06:00-19:00, Tue: 05:30-19:30, Wed: 05:30-20:00, Thu: 06:00-19:30, Fri: 06:00-19:00, Sat: 06:00-18:30, Sun: 06:30-18:00",
+    "phone": "+44 20 7483 4433"
   },
   {
     "id": "104",
@@ -295,7 +350,9 @@ export const pretLocations: Location[] = [
     "postcode": "W11 3JS",
     "latitude": 51.50899,
     "longitude": -0.1967,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 05:30-21:00, Sat: 06:00-20:30, Sun: 06:30-19:30",
+    "phone": "+44 20 7041 9040"
   },
   {
     "id": "10607",
@@ -305,7 +362,9 @@ export const pretLocations: Location[] = [
     "postcode": "NW1 7BU",
     "latitude": 51.5400930557987,
     "longitude": -0.143954340401493,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:00-20:00, Sat: 06:00-21:00, Sun: 07:00-20:00",
+    "phone": "+44 20 7267 1845"
   },
   {
     "id": "10388",
@@ -315,7 +374,9 @@ export const pretLocations: Location[] = [
     "postcode": "MK9 3AJ",
     "latitude": 52.04448591,
     "longitude": -0.75343527,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sat: 07:30-19:30, Sun: 08:30-17:30",
+    "phone": "+44 1908 665811"
   },
   {
     "id": "10387",
@@ -325,7 +386,9 @@ export const pretLocations: Location[] = [
     "postcode": "KT1 1RB",
     "latitude": 51.41095,
     "longitude": -0.30413,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:00-18:30, Sat: 06:30-19:00, Sun: 07:00-18:00",
+    "phone": "+44 20 8541 5834"
   },
   {
     "id": "106",
@@ -335,7 +398,9 @@ export const pretLocations: Location[] = [
     "postcode": "EC4Y 1HY",
     "latitude": 51.514351,
     "longitude": -0.10709,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 06:00-19:00, Fri: 06:30-18:00, Sat-Sun: Closed",
+    "phone": "+44 20 7932 5323"
   },
   {
     "id": "211",
@@ -345,7 +410,9 @@ export const pretLocations: Location[] = [
     "postcode": "EC3M 4AQ",
     "latitude": 51.5121214,
     "longitude": -0.079606,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 05:30-19:00, Fri: 05:30-17:00, Sat-Sun: Closed",
+    "phone": "+44 20 7932 5348"
   },
   {
     "id": "219",
@@ -355,7 +422,9 @@ export const pretLocations: Location[] = [
     "postcode": "WC2N 5DS",
     "latitude": 51.507312,
     "longitude": -0.128631,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 05:30-21:00, Sat: 05:30-20:30, Sun: 06:00-20:00",
+    "phone": "+44 20 7932 5350"
   },
   {
     "id": "10435",
@@ -365,7 +434,9 @@ export const pretLocations: Location[] = [
     "postcode": "EC2N 3AS",
     "latitude": 51.5153832,
     "longitude": -0.0826456,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 05:30-20:00, Fri: 05:30-18:00, Sat: 08:00-17:00, Sun: Closed",
+    "phone": "+44 20 7374 6420"
   },
   {
     "id": "54",
@@ -375,7 +446,9 @@ export const pretLocations: Location[] = [
     "postcode": "OX26 6WD",
     "latitude": 51.89225558,
     "longitude": -1.15653069,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sat: 09:00-21:30, Sun: 10:00-19:30",
+    "phone": "+44 1869 241069"
   },
   {
     "id": "10175",
@@ -385,7 +458,9 @@ export const pretLocations: Location[] = [
     "postcode": "E14 5NN",
     "latitude": 51.505043,
     "longitude": -0.01904,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 05:30-16:00, Fri: 05:30-15:00, Sat-Sun: Closed",
+    "phone": "+44 20 7513 1963"
   },
   {
     "id": "223",
@@ -395,7 +470,9 @@ export const pretLocations: Location[] = [
     "postcode": "W1G 0PW",
     "latitude": 51.5159343,
     "longitude": -0.144161545,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 06:00-19:30, Fri: 06:00-19:00, Sat: 07:30-18:00, Sun: 08:00-17:00",
+    "phone": "+44 20 7629 7946"
   },
   {
     "id": "174",
@@ -405,7 +482,9 @@ export const pretLocations: Location[] = [
     "postcode": "W1W 6PY",
     "latitude": 51.5202708,
     "longitude": -0.1426412,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 06:00-19:00, Fri: 06:00-18:30, Sat: 06:30-17:30, Sun: 07:00-16:30",
+    "phone": "+44 20 7323 9440"
   },
   {
     "id": "265",
@@ -415,7 +494,9 @@ export const pretLocations: Location[] = [
     "postcode": "SW1E 5NA",
     "latitude": 51.4963349,
     "longitude": -0.1421851,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 05:30-21:00, Fri-Sat: 06:00-21:00, Sun: 06:30-21:00",
+    "phone": "+44 20 7827 8882"
   },
   {
     "id": "10434",
@@ -425,7 +506,9 @@ export const pretLocations: Location[] = [
     "postcode": "SW1Y 5BA",
     "latitude": 51.5082321,
     "longitude": -0.130062,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:00-20:00, Sat: 07:00-19:30, Sun: 08:00-18:30",
+    "phone": "+44 20 7839 3995"
   },
   {
     "id": "10479",
@@ -435,7 +518,9 @@ export const pretLocations: Location[] = [
     "postcode": "RH6 0NP",
     "latitude": 51.15965019,
     "longitude": -0.17801046,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sun: 04:30-20:00",
+    "phone": "+44 1293 579464"
   },
   {
     "id": "10401",
@@ -445,7 +530,9 @@ export const pretLocations: Location[] = [
     "postcode": "M1 5EL",
     "latitude": 53.4762759909001,
     "longitude": -2.24299833969689,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon: 06:30-19:00, Tue-Thu: 06:30-19:30, Fri: 06:30-18:30, Sat: 07:30-18:30, Sun: 08:00-17:00",
+    "phone": "+44 161 228 7965"
   },
   {
     "id": "156",
@@ -455,7 +542,9 @@ export const pretLocations: Location[] = [
     "postcode": "SW3 1HY",
     "latitude": 51.498756,
     "longitude": -0.1657017,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 07:00-19:00, Sat-Sun: 08:00-17:00",
+    "phone": "+44 20 7932 5337"
   },
   {
     "id": "10437",
@@ -465,7 +554,9 @@ export const pretLocations: Location[] = [
     "postcode": "SW1H 0HW",
     "latitude": 51.4973714,
     "longitude": -0.1353875,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 05:30-19:30, Sat: 06:00-19:30, Sun: 06:30-19:30",
+    "phone": "+44 20 7222 6293"
   },
   {
     "id": "92",
@@ -475,7 +566,9 @@ export const pretLocations: Location[] = [
     "postcode": "NW1 3DP",
     "latitude": 51.52532627,
     "longitude": -0.1392553,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon: 06:00-18:00, Tue-Thu: 05:30-19:00, Fri: 06:00-17:00, Sat-Sun: Closed",
+    "phone": "+44 20 3583 3860"
   },
   {
     "id": "10402",
@@ -485,7 +578,9 @@ export const pretLocations: Location[] = [
     "postcode": "E1 6BF",
     "latitude": 51.5155828325732,
     "longitude": -0.0728276799831688,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 05:30-19:30, Sat: 06:30-18:00, Sun: 07:00-17:00",
+    "phone": "+44 20 7092 9114"
   },
   {
     "id": "10114",
@@ -495,7 +590,9 @@ export const pretLocations: Location[] = [
     "postcode": "NW1 2SX",
     "latitude": 51.528334,
     "longitude": -0.1275658,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:00-20:30, Sat: 06:00-19:00, Sun: 07:00-18:30",
+    "phone": "+44 20 7932 5256"
   },
   {
     "id": "86",
@@ -505,7 +602,9 @@ export const pretLocations: Location[] = [
     "postcode": "W1W 5QX",
     "latitude": 51.5234251,
     "longitude": -0.1438496,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 05:30-20:30, Sat: 06:00-20:30, Sun: 06:00-20:00",
+    "phone": "+44 20 7932 5301"
   },
   {
     "id": "10414",
@@ -515,7 +614,9 @@ export const pretLocations: Location[] = [
     "postcode": "WC1V 7EE",
     "latitude": 51.5176869698502,
     "longitude": -0.117104594327442,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 06:00-18:30, Fri: 06:00-18:00, Sat: 08:00-17:00, Sun: Closed",
+    "phone": "+44 20 7405 4290"
   },
   {
     "id": "10418",
@@ -525,7 +626,9 @@ export const pretLocations: Location[] = [
     "postcode": "SE1 9SE",
     "latitude": 51.505535500031876,
     "longitude": -0.08874475089940473,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 05:30-20:30, Fri: 05:30-20:00, Sat: 05:30-19:30, Sun: 06:30-19:00",
+    "phone": "+44 20 7089 9067"
   },
   {
     "id": "10173",
@@ -535,7 +638,9 @@ export const pretLocations: Location[] = [
     "postcode": "E14 5NN",
     "latitude": 51.5066381,
     "longitude": -0.0278379,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 05:30-20:00, Fri: 05:30-19:30, Sat: 08:30-18:30, Sun: 09:00-18:00",
+    "phone": "+44 20 7932 5435"
   },
   {
     "id": "10179",
@@ -545,7 +650,9 @@ export const pretLocations: Location[] = [
     "postcode": "L2 9UJ",
     "latitude": 53.4054242,
     "longitude": -2.9896093,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 07:00-18:00, Sat: 08:00-17:30, Sun: 08:30-17:00",
+    "phone": "+44 151 236 9964"
   },
   {
     "id": "10436",
@@ -555,7 +662,9 @@ export const pretLocations: Location[] = [
     "postcode": "BS34 5DG",
     "latitude": 51.525576,
     "longitude": -2.595577,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sat: 08:30-20:00, Sun: 09:00-17:00",
+    "phone": "+44 117 959 0326"
   },
   {
     "id": "284",
@@ -565,7 +674,9 @@ export const pretLocations: Location[] = [
     "postcode": "WC1N 1LE",
     "latitude": 51.5233079,
     "longitude": -0.1248167,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sun: 05:00-23:00",
+    "phone": "+44 20 7932 5374"
   },
   {
     "id": "10556",
@@ -575,7 +686,9 @@ export const pretLocations: Location[] = [
     "postcode": "SW1V 2RX",
     "latitude": 51.49033402,
     "longitude": -0.13257288,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:00-18:30, Sat: 06:30-17:30, Sun: 07:00-16:00",
+    "phone": "+44 20 7828 2102"
   },
   {
     "id": "10526",
@@ -585,7 +698,9 @@ export const pretLocations: Location[] = [
     "postcode": "EC3V 0AS",
     "latitude": 51.5122786596993,
     "longitude": -0.0846698130406552,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon: 06:00-18:00, Tue-Thu: 06:00-19:00, Fri: 06:00-17:30, Sat: 07:00-17:30, Sun: 08:00-16:00",
+    "phone": "+44 20 7220 7519"
   },
   {
     "id": "10527",
@@ -595,7 +710,9 @@ export const pretLocations: Location[] = [
     "postcode": "SE1 6BH",
     "latitude": 51.4933641,
     "longitude": -0.098685,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 05:30-20:00, Sat: 06:30-18:30, Sun: 07:00-19:00",
+    "phone": "+44 20 7582 8429"
   },
   {
     "id": "10394",
@@ -605,7 +722,9 @@ export const pretLocations: Location[] = [
     "postcode": "EC1R 3BT",
     "latitude": 51.5224201,
     "longitude": -0.1075039,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 06:00-18:00, Fri: 06:00-17:30, Sat: 08:00-16:00, Sun: Closed",
+    "phone": "+44 20 7713 8885"
   },
   {
     "id": "10521",
@@ -615,7 +734,9 @@ export const pretLocations: Location[] = [
     "postcode": "EC1N 7RA",
     "latitude": 51.51858703,
     "longitude": -0.10883632,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 06:00-18:00, Fri: 06:00-17:00, Sat-Sun: Closed",
+    "phone": "+44 20 7242 5622"
   },
   {
     "id": "10553",
@@ -625,7 +746,9 @@ export const pretLocations: Location[] = [
     "postcode": "BS1 6BX",
     "latitude": 51.45280417,
     "longitude": -2.58834124,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon: 06:00-16:30, Tue-Thu: 06:00-18:00, Fri: 06:00-16:30, Sat-Sun: Closed",
+    "phone": "+44 117 316 9238"
   },
   {
     "id": "10523",
@@ -635,7 +758,9 @@ export const pretLocations: Location[] = [
     "postcode": "EX4 4SZ",
     "latitude": 50.7351473065558,
     "longitude": -3.53440574159748,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 07:30-20:00, Sat: 08:30-19:00, Sun: 09:00-17:00",
+    "phone": "+44 1392 271691"
   },
   {
     "id": "10568",
@@ -645,7 +770,9 @@ export const pretLocations: Location[] = [
     "postcode": "SO17 1TW",
     "latitude": 50.9377295,
     "longitude": -1.3974389,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 06:30-17:00, Fri: 06:30-17:30, Sat-Sun: 04:00-04:01",
+    "phone": "+44 20 3937 7832"
   },
   {
     "id": "95",
@@ -655,7 +782,9 @@ export const pretLocations: Location[] = [
     "postcode": "EC1A 2AT",
     "latitude": 51.51661319,
     "longitude": -0.1036033,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 05:30-19:00, Fri: 05:30-18:00, Sat-Sun: Closed",
+    "phone": "+44 20 3201 0046"
   },
   {
     "id": "66",
@@ -665,7 +794,9 @@ export const pretLocations: Location[] = [
     "postcode": "YO19 4TA",
     "latitude": 53.9222232,
     "longitude": -1.077677,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sat: 09:00-20:00, Sun: 09:00-18:00",
+    "phone": "+44 1904 639899"
   },
   {
     "id": "10538",
@@ -675,7 +806,9 @@ export const pretLocations: Location[] = [
     "postcode": "BA1 1AP",
     "latitude": 51.37855681,
     "longitude": -2.35838849,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 07:00-18:00, Fri: 07:00-18:30, Sat: 07:30-19:00, Sun: 08:30-17:00",
+    "phone": "+44 1225 319092"
   },
   {
     "id": "10670",
@@ -685,7 +818,9 @@ export const pretLocations: Location[] = [
     "postcode": "SW11 1PX",
     "latitude": 51.4613402,
     "longitude": -0.1674908,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:30-16:30, Sat: 07:30-17:00, Sun: 07:30-16:30",
+    "phone": "+44 20 7228 5413"
   },
   {
     "id": "10539",
@@ -695,7 +830,9 @@ export const pretLocations: Location[] = [
     "postcode": "EN6 3QQ",
     "latitude": 51.6874815183803,
     "longitude": -0.221872018104517,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sun: 07:00-17:00",
+    "phone": "+44 1707 659443"
   },
   {
     "id": "293",
@@ -705,7 +842,9 @@ export const pretLocations: Location[] = [
     "postcode": "EC2V 7PG",
     "latitude": 51.51416,
     "longitude": -0.0931504,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 06:00-18:00, Fri: 06:00-16:00, Sat-Sun: Closed",
+    "phone": "+44 20 7932 5209"
   },
   {
     "id": "10682",
@@ -715,7 +854,9 @@ export const pretLocations: Location[] = [
     "postcode": "W1F 7TG",
     "latitude": 51.5147514,
     "longitude": -0.1405998,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sat: 06:00-22:00, Sun: 07:00-21:00",
+    "phone": "+44 20 3937 7831"
   },
   {
     "id": "10536",
@@ -725,7 +866,9 @@ export const pretLocations: Location[] = [
     "postcode": "N22 6YA",
     "latitude": 51.5944812912075,
     "longitude": -0.108530129673587,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sat: 06:30-19:30, Sun: 07:30-18:30",
+    "phone": "+44 20 8889 1347"
   },
   {
     "id": "10643",
@@ -735,7 +878,9 @@ export const pretLocations: Location[] = [
     "postcode": "BR5 3RP",
     "latitude": 51.39298068,
     "longitude": 0.11250255,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:30-17:00, Sat: 07:30-17:00, Sun: 08:00-16:30",
+    "phone": "+44 1689 820172"
   },
   {
     "id": "10277",
@@ -745,7 +890,9 @@ export const pretLocations: Location[] = [
     "postcode": "TW6 1QG",
     "latitude": 51.47157037,
     "longitude": -0.45796032,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sun: 04:30-22:00",
+    "phone": "+44 20 8759 8971"
   },
   {
     "id": "10644",
@@ -755,7 +902,9 @@ export const pretLocations: Location[] = [
     "postcode": "KT1 1JP",
     "latitude": 51.41008166,
     "longitude": -0.3058201,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 07:00-17:00, Sat: 07:30-18:00, Sun: 08:00-17:00",
+    "phone": "+44 20 8549 9125"
   },
   {
     "id": "10286",
@@ -765,7 +914,9 @@ export const pretLocations: Location[] = [
     "postcode": "N1 9AB",
     "latitude": 51.5333608,
     "longitude": -0.12221597,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 05:30-18:00, Fri: 05:30-16:30, Sat-Sun: 06:30-16:30",
+    "phone": "+44 20 7932 5452"
   },
   {
     "id": "10683",
@@ -775,7 +926,9 @@ export const pretLocations: Location[] = [
     "postcode": "E17 7JR",
     "latitude": 51.583618,
     "longitude": -0.0223932,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 07:00-18:00, Sat: 07:00-18:30, Sun: 07:30-18:00",
+    "phone": "+44 20 8520 3630"
   },
   {
     "id": "10701",
@@ -785,7 +938,9 @@ export const pretLocations: Location[] = [
     "postcode": "EC4V 4DD",
     "latitude": 51.51023921,
     "longitude": -0.10327176,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 06:00-23:30, Fri: 06:00-22:30, Sat: 07:30-17:30, Sun: 07:30-18:00",
+    "phone": "+44 20 7236 4660"
   },
   {
     "id": "10639",
@@ -795,7 +950,9 @@ export const pretLocations: Location[] = [
     "postcode": "SW9 8HE",
     "latitude": 51.4630531,
     "longitude": -0.1145677,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 05:30-19:30, Sat: 06:00-19:30, Sun: 06:30-19:00",
+    "phone": "+44 20 7737 3809"
   },
   {
     "id": "10466",
@@ -805,7 +962,9 @@ export const pretLocations: Location[] = [
     "postcode": "EC2N 1DW",
     "latitude": 51.5148276,
     "longitude": -0.0861277,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 05:30-19:00, Fri: 05:30-17:00, Sat-Sun: Closed",
+    "phone": "+44 20 7374 4550"
   },
   {
     "id": "285",
@@ -815,7 +974,9 @@ export const pretLocations: Location[] = [
     "postcode": "B5 4BP",
     "latitude": 52.4780701,
     "longitude": -1.8928407,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 09:30-20:00, Sat: 09:00-21:00, Sun: 10:00-17:30",
+    "phone": "+44 121 600 6957"
   },
   {
     "id": "10297",
@@ -825,7 +986,9 @@ export const pretLocations: Location[] = [
     "postcode": "TW6 3XA",
     "latitude": 51.4597978,
     "longitude": -0.4462066,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sun: 05:00-22:00",
+    "phone": "+44 7876 881673"
   },
   {
     "id": "6",
@@ -835,7 +998,9 @@ export const pretLocations: Location[] = [
     "postcode": "SW1Y 6PP",
     "latitude": 51.5057851,
     "longitude": -0.13803,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 06:00-17:00, Fri: 06:00-16:30, Sat-Sun: Closed",
+    "phone": "+44 20 7839 1883"
   },
   {
     "id": "89",
@@ -845,7 +1010,9 @@ export const pretLocations: Location[] = [
     "postcode": "WC1X 8SL",
     "latitude": 51.52039,
     "longitude": -0.1170943,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon: 06:30-16:30, Tue-Thu: 06:30-17:00, Fri: 06:30-16:00, Sat-Sun: Closed",
+    "phone": "+44 20 7932 5304"
   },
   {
     "id": "10778",
@@ -855,7 +1022,9 @@ export const pretLocations: Location[] = [
     "postcode": "E8 2JS",
     "latitude": 51.5472836,
     "longitude": -0.07575948,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:30-19:00, Sat: 07:00-19:00, Sun: 07:00-18:30",
+    "phone": "+44 20 7254 4701"
   },
   {
     "id": "10638",
@@ -865,7 +1034,9 @@ export const pretLocations: Location[] = [
     "postcode": "EH2 4BL",
     "latitude": 55.95057925,
     "longitude": -3.20627863,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:30-17:30, Sat-Sun: 07:30-16:30",
+    "phone": "+44 131 225 6761"
   },
   {
     "id": "10750",
@@ -875,7 +1046,9 @@ export const pretLocations: Location[] = [
     "postcode": "SE1 9HA",
     "latitude": 51.5080668,
     "longitude": -0.0950272,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:30-20:00, Sat-Sun: 08:00-20:00",
+    "phone": "+44 20 3268 2185"
   },
   {
     "id": "85",
@@ -885,7 +1058,9 @@ export const pretLocations: Location[] = [
     "postcode": "W1H 6HJ",
     "latitude": 51.51505727,
     "longitude": -0.15461801,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sun: Closed",
+    "phone": "+44 20 7932 5300"
   },
   {
     "id": "10768",
@@ -895,7 +1070,9 @@ export const pretLocations: Location[] = [
     "postcode": "EC1Y 4AB",
     "latitude": 51.5205175,
     "longitude": -0.0894169,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon: 06:00-17:30, Tue-Thu: 06:00-19:00, Fri: 06:00-17:00, Sat-Sun: Closed",
+    "phone": "+44 20 7256 9686"
   },
   {
     "id": "10461",
@@ -905,7 +1082,9 @@ export const pretLocations: Location[] = [
     "postcode": "EC3R 6AH",
     "latitude": 51.5081307,
     "longitude": -0.0792881,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:00-20:30, Sat-Sun: 06:30-20:30",
+    "phone": "+44 20 7929 7408"
   },
   {
     "id": "74",
@@ -915,7 +1094,9 @@ export const pretLocations: Location[] = [
     "postcode": "EC3A 8AA",
     "latitude": 51.5147144,
     "longitude": -0.0810238,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 05:30-19:30, Fri: 05:30-18:00, Sat: 08:00-16:00, Sun: Closed",
+    "phone": "+44 20 7929 4188"
   },
   {
     "id": "10580",
@@ -925,7 +1106,9 @@ export const pretLocations: Location[] = [
     "postcode": "SW7 2NB",
     "latitude": 51.49349409,
     "longitude": -0.17424993,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:00-19:30, Sat: 09:00-17:00, Sun: 09:00-16:00",
+    "phone": "+44 20 7591 0437"
   },
   {
     "id": "10600",
@@ -935,7 +1118,9 @@ export const pretLocations: Location[] = [
     "postcode": "EH1 1BB",
     "latitude": 55.951998,
     "longitude": -3.1899862,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 05:30-21:00, Sat: 07:00-18:00, Sun: 08:00-18:00",
+    "phone": "+44 131 261 5818"
   },
   {
     "id": "10181",
@@ -945,7 +1130,9 @@ export const pretLocations: Location[] = [
     "postcode": "W1U 2RJ",
     "latitude": 51.5167416,
     "longitude": -0.147475,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 06:00-20:00, Fri: 06:00-19:00, Sat: 07:00-18:00, Sun: Closed",
+    "phone": "+44 20 7932 5291"
   },
   {
     "id": "10333",
@@ -955,7 +1142,9 @@ export const pretLocations: Location[] = [
     "postcode": "W1J 8HY",
     "latitude": 51.5066547,
     "longitude": -0.1435076,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sat: 05:30-23:00, Sun: 05:30-22:30",
+    "phone": "+44 20 7495 6264"
   },
   {
     "id": "10505",
@@ -965,7 +1154,9 @@ export const pretLocations: Location[] = [
     "postcode": "LS1 5DL",
     "latitude": 53.795404,
     "longitude": -1.547506,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 05:00-21:00, Sat: 06:30-20:30, Sun: 07:30-19:30",
+    "phone": "+44 113 244 2612"
   },
   {
     "id": "10342",
@@ -975,7 +1166,9 @@ export const pretLocations: Location[] = [
     "postcode": "G1 3BS",
     "latitude": 55.8607073,
     "longitude": -4.2513791,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon: 06:30-16:00, Tue-Thu: 06:30-16:30, Fri: 06:30-16:00, Sat-Sun: Closed",
+    "phone": "+44 141 221 7602"
   },
   {
     "id": "10189",
@@ -985,7 +1178,9 @@ export const pretLocations: Location[] = [
     "postcode": "BS1 3BD",
     "latitude": 51.458887,
     "longitude": -2.584915,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 07:00-18:30, Sat: 07:30-18:30, Sun: 08:30-18:00",
+    "phone": "+44 117 929 9201"
   },
   {
     "id": "10166",
@@ -995,7 +1190,9 @@ export const pretLocations: Location[] = [
     "postcode": "SW1P 3LT",
     "latitude": 51.4968357,
     "longitude": -0.1291979,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:00-19:00, Sat: 07:30-17:00, Sun: 07:30-16:00",
+    "phone": "+44 20 7932 5401"
   },
   {
     "id": "50",
@@ -1005,7 +1202,9 @@ export const pretLocations: Location[] = [
     "postcode": "EC3R 5AA",
     "latitude": 51.510212,
     "longitude": -0.0825844,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 06:00-18:30, Fri: 06:00-17:30, Sat-Sun: Closed",
+    "phone": "+44 20 7932 5265"
   },
   {
     "id": "10222",
@@ -1015,7 +1214,9 @@ export const pretLocations: Location[] = [
     "postcode": "SW1Y 4PE",
     "latitude": 51.5082595,
     "longitude": -0.132851,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 05:30-20:00, Sat: 06:00-19:30, Sun: 06:30-18:00",
+    "phone": "+44 20 7932 5309"
   },
   {
     "id": "10180",
@@ -1025,7 +1226,9 @@ export const pretLocations: Location[] = [
     "postcode": "L1 8BQ",
     "latitude": 53.4035574,
     "longitude": -2.986558,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 08:00-20:00, Sat: 08:00-19:30, Sun: 08:30-18:00",
+    "phone": "+44 151 709 7850"
   },
   {
     "id": "10665",
@@ -1035,7 +1238,9 @@ export const pretLocations: Location[] = [
     "postcode": "N1C 4QL",
     "latitude": 51.531427,
     "longitude": -0.126133,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sat: 05:30-23:00, Sun: 07:30-22:30",
+    "phone": "+44 20 7278 6134"
   },
   {
     "id": "10469",
@@ -1045,7 +1250,9 @@ export const pretLocations: Location[] = [
     "postcode": "WC1H 9LT",
     "latitude": 51.525418,
     "longitude": -0.128429,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:30-18:00, Sat-Sun: 08:00-16:30",
+    "phone": "+44 20 7387 2186"
   },
   {
     "id": "10186",
@@ -1055,7 +1262,9 @@ export const pretLocations: Location[] = [
     "postcode": "SE1 1NB",
     "latitude": 51.5047554,
     "longitude": -0.0897945,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:30-19:00, Sat: 07:30-17:30, Sun: Closed",
+    "phone": "+44 20 7932 5392"
   },
   {
     "id": "57",
@@ -1065,7 +1274,9 @@ export const pretLocations: Location[] = [
     "postcode": "EC2M 4NR",
     "latitude": 51.5179108,
     "longitude": -0.0797849,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 05:00-22:30, Sat-Sun: 05:30-20:30",
+    "phone": "+44 20 7932 5272"
   },
   {
     "id": "10570",
@@ -1075,7 +1286,9 @@ export const pretLocations: Location[] = [
     "postcode": "L3 9SX",
     "latitude": 53.4081801,
     "longitude": -2.9930611,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 07:00-15:30, Sat-Sun: Closed",
+    "phone": "+44 151 236 9933"
   },
   {
     "id": "10540",
@@ -1085,7 +1298,9 @@ export const pretLocations: Location[] = [
     "postcode": "SW1E 5DU",
     "latitude": 51.49808713,
     "longitude": -0.14270927,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 06:00-19:00, Fri: 06:00-18:30, Sat-Sun: 08:00-17:00",
+    "phone": "+44 7867 349080"
   },
   {
     "id": "10187",
@@ -1095,7 +1310,9 @@ export const pretLocations: Location[] = [
     "postcode": "SW1V 1JZ",
     "latitude": 51.4943291,
     "longitude": -0.1424848,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon: 05:30-20:00, Tue-Fri: 05:30-20:30, Sat: 06:00-20:30, Sun: 06:00-20:00",
+    "phone": "+44 20 7630 0146"
   },
   {
     "id": "10185",
@@ -1105,7 +1322,9 @@ export const pretLocations: Location[] = [
     "postcode": "EC2A 3QD",
     "latitude": 51.524587,
     "longitude": -0.08116903,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon: 07:00-17:00, Tue-Thu: 07:00-18:30, Fri: 07:00-17:00, Sat: 08:00-16:30, Sun: 08:30-16:00",
+    "phone": "+44 20 7932 5393"
   },
   {
     "id": "10668",
@@ -1115,7 +1334,9 @@ export const pretLocations: Location[] = [
     "postcode": "B3 3NH",
     "latitude": 52.4811861695447,
     "longitude": -1.90112024058191,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon: 06:30-16:00, Tue-Thu: 06:30-16:30, Fri: 06:30-16:00, Sat-Sun: Closed",
+    "phone": "+44 121 233 0976"
   },
   {
     "id": "58",
@@ -1125,7 +1346,9 @@ export const pretLocations: Location[] = [
     "postcode": "EC3N 1LH",
     "latitude": 51.51363,
     "longitude": -0.07623,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 05:30-21:00, Fri: 05:30-20:30, Sat: 05:30-18:30, Sun: 06:00-18:00",
+    "phone": "+44 20 7932 5273"
   },
   {
     "id": "10743",
@@ -1135,7 +1358,9 @@ export const pretLocations: Location[] = [
     "postcode": "EC1N 8JS",
     "latitude": 51.5200923,
     "longitude": -0.1088443,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:00-17:30, Sat-Sun: Closed",
+    "phone": "+44 20 7242 3062"
   },
   {
     "id": "10753",
@@ -1145,7 +1370,9 @@ export const pretLocations: Location[] = [
     "postcode": "NW1 3AX",
     "latitude": 51.52431229,
     "longitude": -0.1423136,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon: 07:00-15:00, Tue-Thu: 07:00-16:00, Fri: 07:00-15:00, Sat-Sun: Closed",
+    "phone": "+44 20 7387 1284"
   },
   {
     "id": "63",
@@ -1155,7 +1382,9 @@ export const pretLocations: Location[] = [
     "postcode": "M2 1WL",
     "latitude": 53.48188255,
     "longitude": -2.24428964,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon: 06:30-18:30, Tue-Thu: 06:30-19:00, Fri: 06:30-18:30, Sat: 08:00-19:00, Sun: 09:00-17:00",
+    "phone": "+44 161 839 5602"
   },
   {
     "id": "10235",
@@ -1165,7 +1394,9 @@ export const pretLocations: Location[] = [
     "postcode": "W1S 2GB",
     "latitude": 51.5127923,
     "longitude": -0.1409564,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:30-19:30, Sat: 08:00-18:00, Sun: 08:30-18:00",
+    "phone": "+44 20 7434 4324"
   },
   {
     "id": "10451",
@@ -1175,7 +1406,9 @@ export const pretLocations: Location[] = [
     "postcode": "EH1 1QG",
     "latitude": 55.9508669,
     "longitude": -3.1881406,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 07:00-16:30, Sat: 08:30-16:00, Sun: 09:30-16:00",
+    "phone": "+44 131 226 2861"
   },
   {
     "id": "10238",
@@ -1185,7 +1418,9 @@ export const pretLocations: Location[] = [
     "postcode": "SW19 7NS",
     "latitude": 51.4209551,
     "longitude": -0.2073728,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 05:30-20:00, Sat: 06:30-19:30, Sun: 07:00-19:00",
+    "phone": "+44 20 8946 7918"
   },
   {
     "id": "3",
@@ -1195,7 +1430,9 @@ export const pretLocations: Location[] = [
     "postcode": "WC1V 7PU",
     "latitude": 51.5181837,
     "longitude": -0.1127135,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 06:00-18:00, Fri: 06:00-17:30, Sat-Sun: Closed",
+    "phone": "+44 20 7932 5202"
   },
   {
     "id": "10606",
@@ -1205,7 +1442,9 @@ export const pretLocations: Location[] = [
     "postcode": "W14 0QH",
     "latitude": 51.49446758,
     "longitude": -0.21250883,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:30-18:00, Sat-Sun: Closed",
+    "phone": "+44 20 7602 8772"
   },
   {
     "id": "10273",
@@ -1215,7 +1454,9 @@ export const pretLocations: Location[] = [
     "postcode": "NW1 6UY",
     "latitude": 51.5228759,
     "longitude": -0.1580332,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:00-20:30, Sat-Sun: 06:30-20:00",
+    "phone": "+44 20 7487 2712"
   },
   {
     "id": "10511",
@@ -1225,7 +1466,9 @@ export const pretLocations: Location[] = [
     "postcode": "SW18 4TF",
     "latitude": 51.4565325,
     "longitude": -0.1931406,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:00-17:30, Sat: 07:00-18:30, Sun: 07:30-18:30",
+    "phone": "+44 20 8874 8039"
   },
   {
     "id": "10741",
@@ -1235,7 +1478,9 @@ export const pretLocations: Location[] = [
     "postcode": "EC2M 6XB",
     "latitude": 51.5187839,
     "longitude": -0.0882404,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 05:30-21:00, Sat: 06:00-19:00, Sun: 06:00-18:00",
+    "phone": "+44 20 7256 7868"
   },
   {
     "id": "65",
@@ -1245,7 +1490,9 @@ export const pretLocations: Location[] = [
     "postcode": "W1C 2JS",
     "latitude": 51.5137898,
     "longitude": -0.1495888,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:30-22:00, Sat: 08:00-22:00, Sun: 10:00-21:00",
+    "phone": "+44 20 7932 5280"
   },
   {
     "id": "10237",
@@ -1255,7 +1502,9 @@ export const pretLocations: Location[] = [
     "postcode": "EC2M 3AB",
     "latitude": 51.52075169,
     "longitude": -0.07928689,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 05:30-18:30, Fri: 05:30-17:00, Sat-Sun: Closed",
+    "phone": "+44 20 7932 5427"
   },
   {
     "id": "10696",
@@ -1265,7 +1514,9 @@ export const pretLocations: Location[] = [
     "postcode": "N1 1RU",
     "latitude": 51.54586384,
     "longitude": -0.10345024,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 05:30-20:00, Sat-Sun: 06:00-20:00",
+    "phone": "+44 20 7288 2766"
   },
   {
     "id": "10623",
@@ -1275,7 +1526,9 @@ export const pretLocations: Location[] = [
     "postcode": "E20 1GL",
     "latitude": 51.5413728,
     "longitude": -0.0093168,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:00-18:30, Sat-Sun: 07:00-18:30",
+    "phone": "+44 20 8534 6310"
   },
   {
     "id": "10274",
@@ -1285,7 +1538,9 @@ export const pretLocations: Location[] = [
     "postcode": "EC3A 7BX",
     "latitude": 51.5152008,
     "longitude": -0.078125,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:00-17:30, Sat-Sun: Closed",
+    "phone": "+44 20 7283 8494"
   },
   {
     "id": "10108",
@@ -1295,7 +1550,9 @@ export const pretLocations: Location[] = [
     "postcode": "W6 9YE",
     "latitude": 51.49239676,
     "longitude": -0.22337689,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 06:00-20:30, Fri: 06:00-20:00, Sat: 06:00-20:30, Sun: 06:30-20:30",
+    "phone": "+44 20 8741 0864"
   },
   {
     "id": "78",
@@ -1305,7 +1562,9 @@ export const pretLocations: Location[] = [
     "postcode": "BS8 1QE",
     "latitude": 51.4558703,
     "longitude": -2.605728,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 07:00-17:00, Sat: 08:00-17:00, Sun: 09:00-16:00",
+    "phone": "+44 117 929 3885"
   },
   {
     "id": "70",
@@ -1315,7 +1574,9 @@ export const pretLocations: Location[] = [
     "postcode": "DA9 9SH",
     "latitude": 51.439677,
     "longitude": 0.272056,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sat: 08:00-21:00, Sun: 08:30-17:30",
+    "phone": "+44 1322 624988"
   },
   {
     "id": "10426",
@@ -1325,7 +1586,9 @@ export const pretLocations: Location[] = [
     "postcode": "EC4N 1SA",
     "latitude": 51.5134092007999,
     "longitude": -0.091684502137973,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon: 06:00-17:30, Tue-Thu: 06:00-18:30, Fri: 06:00-17:30, Sat-Sun: Closed",
+    "phone": "+44 20 7332 0238"
   },
   {
     "id": "10296",
@@ -1335,7 +1598,9 @@ export const pretLocations: Location[] = [
     "postcode": "EC4A 1ES",
     "latitude": 51.515906,
     "longitude": -0.109562,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 06:00-19:30, Fri: 06:00-18:30, Sat-Sun: Closed",
+    "phone": "+44 20 7932 5453"
   },
   {
     "id": "10757",
@@ -1345,7 +1610,9 @@ export const pretLocations: Location[] = [
     "postcode": "B1 2JB",
     "latitude": 52.47827292,
     "longitude": -1.91330591,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon: 07:00-16:00, Tue-Thu: 06:30-16:30, Fri: 07:00-16:00, Sat-Sun: Closed",
+    "phone": "+44 121 643 1904"
   },
   {
     "id": "80",
@@ -1355,7 +1622,9 @@ export const pretLocations: Location[] = [
     "postcode": "SE1 9LX",
     "latitude": 51.5071699,
     "longitude": -0.1078545,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 06:00-17:30, Fri: 06:00-16:30, Sat-Sun: Closed",
+    "phone": "+44 20 7932 5295"
   },
   {
     "id": "10660",
@@ -1365,7 +1634,9 @@ export const pretLocations: Location[] = [
     "postcode": "W10 5NE",
     "latitude": 51.51784776,
     "longitude": -0.21003508,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:00-18:00, Sat: 07:00-18:00, Sun: 08:00-17:30",
+    "phone": "+44 20 8960 4281"
   },
   {
     "id": "10752",
@@ -1375,7 +1646,9 @@ export const pretLocations: Location[] = [
     "postcode": "SW3 1JJ",
     "latitude": 51.49934742,
     "longitude": -0.16468526,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 05:30-20:00, Sat: 06:30-19:00, Sun: 07:00-19:00",
+    "phone": "+44 20 7589 5306"
   },
   {
     "id": "81",
@@ -1385,7 +1658,9 @@ export const pretLocations: Location[] = [
     "postcode": "W1F 7HY",
     "latitude": 51.5137561,
     "longitude": -0.1396972,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:00-22:00, Sat: 06:30-22:00, Sun: 06:30-20:30",
+    "phone": "+44 20 7932 5296"
   },
   {
     "id": "10295",
@@ -1395,7 +1670,9 @@ export const pretLocations: Location[] = [
     "postcode": "W2 6EZ",
     "latitude": 51.5192202,
     "longitude": -0.18009402,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon: 06:30-16:30, Tue-Thu: 06:30-17:30, Fri: 06:30-16:30, Sat-Sun: Closed",
+    "phone": "+44 20 7932 5451"
   },
   {
     "id": "10711",
@@ -1405,7 +1682,9 @@ export const pretLocations: Location[] = [
     "postcode": "W2 1DA",
     "latitude": 51.5166744,
     "longitude": -0.1769328,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 05:00-22:30, Sat: 05:00-21:30, Sun: 05:30-21:30",
+    "phone": "+44 20 7402 2132"
   },
   {
     "id": "10712",
@@ -1415,7 +1694,9 @@ export const pretLocations: Location[] = [
     "postcode": "NW1 6JJ",
     "latitude": 51.52253148,
     "longitude": -0.16336733,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 05:30-21:00, Sat: 06:30-20:00, Sun: 07:00-19:30",
+    "phone": "+44 20 7724 7226"
   },
   {
     "id": "10284",
@@ -1425,7 +1706,9 @@ export const pretLocations: Location[] = [
     "postcode": "W1U 1JF",
     "latitude": 51.5150324,
     "longitude": -0.1500155,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:30-19:00, Sat-Sun: 07:00-19:00",
+    "phone": "+44 20 7932 5441"
   },
   {
     "id": "10581",
@@ -1435,7 +1718,9 @@ export const pretLocations: Location[] = [
     "postcode": "E14 9SH",
     "latitude": 51.5011677,
     "longitude": -0.0172657,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon: 06:00-16:00, Tue-Thu: 06:00-16:30, Fri: 06:00-16:00, Sat-Sun: Closed",
+    "phone": "+44 20 7531 1648"
   },
   {
     "id": "10212",
@@ -1445,7 +1730,9 @@ export const pretLocations: Location[] = [
     "postcode": "WC1V 6AN",
     "latitude": 51.5176865,
     "longitude": -0.121175,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:00-19:00, Sat: 07:30-18:00, Sun: 08:00-16:30",
+    "phone": "+44 20 3674 8960"
   },
   {
     "id": "177",
@@ -1455,7 +1742,9 @@ export const pretLocations: Location[] = [
     "postcode": "EC3N 2LR",
     "latitude": 51.51148784,
     "longitude": -0.07564366,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 06:00-17:00, Fri: 06:00-16:30, Sat: 07:00-16:00, Sun: Closed",
+    "phone": "+44 20 7932 5342"
   },
   {
     "id": "10604",
@@ -1465,7 +1754,9 @@ export const pretLocations: Location[] = [
     "postcode": "SW1W 9TP",
     "latitude": 51.49246256,
     "longitude": -0.14848442,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sun: 05:30-23:30",
+    "phone": "+44 20 7730 8267"
   },
   {
     "id": "10666",
@@ -1475,7 +1766,9 @@ export const pretLocations: Location[] = [
     "postcode": "E15 1AZ",
     "latitude": 51.5412813,
     "longitude": -0.0034123,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sat: 06:00-23:00, Sun: 06:00-22:00",
+    "phone": "+44 20 8519 4030"
   },
   {
     "id": "10292",
@@ -1485,7 +1778,9 @@ export const pretLocations: Location[] = [
     "postcode": "SW1P 2AA",
     "latitude": 51.4947145,
     "longitude": -0.1295317,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 05:30-20:00, Sat-Sun: 06:00-20:00",
+    "phone": "+44 20 7932 5459"
   },
   {
     "id": "10759",
@@ -1495,7 +1790,9 @@ export const pretLocations: Location[] = [
     "postcode": "EC2M 7PD",
     "latitude": 51.51735514,
     "longitude": -0.08250872,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 05:00-21:30, Sat-Sun: 05:30-19:00",
+    "phone": "+44 20 7929 7253"
   },
   {
     "id": "272",
@@ -1505,7 +1802,9 @@ export const pretLocations: Location[] = [
     "postcode": "BA1 1QL",
     "latitude": 51.3814418,
     "longitude": -2.3602462,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 07:30-16:00, Sat: 08:00-17:30, Sun: 09:00-16:30",
+    "phone": "+44 1225 338225"
   },
   {
     "id": "10287",
@@ -1515,7 +1814,9 @@ export const pretLocations: Location[] = [
     "postcode": "EC4A 4AB",
     "latitude": 51.5157599,
     "longitude": -0.1042396,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 06:00-18:30, Fri: 06:00-17:00, Sat-Sun: Closed",
+    "phone": "+44 20 7932 5450"
   },
   {
     "id": "10220",
@@ -1525,7 +1826,9 @@ export const pretLocations: Location[] = [
     "postcode": "E16 2PB",
     "latitude": 51.5036156,
     "longitude": 0.0497659,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 05:00-23:00, Sat: 05:00-12:00, Sun: 11:00-23:00",
+    "phone": "+44 20 7932 5389"
   },
   {
     "id": "10304",
@@ -1535,7 +1838,9 @@ export const pretLocations: Location[] = [
     "postcode": "M1 2BN",
     "latitude": 53.47744847,
     "longitude": -2.23110349,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon: 07:00-22:00, Tue-Fri: 05:00-22:00, Sat: 06:30-22:00, Sun: 07:00-22:00",
+    "phone": "+44 161 228 6511"
   },
   {
     "id": "10289",
@@ -1545,7 +1850,9 @@ export const pretLocations: Location[] = [
     "postcode": "WC2R 0DW",
     "latitude": 51.5103242,
     "longitude": -0.1214387,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:00-20:30, Sat: 06:00-20:00, Sun: 06:30-19:00",
+    "phone": "+44 20 7932 5455"
   },
   {
     "id": "10669",
@@ -1555,7 +1862,9 @@ export const pretLocations: Location[] = [
     "postcode": "LU2 9LY",
     "latitude": 51.88035022,
     "longitude": -0.37548001,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sun: 05:00-19:00",
+    "phone": "+44 1582 730919"
   },
   {
     "id": "179",
@@ -1565,7 +1874,9 @@ export const pretLocations: Location[] = [
     "postcode": "EC1Y 1HQ",
     "latitude": 51.52440832,
     "longitude": -0.08726891,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 06:00-18:00, Fri: 06:00-17:00, Sat: 07:00-16:00, Sun: 07:30-15:30",
+    "phone": "+44 20 7932 5343"
   },
   {
     "id": "10576",
@@ -1575,7 +1886,9 @@ export const pretLocations: Location[] = [
     "postcode": "M90 3FE",
     "latitude": 53.36269668,
     "longitude": -2.27373096,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:00-19:00, Sat-Sun: 07:00-17:00",
+    "phone": "+44 161 437 6967"
   },
   {
     "id": "10738",
@@ -1585,7 +1898,9 @@ export const pretLocations: Location[] = [
     "postcode": "SW17 9PA",
     "latitude": 51.42804,
     "longitude": -0.16755,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:00-18:00, Sat: 06:30-18:00, Sun: 06:30-17:00",
+    "phone": "+44 20 8672 6215"
   },
   {
     "id": "10662",
@@ -1595,7 +1910,9 @@ export const pretLocations: Location[] = [
     "postcode": "NW1 2QP",
     "latitude": 51.5315184,
     "longitude": -0.1261342,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 04:30-19:45, Sat: 05:00-19:45, Sun: 06:00-20:00",
+    "phone": "+44 20 7833 4095"
   },
   {
     "id": "275",
@@ -1605,7 +1922,9 @@ export const pretLocations: Location[] = [
     "postcode": "SW6 1BW",
     "latitude": 51.48034865,
     "longitude": -0.19451943,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:00-20:30, Sat-Sun: 07:00-20:00",
+    "phone": "+44 20 7932 5373"
   },
   {
     "id": "10396",
@@ -1615,7 +1934,9 @@ export const pretLocations: Location[] = [
     "postcode": "RH10 1ES",
     "latitude": 51.1142803,
     "longitude": -0.1867556,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sun: Closed",
+    "phone": "+44 1293 228929"
   },
   {
     "id": "10583",
@@ -1625,7 +1946,9 @@ export const pretLocations: Location[] = [
     "postcode": "NW1 0JH",
     "latitude": 51.5348448,
     "longitude": -0.1384267,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:30-19:00, Sat: 08:00-18:00, Sun: 08:00-17:00",
+    "phone": "+44 20 7387 8730"
   },
   {
     "id": "10399",
@@ -1635,7 +1958,9 @@ export const pretLocations: Location[] = [
     "postcode": "W1G 0DJ",
     "latitude": 51.51518008,
     "longitude": -0.14697921,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 06:30-19:00, Fri: 06:30-18:00, Sat: 08:00-17:30, Sun: 08:30-17:00",
+    "phone": "+44 20 7495 0840"
   },
   {
     "id": "10211",
@@ -1645,7 +1970,9 @@ export const pretLocations: Location[] = [
     "postcode": "SE1 9LB",
     "latitude": 51.5068357,
     "longitude": -0.0912484,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 07:00-17:30, Sat-Sun: 08:30-17:30",
+    "phone": "+44 20 7932 5226"
   },
   {
     "id": "292",
@@ -1655,7 +1982,9 @@ export const pretLocations: Location[] = [
     "postcode": "EC3M 5DJ",
     "latitude": 51.51187442,
     "longitude": -0.08166179,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 06:30-18:00, Fri: 06:30-17:00, Sat-Sun: Closed",
+    "phone": "+44 20 7932 5277"
   },
   {
     "id": "10705",
@@ -1665,7 +1994,9 @@ export const pretLocations: Location[] = [
     "postcode": "W11 3RB",
     "latitude": 51.507197,
     "longitude": -0.206148,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:00-19:00, Sat: 06:30-19:00, Sun: 07:00-17:30",
+    "phone": "+44 20 7792 7813"
   },
   {
     "id": "10167",
@@ -1675,7 +2006,9 @@ export const pretLocations: Location[] = [
     "postcode": "RH6 0NP",
     "latitude": 51.1555886,
     "longitude": -0.1625586,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sun: 00:00-23:59",
+    "phone": "+44 1293 223495"
   },
   {
     "id": "10215",
@@ -1685,7 +2018,9 @@ export const pretLocations: Location[] = [
     "postcode": "EC1A 4HD",
     "latitude": 51.51756481,
     "longitude": -0.09758021,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 06:00-19:00, Fri: 06:00-17:30, Sat-Sun: Closed",
+    "phone": "+44 20 7932 5437"
   },
   {
     "id": "10410",
@@ -1695,7 +2030,9 @@ export const pretLocations: Location[] = [
     "postcode": "SE1 8EZ",
     "latitude": 51.5017164988996,
     "longitude": -0.104305257565902,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 06:30-18:00, Fri: 06:30-17:30, Sat-Sun: Closed",
+    "phone": "+44 20 7620 0689"
   },
   {
     "id": "10221",
@@ -1705,7 +2042,9 @@ export const pretLocations: Location[] = [
     "postcode": "SE1 2RT",
     "latitude": 51.5045414,
     "longitude": -0.08148789,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Tue: 06:00-19:30, Wed-Thu: 06:00-19:00, Fri: 06:00-19:30, Sat: 09:00-17:30, Sun: Closed",
+    "phone": "+44 20 7932 5391"
   },
   {
     "id": "10244",
@@ -1715,7 +2054,9 @@ export const pretLocations: Location[] = [
     "postcode": "SW1W 9SJ",
     "latitude": 51.4946954,
     "longitude": -0.1458012,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Wed: 06:00-21:00, Thu-Sat: 06:00-21:30, Sun: 06:00-21:00",
+    "phone": "+44 20 7592 0046"
   },
   {
     "id": "10702",
@@ -1725,7 +2066,9 @@ export const pretLocations: Location[] = [
     "postcode": "M13 9GP",
     "latitude": 53.46786833,
     "longitude": -2.23541131,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon: 07:00-17:30, Tue-Thu: 07:00-18:00, Fri: 07:00-17:30, Sat: 08:30-17:30, Sun: Closed",
+    "phone": "+44 161 273 1815"
   },
   {
     "id": "10424",
@@ -1735,7 +2078,9 @@ export const pretLocations: Location[] = [
     "postcode": "EC2M 5QD",
     "latitude": 51.51738659,
     "longitude": -0.08795169,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 06:00-18:30, Fri: 06:00-17:00, Sat-Sun: Closed",
+    "phone": "+44 20 7628 0368"
   },
   {
     "id": "10423",
@@ -1745,7 +2090,9 @@ export const pretLocations: Location[] = [
     "postcode": "B3 2QD",
     "latitude": 52.48199879,
     "longitude": -1.89790503,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon: 06:00-17:00, Tue-Thu: 06:00-17:30, Fri: 06:00-17:00, Sat: 07:30-16:30, Sun: 08:00-16:00",
+    "phone": "+44 121 236 9394"
   },
   {
     "id": "10708",
@@ -1755,7 +2102,9 @@ export const pretLocations: Location[] = [
     "postcode": "E1 6JE",
     "latitude": 51.5267733,
     "longitude": -0.0783155,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 07:00-16:30, Fri: 07:00-15:30, Sat-Sun: Closed",
+    "phone": "+44 20 7729 2713"
   },
   {
     "id": "10251",
@@ -1765,7 +2114,9 @@ export const pretLocations: Location[] = [
     "postcode": "WC1A 1AZ",
     "latitude": 51.5170143,
     "longitude": -0.1272275,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon: 06:00-19:30, Tue-Wed: 05:30-20:00, Thu: 05:30-20:30, Fri: 05:30-19:30, Sat: 06:00-19:30, Sun: 07:00-19:00",
+    "phone": "+44 20 7932 5308"
   },
   {
     "id": "10223",
@@ -1775,7 +2126,9 @@ export const pretLocations: Location[] = [
     "postcode": "EC4V 4BY",
     "latitude": 51.5121032,
     "longitude": -0.0978839,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 06:00-19:00, Fri: 06:00-18:00, Sat: 08:00-17:30, Sun: 08:00-16:00",
+    "phone": "+44 20 7932 5386"
   },
   {
     "id": "10194",
@@ -1785,7 +2138,9 @@ export const pretLocations: Location[] = [
     "postcode": "EC2R 5BT",
     "latitude": 51.5164199,
     "longitude": -0.0895298,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 05:30-19:00, Fri: 05:30-17:00, Sat-Sun: Closed",
+    "phone": "+44 20 7932 5410"
   },
   {
     "id": "10456",
@@ -1795,7 +2150,9 @@ export const pretLocations: Location[] = [
     "postcode": "W1T 3JB",
     "latitude": 51.5186638,
     "longitude": -0.1372491,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:30-18:00, Sat-Sun: Closed",
+    "phone": "+44 7502 612535"
   },
   {
     "id": "10262",
@@ -1805,7 +2162,9 @@ export const pretLocations: Location[] = [
     "postcode": "E1W 1YN",
     "latitude": 51.50812864,
     "longitude": -0.06816988,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 06:00-17:00, Fri: 06:00-16:30, Sat-Sun: Closed",
+    "phone": "+44 20 7932 5279"
   },
   {
     "id": "12",
@@ -1815,7 +2174,9 @@ export const pretLocations: Location[] = [
     "postcode": "WC2N 4AA",
     "latitude": 51.5116009,
     "longitude": -0.1274809,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 05:00-23:30, Sat: 05:30-23:30, Sun: 06:00-23:00",
+    "phone": "+44 7469 650251"
   },
   {
     "id": "10303",
@@ -1825,7 +2186,9 @@ export const pretLocations: Location[] = [
     "postcode": "W2 1NJ",
     "latitude": 51.518928,
     "longitude": -0.1692863,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon: 06:00-18:00, Tue-Thu: 06:00-18:30, Fri: 06:00-18:00, Sat: 06:30-18:00, Sun: 06:30-17:30",
+    "phone": "+44 20 7932 5445"
   },
   {
     "id": "10541",
@@ -1835,7 +2198,9 @@ export const pretLocations: Location[] = [
     "postcode": "SO23 9BL",
     "latitude": 51.4773363,
     "longitude": 0.323117,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 07:00-18:00, Sat: 07:30-17:30, Sun: 07:30-17:00",
+    "phone": "+44 1962 860284"
   },
   {
     "id": "10365",
@@ -1845,7 +2210,9 @@ export const pretLocations: Location[] = [
     "postcode": "SW10 9TN",
     "latitude": 51.485408,
     "longitude": -0.1816043,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:00-20:00, Sat: 06:30-18:00, Sun: 07:00-18:00",
+    "phone": "+44 20 7351 0649"
   },
   {
     "id": "10457",
@@ -1855,7 +2222,9 @@ export const pretLocations: Location[] = [
     "postcode": "M3 2BW",
     "latitude": 53.48213911,
     "longitude": -2.24691611,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:45-18:00, Sat: 07:30-18:00, Sun: 08:30-17:30",
+    "phone": "+44 161 832 8292"
   },
   {
     "id": "10605",
@@ -1865,7 +2234,9 @@ export const pretLocations: Location[] = [
     "postcode": "W2 4QJ",
     "latitude": 51.5106746,
     "longitude": -0.1872789,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 07:00-21:00, Sat: 07:00-21:45, Sun: 08:00-21:30",
+    "phone": "+44 20 7221 0656"
   },
   {
     "id": "19",
@@ -1875,7 +2246,9 @@ export const pretLocations: Location[] = [
     "postcode": "W1J 9ED",
     "latitude": 51.5078158,
     "longitude": -0.1400834,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:00-21:00, Sat-Sun: 06:00-20:30",
+    "phone": "+44 20 7932 5229"
   },
   {
     "id": "10232",
@@ -1885,7 +2258,9 @@ export const pretLocations: Location[] = [
     "postcode": "B26 3QJ",
     "latitude": 52.453158,
     "longitude": -1.734342,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sun: 03:00-22:15",
+    "phone": "+44 121 767 8231"
   },
   {
     "id": "10544",
@@ -1895,7 +2270,9 @@ export const pretLocations: Location[] = [
     "postcode": "SE1 7AA",
     "latitude": 51.5023003,
     "longitude": -0.112773,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Tue: 06:00-20:30, Wed-Thu: 05:30-20:30, Fri: 06:00-20:30, Sat: 06:30-19:30, Sun: 07:30-18:00",
+    "phone": "+44 20 3937 7828"
   },
   {
     "id": "121",
@@ -1905,7 +2282,9 @@ export const pretLocations: Location[] = [
     "postcode": "EC2V 6BJ",
     "latitude": 51.5145692,
     "longitude": -0.0960176,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 06:00-19:00, Fri: 06:00-18:00, Sat: 07:00-18:00, Sun: 07:00-17:00",
+    "phone": "+44 20 7600 1649"
   },
   {
     "id": "10602",
@@ -1915,7 +2294,9 @@ export const pretLocations: Location[] = [
     "postcode": "SE1 7HR",
     "latitude": 51.49919101,
     "longitude": -0.11325905,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon: 06:00-18:30, Tue-Thu: 06:00-19:00, Fri: 06:00-18:30, Sat: 06:30-17:00, Sun: 06:30-16:00",
+    "phone": "+44 20 3674 0012"
   },
   {
     "id": "1",
@@ -1925,7 +2306,9 @@ export const pretLocations: Location[] = [
     "postcode": "WC2A 1DD",
     "latitude": 51.5158202,
     "longitude": -0.1120312,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon: 06:00-18:00, Tue-Thu: 06:00-19:00, Fri: 06:00-18:00, Sat-Sun: Closed",
+    "phone": "+44 20 7242 5627"
   },
   {
     "id": "10367",
@@ -1935,7 +2318,9 @@ export const pretLocations: Location[] = [
     "postcode": "N1C 4AP",
     "latitude": 51.53226002,
     "longitude": -0.126561,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:00-20:00, Sat-Sun: 07:00-20:00",
+    "phone": "+44 20 7713 9512"
   },
   {
     "id": "243",
@@ -1945,7 +2330,9 @@ export const pretLocations: Location[] = [
     "postcode": "EC1M 4AA",
     "latitude": 51.52003944,
     "longitude": -0.10191644,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 05:30-18:00, Fri: 06:30-18:00, Sat-Sun: Closed",
+    "phone": "+44 20 7490 1830"
   },
   {
     "id": "10587",
@@ -1955,7 +2342,9 @@ export const pretLocations: Location[] = [
     "postcode": "N4 2DQ",
     "latitude": 51.5650509,
     "longitude": -0.1058653,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:00-19:00, Sat: 06:30-19:30, Sun: 06:30-18:00",
+    "phone": "+44 20 7263 7598"
   },
   {
     "id": "39",
@@ -1965,7 +2354,9 @@ export const pretLocations: Location[] = [
     "postcode": "E14 4QS",
     "latitude": 51.50517151,
     "longitude": -0.02019024,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 05:30-22:00, Sat-Sun: 06:30-21:00",
+    "phone": "+44 20 7932 5249"
   },
   {
     "id": "10621",
@@ -1975,7 +2366,9 @@ export const pretLocations: Location[] = [
     "postcode": "W12 7GA",
     "latitude": 51.507666,
     "longitude": -0.2214629,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon: 08:00-19:00, Tue-Fri: 06:30-20:00, Sat: 07:30-20:00, Sun: 08:00-20:00",
+    "phone": "+44 20 8749 2215"
   },
   {
     "id": "10667",
@@ -1985,7 +2378,9 @@ export const pretLocations: Location[] = [
     "postcode": "W12 7HT",
     "latitude": 51.5070917,
     "longitude": -0.22049998,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 08:30-21:00, Fri-Sat: 08:30-22:00, Sun: 09:30-18:30",
+    "phone": "+44 20 8749 5499"
   },
   {
     "id": "10498",
@@ -1995,7 +2390,9 @@ export const pretLocations: Location[] = [
     "postcode": "B2 4PX",
     "latitude": 52.4776198,
     "longitude": -1.8993359,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sat: 05:30-22:30, Sun: 08:00-22:30",
+    "phone": "+44 121 643 6943"
   },
   {
     "id": "10376",
@@ -2005,7 +2402,9 @@ export const pretLocations: Location[] = [
     "postcode": "W1B 5EA",
     "latitude": 51.5111586,
     "longitude": -0.1383445,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:00-20:00, Sat: 07:30-20:00, Sun: 08:00-19:00",
+    "phone": "+44 20 7494 4760"
   },
   {
     "id": "10631",
@@ -2015,7 +2414,9 @@ export const pretLocations: Location[] = [
     "postcode": "EC1R 4QD",
     "latitude": 51.52566006,
     "longitude": -0.10993477,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 07:00-17:30, Fri: 07:00-17:00, Sat-Sun: Closed",
+    "phone": "+44 20 8001 0259"
   },
   {
     "id": "10697",
@@ -2025,7 +2426,9 @@ export const pretLocations: Location[] = [
     "postcode": "BS1 1PN",
     "latitude": 51.45331169,
     "longitude": -2.59393311,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon: 07:30-16:00, Tue-Thu: 07:30-16:30, Fri: 07:30-16:00, Sat-Sun: Closed",
+    "phone": "+44 117 929 3439"
   },
   {
     "id": "10720",
@@ -2035,7 +2438,9 @@ export const pretLocations: Location[] = [
     "postcode": "SE1 0LX",
     "latitude": 51.5038806,
     "longitude": -0.1026117,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon: 06:30-16:30, Tue-Thu: 06:00-17:00, Fri: 06:30-16:00, Sat-Sun: Closed",
+    "phone": "+44 20 7620 2085"
   },
   {
     "id": "253",
@@ -2045,7 +2450,9 @@ export const pretLocations: Location[] = [
     "postcode": "SW1W 0SS",
     "latitude": 51.49442624,
     "longitude": -0.14697332,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:00-16:30, Sat: 07:00-15:30, Sun: Closed",
+    "phone": "+44 20 7932 5367"
   },
   {
     "id": "10715",
@@ -2055,7 +2462,9 @@ export const pretLocations: Location[] = [
     "postcode": "NW3 6LP",
     "latitude": 51.54829,
     "longitude": -0.18094,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sat: 06:00-19:30, Sun: 07:00-19:30",
+    "phone": "+44 20 7372 3010"
   },
   {
     "id": "10486",
@@ -2065,7 +2474,9 @@ export const pretLocations: Location[] = [
     "postcode": "W6 9PA",
     "latitude": 51.4854353,
     "longitude": -0.2204083,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 05:30-17:00, Sat: 06:00-17:00, Sun: 07:00-16:00",
+    "phone": "+44 20 7381 0906"
   },
   {
     "id": "10254",
@@ -2075,7 +2486,9 @@ export const pretLocations: Location[] = [
     "postcode": "B91 3TA",
     "latitude": 52.4137533,
     "longitude": -1.7787857,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 08:00-17:00, Sat: 08:00-17:30, Sun: 09:00-16:00",
+    "phone": "+44 121 709 0751"
   },
   {
     "id": "10698",
@@ -2085,7 +2498,9 @@ export const pretLocations: Location[] = [
     "postcode": "WC2R 0AP",
     "latitude": 51.5109324640443,
     "longitude": -0.119285482424048,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 05:30-21:00, Sat: 06:00-21:00, Sun: 06:30-19:00",
+    "phone": "+44 20 7240 2689"
   },
   {
     "id": "10693",
@@ -2095,7 +2510,9 @@ export const pretLocations: Location[] = [
     "postcode": "WC2N 4HA",
     "latitude": 51.5093776,
     "longitude": -0.1267583,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:00-21:00, Sat: 07:00-20:00, Sun: 07:00-19:00",
+    "phone": "+44 20 7930 6222"
   },
   {
     "id": "10739",
@@ -2105,7 +2522,9 @@ export const pretLocations: Location[] = [
     "postcode": "CV4 7EZ",
     "latitude": 52.3783382,
     "longitude": -1.5612244,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sun: 07:30-19:00",
+    "phone": "+44 24 7641 4067"
   },
   {
     "id": "254",
@@ -2115,7 +2534,9 @@ export const pretLocations: Location[] = [
     "postcode": "SW7 3HZ",
     "latitude": 51.4935407,
     "longitude": -0.17427353,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Wed: 05:00-22:30, Thu-Fri: 05:00-22:00, Sat: 06:00-21:30, Sun: 06:30-20:30",
+    "phone": "+44 20 7932 5368"
   },
   {
     "id": "10476",
@@ -2125,7 +2546,9 @@ export const pretLocations: Location[] = [
     "postcode": "EC1V 1NR",
     "latitude": 51.52798726,
     "longitude": -0.08944553,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 05:30-20:00, Sat: 06:00-19:00, Sun: 06:30-18:00",
+    "phone": "+44 20 7253 7266"
   },
   {
     "id": "10723",
@@ -2135,7 +2558,9 @@ export const pretLocations: Location[] = [
     "postcode": "TN24 0SD",
     "latitude": 51.13703502,
     "longitude": 0.87860748,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sat: 08:30-19:00, Sun: 10:00-18:00",
+    "phone": "+44 1233 621562"
   },
   {
     "id": "10756",
@@ -2145,7 +2570,9 @@ export const pretLocations: Location[] = [
     "postcode": "SE1 8XX",
     "latitude": 51.50597386,
     "longitude": -0.11707268,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sat: 07:30-21:30, Sun: 07:30-20:00",
+    "phone": "+44 20 7021 0191"
   },
   {
     "id": "10770",
@@ -2155,7 +2582,9 @@ export const pretLocations: Location[] = [
     "postcode": "M4 3AQ",
     "latitude": 53.4838904,
     "longitude": -2.24199,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 07:45-20:00, Sat: 07:45-20:30, Sun: 09:30-17:30",
+    "phone": "+44 161 832 2014"
   },
   {
     "id": "10755",
@@ -2165,7 +2594,9 @@ export const pretLocations: Location[] = [
     "postcode": "W1U 3QF",
     "latitude": 51.51787666,
     "longitude": -0.15173055,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:30-19:30, Sat: 07:30-19:00, Sun: 07:30-18:30",
+    "phone": "+44 20 7224 4730"
   },
   {
     "id": "10786",
@@ -2175,7 +2606,9 @@ export const pretLocations: Location[] = [
     "postcode": "WC2R 1DP",
     "latitude": 51.51272916,
     "longitude": -0.1141443,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 06:30-20:00, Fri: 06:30-17:00, Sat-Sun: 07:00-16:00",
+    "phone": "+44 20 7240 9925"
   },
   {
     "id": "10330",
@@ -2185,7 +2618,9 @@ export const pretLocations: Location[] = [
     "postcode": "TW6 2GA",
     "latitude": 51.47283306,
     "longitude": -0.48723192,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sun: 05:30-20:30",
+    "phone": "+44 20 8283 8120"
   },
   {
     "id": "10378",
@@ -2195,7 +2630,9 @@ export const pretLocations: Location[] = [
     "postcode": "E1 6HU",
     "latitude": 51.52403,
     "longitude": -0.07747,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 05:30-20:00, Sat-Sun: 06:30-20:00",
+    "phone": "+44 20 7033 0209"
   },
   {
     "id": "103",
@@ -2205,7 +2642,9 @@ export const pretLocations: Location[] = [
     "postcode": "EH2 3DN",
     "latitude": 55.95208501,
     "longitude": -3.20296392,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon: 07:30-16:30, Tue-Thu: 07:00-16:30, Fri: 07:30-16:30, Sat: 08:30-16:30, Sun: Closed",
+    "phone": "+44 131 260 9728"
   },
   {
     "id": "10749",
@@ -2215,7 +2654,9 @@ export const pretLocations: Location[] = [
     "postcode": "SW1Y 6JP",
     "latitude": 51.508293,
     "longitude": -0.136507,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 06:00-17:00, Fri: 06:00-16:00, Sat-Sun: Closed",
+    "phone": "+44 20 7839 6390"
   },
   {
     "id": "10520",
@@ -2225,7 +2666,9 @@ export const pretLocations: Location[] = [
     "postcode": "EC4M 9DJ",
     "latitude": 51.5134517,
     "longitude": -0.0932354,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 06:00-18:00, Fri: 06:30-16:30, Sat-Sun: Closed",
+    "phone": "+44 20 7248 2190"
   },
   {
     "id": "33",
@@ -2235,7 +2678,9 @@ export const pretLocations: Location[] = [
     "postcode": "B2 4EG",
     "latitude": 52.4794338,
     "longitude": -1.8998463,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Tue: 07:00-16:30, Wed: 07:00-17:00, Thu: 07:00-16:30, Fri: 06:30-17:00, Sat: 08:00-17:00, Sun: 09:00-16:00",
+    "phone": "+44 121 643 2359"
   },
   {
     "id": "10508",
@@ -2245,7 +2690,9 @@ export const pretLocations: Location[] = [
     "postcode": "M50 2HE",
     "latitude": 53.47291912,
     "longitude": -2.29678307,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon: 06:30-18:30, Tue-Thu: 06:30-19:00, Fri: 06:30-18:00, Sat-Sun: 07:30-18:00",
+    "phone": "+44 161 713 3829"
   },
   {
     "id": "10474",
@@ -2255,7 +2702,9 @@ export const pretLocations: Location[] = [
     "postcode": "CM24 1RW",
     "latitude": 51.8899565,
     "longitude": 0.2607307,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sun: 00:00-23:50",
+    "phone": "+44 1279 661149"
   },
   {
     "id": "114",
@@ -2265,7 +2714,9 @@ export const pretLocations: Location[] = [
     "postcode": "W1S 1YN",
     "latitude": 51.5138039,
     "longitude": -0.1419489,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:30-20:00, Sat: 07:00-20:00, Sun: 08:00-19:00",
+    "phone": "+44 20 7629 4350"
   },
   {
     "id": "10629",
@@ -2275,7 +2726,9 @@ export const pretLocations: Location[] = [
     "postcode": "SW17 0RE",
     "latitude": 51.42669,
     "longitude": -0.17558,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:00-19:00, Sat: 07:00-18:00, Sun: 07:00-17:30",
+    "phone": "+44 20 8672 8734"
   },
   {
     "id": "107",
@@ -2285,7 +2738,9 @@ export const pretLocations: Location[] = [
     "postcode": "WC2E 9JD",
     "latitude": 51.513926,
     "longitude": -0.122915,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:30-19:00, Sat: 08:00-19:00, Sun: 08:30-18:00",
+    "phone": "+44 20 7932 5324"
   },
   {
     "id": "21",
@@ -2295,7 +2750,9 @@ export const pretLocations: Location[] = [
     "postcode": "WC1V 7DN",
     "latitude": 51.5176072,
     "longitude": -0.1189221,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon: 06:00-19:00, Tue-Thu: 06:00-19:30, Fri: 06:00-16:30, Sat-Sun: Closed",
+    "phone": "+44 20 7932 5231"
   },
   {
     "id": "116",
@@ -2305,7 +2762,9 @@ export const pretLocations: Location[] = [
     "postcode": "NW1 7JY",
     "latitude": 51.53812,
     "longitude": -0.142214,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:30-17:30, Sat-Sun: 07:30-17:30",
+    "phone": "+44 20 7932 5407"
   },
   {
     "id": "10676",
@@ -2315,7 +2774,9 @@ export const pretLocations: Location[] = [
     "postcode": "BR1 1EY",
     "latitude": 51.4028644,
     "longitude": 0.0150561,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 07:00-17:00, Fri: 07:00-16:00, Sat: 07:00-17:00, Sun: 08:00-16:30",
+    "phone": "+44 20 8290 5376"
   },
   {
     "id": "10745",
@@ -2325,7 +2786,9 @@ export const pretLocations: Location[] = [
     "postcode": "E1 7BS",
     "latitude": 51.5150581,
     "longitude": -0.0769397,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 06:30-17:00, Fri: 06:30-16:00, Sat-Sun: Closed",
+    "phone": "+44 20 7283 1118"
   },
   {
     "id": "10591",
@@ -2335,7 +2798,9 @@ export const pretLocations: Location[] = [
     "postcode": "CM24 8QW",
     "latitude": 51.8860181,
     "longitude": 0.2388661,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sun: 02:30-22:00",
+    "phone": "+44 1279 681950"
   },
   {
     "id": "10404",
@@ -2345,7 +2810,9 @@ export const pretLocations: Location[] = [
     "postcode": "RG14 1AA",
     "latitude": 51.4019656099405,
     "longitude": -1.32459797432626,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 07:30-16:30, Sat: 07:30-17:30, Sun: 08:30-16:30",
+    "phone": "+44 1635 581630"
   },
   {
     "id": "10110",
@@ -2355,7 +2822,9 @@ export const pretLocations: Location[] = [
     "postcode": "SE1 9AN",
     "latitude": 51.5057588,
     "longitude": -0.0992494,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 06:00-18:30, Fri: 06:00-17:00, Sat: 06:30-17:00, Sun: Closed",
+    "phone": "+44 20 7932 5257"
   },
   {
     "id": "319",
@@ -2365,7 +2834,9 @@ export const pretLocations: Location[] = [
     "postcode": "SW7 4SS",
     "latitude": 51.49400308,
     "longitude": -0.18201869,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon: 06:00-20:00, Tue-Thu: 05:30-20:00, Fri: 06:00-20:00, Sat: 05:30-20:00, Sun: 06:00-19:30",
+    "phone": "+44 20 7932 5214"
   },
   {
     "id": "113",
@@ -2375,7 +2846,9 @@ export const pretLocations: Location[] = [
     "postcode": "N1 9LH",
     "latitude": 51.53288847,
     "longitude": -0.10638551,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 05:30-20:00, Sat-Sun: 06:00-19:00",
+    "phone": "+44 20 7932 5403"
   },
   {
     "id": "38",
@@ -2385,7 +2858,9 @@ export const pretLocations: Location[] = [
     "postcode": "WC2N 6ND",
     "latitude": 51.5082401,
     "longitude": -0.1238025,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:00-19:30, Sat: 07:00-19:30, Sun: 08:30-17:00",
+    "phone": "+44 20 7932 5248"
   },
   {
     "id": "310",
@@ -2395,7 +2870,9 @@ export const pretLocations: Location[] = [
     "postcode": "CH65 9JJ",
     "latitude": 53.26577438,
     "longitude": -2.87915934,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 09:00-20:00, Sat: 08:30-21:00, Sun: 09:00-18:00",
+    "phone": "+44 151 355 9162"
   },
   {
     "id": "10002",
@@ -2405,7 +2882,9 @@ export const pretLocations: Location[] = [
     "postcode": "EC4R 9AN",
     "latitude": 51.5098409,
     "longitude": -0.0866542,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 06:00-20:00, Fri: 06:30-18:30, Sat-Sun: 08:30-18:30",
+    "phone": "+44 20 7932 5217"
   },
   {
     "id": "47",
@@ -2415,7 +2894,9 @@ export const pretLocations: Location[] = [
     "postcode": "WC2B 6UF",
     "latitude": 51.5141584,
     "longitude": -0.118532,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 06:30-19:30, Fri: 06:30-18:00, Sat: 08:30-17:00, Sun: Closed",
+    "phone": "+44 20 7932 5262"
   },
   {
     "id": "10779",
@@ -2425,7 +2906,9 @@ export const pretLocations: Location[] = [
     "postcode": "SW1X 7HN",
     "latitude": 51.49986593,
     "longitude": -0.14943966,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:00-20:00, Sat: 07:00-19:30, Sun: 07:30-18:30",
+    "phone": "+44 20 7235 1927"
   },
   {
     "id": "10645",
@@ -2435,7 +2918,9 @@ export const pretLocations: Location[] = [
     "postcode": "W1D 1AN",
     "latitude": 51.5165573907211,
     "longitude": -0.130815098804287,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon: 06:00-19:30, Tue-Wed: 05:45-20:30, Thu: 06:00-20:00, Fri: 05:45-20:00, Sat: 06:00-18:30, Sun: 07:30-16:30",
+    "phone": "+44 20 7287 1472"
   },
   {
     "id": "35",
@@ -2445,7 +2930,9 @@ export const pretLocations: Location[] = [
     "postcode": "EC1M 5QP",
     "latitude": 51.5203373,
     "longitude": -0.1043052,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 05:00-19:00, Sat-Sun: 06:00-19:30",
+    "phone": "+44 20 3937 7825"
   },
   {
     "id": "10777",
@@ -2455,7 +2942,9 @@ export const pretLocations: Location[] = [
     "postcode": "EC1Y 1AG",
     "latitude": 51.52249124,
     "longitude": -0.08686051,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 07:00-16:00, Fri: 07:00-15:30, Sat-Sun: Closed",
+    "phone": "+44 20 7374 6634"
   },
   {
     "id": "10149",
@@ -2465,7 +2954,9 @@ export const pretLocations: Location[] = [
     "postcode": "EC3V 9AU",
     "latitude": 51.51275452,
     "longitude": -0.08765949,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon: 06:00-18:00, Tue-Thu: 06:00-19:00, Fri: 06:00-18:00, Sat-Sun: Closed",
+    "phone": "+44 20 7932 5405"
   },
   {
     "id": "30",
@@ -2475,7 +2966,9 @@ export const pretLocations: Location[] = [
     "postcode": "W1C 1LZ",
     "latitude": 51.51364754,
     "longitude": -0.15860488,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:15-22:00, Sat: 07:00-22:00, Sun: 07:00-21:00",
+    "phone": "+44 20 7932 5240"
   },
   {
     "id": "43",
@@ -2485,7 +2978,9 @@ export const pretLocations: Location[] = [
     "postcode": "W8 5SF",
     "latitude": 51.50079688,
     "longitude": -0.19265253,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:00-21:00, Sat-Sun: 07:00-21:00",
+    "phone": "+44 20 7932 5254"
   },
   {
     "id": "10240",
@@ -2495,7 +2990,9 @@ export const pretLocations: Location[] = [
     "postcode": "W12 7GR",
     "latitude": 51.50749237,
     "longitude": -0.2212054,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 08:00-21:00, Fri: 08:00-21:30, Sat: 08:00-22:00, Sun: 09:30-19:00",
+    "phone": "+44 20 8749 1681"
   },
   {
     "id": "10248",
@@ -2505,7 +3002,9 @@ export const pretLocations: Location[] = [
     "postcode": "W1W 8DZ",
     "latitude": 51.5163649,
     "longitude": -0.138999,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:00-19:00, Sat: 08:30-17:00, Sun: Closed",
+    "phone": "+44 20 7932 5412"
   },
   {
     "id": "10253",
@@ -2515,7 +3014,9 @@ export const pretLocations: Location[] = [
     "postcode": "W1K 4BE",
     "latitude": 51.51229638,
     "longitude": -0.145394,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 06:30-18:00, Fri: 06:30-17:30, Sat-Sun: Closed",
+    "phone": "+44 20 7932 5447"
   },
   {
     "id": "10246",
@@ -2525,7 +3026,9 @@ export const pretLocations: Location[] = [
     "postcode": "CH1 2HA",
     "latitude": 53.1910938,
     "longitude": -2.8913903,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon: 07:00-17:00, Tue-Wed: 07:00-17:30, Thu-Fri: 07:00-17:00, Sat: 07:00-17:30, Sun: 08:00-17:00",
+    "phone": "+44 7920 020150"
   },
   {
     "id": "10354",
@@ -2535,7 +3038,9 @@ export const pretLocations: Location[] = [
     "postcode": "SW1H 0QU",
     "latitude": 51.49868944,
     "longitude": -0.13596343,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon: 06:30-18:00, Tue-Fri: 06:30-17:00, Sat-Sun: Closed",
+    "phone": "+44 20 7799 6002"
   },
   {
     "id": "10197",
@@ -2545,7 +3050,9 @@ export const pretLocations: Location[] = [
     "postcode": "NW1 2SX",
     "latitude": 51.528334,
     "longitude": -0.1275658,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sat: 05:00-23:00, Sun: 06:00-22:00",
+    "phone": "+44 20 7932 5432"
   },
   {
     "id": "10369",
@@ -2555,7 +3062,9 @@ export const pretLocations: Location[] = [
     "postcode": "EC3M 1BU",
     "latitude": 51.5108879,
     "longitude": -0.0844184,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Wed: 06:00-19:30, Thu: 06:00-20:00, Fri: 06:00-19:00, Sat: 08:00-17:00, Sun: 08:00-17:30",
+    "phone": "+44 20 7283 7261"
   },
   {
     "id": "239",
@@ -2565,7 +3074,9 @@ export const pretLocations: Location[] = [
     "postcode": "LU2 9LY",
     "latitude": 51.88035783,
     "longitude": -0.37539066,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sun: 03:00-22:00",
+    "phone": "+44 1582 453398"
   },
   {
     "id": "14",
@@ -2575,7 +3086,9 @@ export const pretLocations: Location[] = [
     "postcode": "W1B 3AP",
     "latitude": 51.516306,
     "longitude": -0.1420877,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:00-21:30, Sat: 06:30-20:30, Sun: 07:00-20:30",
+    "phone": "+44 20 7580 3876"
   },
   {
     "id": "10374",
@@ -2585,7 +3098,9 @@ export const pretLocations: Location[] = [
     "postcode": "SE1 1HR",
     "latitude": 51.502713,
     "longitude": -0.09191,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon: 06:30-17:00, Tue-Thu: 06:00-17:00, Fri: 06:30-17:00, Sat-Sun: Closed",
+    "phone": "+44 20 8001 7457"
   },
   {
     "id": "10366",
@@ -2595,7 +3110,9 @@ export const pretLocations: Location[] = [
     "postcode": "TW9 1HY",
     "latitude": 51.4608931,
     "longitude": -0.3035163,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:00-18:30, Sat-Sun: 06:30-18:30",
+    "phone": "+44 20 8332 1012"
   },
   {
     "id": "10375",
@@ -2605,7 +3122,9 @@ export const pretLocations: Location[] = [
     "postcode": "W1U 3BY",
     "latitude": 51.5176734,
     "longitude": -0.1551687,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon: 06:30-18:30, Tue-Fri: 06:00-18:30, Sat: 07:00-18:30, Sun: 08:00-17:00",
+    "phone": "+44 20 7486 1713"
   },
   {
     "id": "41",
@@ -2615,7 +3134,9 @@ export const pretLocations: Location[] = [
     "postcode": "W6 0QA",
     "latitude": 51.49307,
     "longitude": -0.22559,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Wed: 05:30-20:00, Thu-Fri: 06:00-20:00, Sat: 06:30-20:00, Sun: 07:00-19:00",
+    "phone": "+44 20 7932 5252"
   },
   {
     "id": "10488",
@@ -2625,7 +3146,9 @@ export const pretLocations: Location[] = [
     "postcode": "EX4 3PZ",
     "latitude": 50.7250723,
     "longitude": -3.5285448,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 07:00-18:00, Sat: 07:00-18:30, Sun: 08:30-17:30",
+    "phone": "+44 1392 459661"
   },
   {
     "id": "120",
@@ -2635,7 +3158,9 @@ export const pretLocations: Location[] = [
     "postcode": "SW1H 9LQ",
     "latitude": 51.4996039,
     "longitude": -0.1325016,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 05:30-22:00, Fri-Sun: 06:00-22:00",
+    "phone": "+44 20 7932 5328"
   },
   {
     "id": "10475",
@@ -2645,7 +3170,9 @@ export const pretLocations: Location[] = [
     "postcode": "E2 7DG",
     "latitude": 51.5249789,
     "longitude": -0.0718784,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sun: 07:00-17:00",
+    "phone": "+44 20 7739 0086"
   },
   {
     "id": "124",
@@ -2655,7 +3182,9 @@ export const pretLocations: Location[] = [
     "postcode": "SW15 1SU",
     "latitude": 51.46239,
     "longitude": -0.21622,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:00-18:30, Sat: 06:30-18:30, Sun: 07:30-17:30",
+    "phone": "+44 20 8780 3150"
   },
   {
     "id": "10497",
@@ -2665,7 +3194,9 @@ export const pretLocations: Location[] = [
     "postcode": "M1 1RG",
     "latitude": 53.48053,
     "longitude": -2.23594,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon: 06:30-18:30, Tue-Thu: 06:30-19:00, Fri: 06:30-18:00, Sat: 08:00-18:00, Sun: Closed",
+    "phone": "+44 161 228 6797"
   },
   {
     "id": "235",
@@ -2675,7 +3206,9 @@ export const pretLocations: Location[] = [
     "postcode": "NR2 1QD",
     "latitude": 52.6271497,
     "longitude": 1.293512,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon: 07:00-17:30, Tue-Fri: 06:30-17:30, Sat: 07:00-18:00, Sun: 07:30-17:30",
+    "phone": "+44 117 370 5847"
   },
   {
     "id": "10236",
@@ -2685,7 +3218,9 @@ export const pretLocations: Location[] = [
     "postcode": "SW8 2JW",
     "latitude": 51.48625,
     "longitude": -0.12483,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 05:30-20:00, Sat-Sun: 06:00-20:00",
+    "phone": "+44 20 7932 5415"
   },
   {
     "id": "10470",
@@ -2695,7 +3230,9 @@ export const pretLocations: Location[] = [
     "postcode": "SE1 8NW",
     "latitude": 51.506604,
     "longitude": -0.1040824,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 06:00-18:00, Fri: 06:00-17:00, Sat-Sun: Closed",
+    "phone": "+44 20 7620 4580"
   },
   {
     "id": "166",
@@ -2705,7 +3242,9 @@ export const pretLocations: Location[] = [
     "postcode": "EH2 2PJ",
     "latitude": 55.95318276,
     "longitude": -3.19679578,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sat: 07:00-18:00, Sun: 07:30-18:00",
+    "phone": "+44 131 260 9727"
   },
   {
     "id": "282",
@@ -2715,7 +3254,9 @@ export const pretLocations: Location[] = [
     "postcode": "W1D 6BZ",
     "latitude": 51.5102973,
     "longitude": -0.1316134,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:00-22:30, Sat: 07:00-22:30, Sun: 07:00-20:00",
+    "phone": "+44 20 3272 0090"
   },
   {
     "id": "250",
@@ -2725,7 +3266,9 @@ export const pretLocations: Location[] = [
     "postcode": "SE1 2QN",
     "latitude": 51.5055593,
     "longitude": -0.08499506,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 05:30-19:30, Sat-Sun: 07:00-19:30",
+    "phone": "+44 20 7932 5366"
   },
   {
     "id": "252",
@@ -2735,7 +3278,9 @@ export const pretLocations: Location[] = [
     "postcode": "EC2A 1AE",
     "latitude": 51.5207044,
     "longitude": -0.0875261,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon: 06:00-17:30, Tue-Thu: 06:00-18:00, Fri: 06:30-17:00, Sat-Sun: Closed",
+    "phone": "+44 20 7932 5365"
   },
   {
     "id": "283",
@@ -2745,7 +3290,9 @@ export const pretLocations: Location[] = [
     "postcode": "TW6 1QG",
     "latitude": 51.4712258,
     "longitude": -0.4533148,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sun: 06:00-22:00",
+    "phone": "+44 20 8759 6716"
   },
   {
     "id": "10599",
@@ -2755,7 +3302,9 @@ export const pretLocations: Location[] = [
     "postcode": "KT18 5DA",
     "latitude": 51.3331395,
     "longitude": -0.267315,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:00-17:30, Sat: 06:30-17:30, Sun: 07:30-16:30",
+    "phone": "+44 1372 722458"
   },
   {
     "id": "87",
@@ -2765,7 +3314,9 @@ export const pretLocations: Location[] = [
     "postcode": "EC1M 7AN",
     "latitude": 51.5231115,
     "longitude": -0.0985752,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon: 06:00-19:00, Tue: 06:00-20:00, Wed: 06:00-20:30, Thu: 06:00-20:00, Fri: 06:00-19:00, Sat: 07:30-15:30, Sun: Closed",
+    "phone": "+44 20 7932 5302"
   },
   {
     "id": "51",
@@ -2775,7 +3326,9 @@ export const pretLocations: Location[] = [
     "postcode": "EC4N 6LY",
     "latitude": 51.5119992,
     "longitude": -0.0925261,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 06:00-20:00, Fri: 06:00-18:00, Sat: 06:30-17:00, Sun: 07:00-17:00",
+    "phone": "+44 20 7932 5266"
   },
   {
     "id": "10593",
@@ -2785,7 +3338,9 @@ export const pretLocations: Location[] = [
     "postcode": "EC1M 6BY",
     "latitude": 51.52022976,
     "longitude": -0.10464827,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 05:30-17:30, Sat-Sun: Closed",
+    "phone": "+44 20 7253 8111"
   },
   {
     "id": "10199",
@@ -2795,7 +3350,9 @@ export const pretLocations: Location[] = [
     "postcode": "CT1 2SG",
     "latitude": 51.2787598,
     "longitude": 1.0806776,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 07:00-17:00, Sat: 07:30-17:30, Sun: 08:30-17:00",
+    "phone": "+44 1227 479563"
   },
   {
     "id": "278",
@@ -2805,7 +3362,9 @@ export const pretLocations: Location[] = [
     "postcode": "EC4M 7DY",
     "latitude": 51.51520101,
     "longitude": -0.09907372,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 06:00-20:00, Fri: 06:00-18:00, Sat-Sun: 07:00-18:00",
+    "phone": "+44 20 7932 5379"
   },
   {
     "id": "10595",
@@ -2815,7 +3374,9 @@ export const pretLocations: Location[] = [
     "postcode": "W1T 1HN",
     "latitude": 51.5168322,
     "longitude": -0.1330828,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 06:00-20:00, Fri: 06:00-19:00, Sat: 07:00-19:00, Sun: 08:30-17:00",
+    "phone": "+44 20 7631 3195"
   },
   {
     "id": "117",
@@ -2825,7 +3386,9 @@ export const pretLocations: Location[] = [
     "postcode": "W1J 6ES",
     "latitude": 51.50950978,
     "longitude": -0.1445307,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 05:30-21:30, Sat: 06:30-20:30, Sun: 07:00-20:00",
+    "phone": "+44 20 7932 5408"
   },
   {
     "id": "68",
@@ -2835,7 +3398,9 @@ export const pretLocations: Location[] = [
     "postcode": "E14 4HD",
     "latitude": 51.505973,
     "longitude": -0.0272556,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 06:30-17:00, Fri: 06:30-16:30, Sat-Sun: Closed",
+    "phone": "+44 20 3229 0248"
   },
   {
     "id": "10159",
@@ -2845,7 +3410,9 @@ export const pretLocations: Location[] = [
     "postcode": "EC3M 5AD",
     "latitude": 51.51293351,
     "longitude": -0.08140526,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:00-17:00, Sat-Sun: Closed",
+    "phone": "+44 20 7932 5344"
   },
   {
     "id": "84",
@@ -2855,7 +3422,9 @@ export const pretLocations: Location[] = [
     "postcode": "G2 3AH",
     "latitude": 55.8645271,
     "longitude": -4.2543235,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:30-18:30, Sat: 07:30-18:00, Sun: 07:30-17:30",
+    "phone": "+44 141 333 9647"
   },
   {
     "id": "10363",
@@ -2865,7 +3434,9 @@ export const pretLocations: Location[] = [
     "postcode": "RH6 0NP",
     "latitude": 51.1560845,
     "longitude": -0.1775294,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sun: 00:00-23:59",
+    "phone": "+44 1293 223496"
   },
   {
     "id": "10147",
@@ -2875,7 +3446,9 @@ export const pretLocations: Location[] = [
     "postcode": "TW6 2GA",
     "latitude": 51.47227624,
     "longitude": -0.48812143,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sun: 04:30-22:00",
+    "phone": "+44 20 8283 8120"
   },
   {
     "id": "10323",
@@ -2885,7 +3458,9 @@ export const pretLocations: Location[] = [
     "postcode": "EC1V 4JZ",
     "latitude": 51.5245722,
     "longitude": -0.1030966,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 06:00-18:00, Fri: 06:00-17:30, Sat: 07:30-15:30, Sun: Closed",
+    "phone": "+44 20 3370 9296"
   },
   {
     "id": "10191",
@@ -2895,7 +3470,9 @@ export const pretLocations: Location[] = [
     "postcode": "EC2V 7HR",
     "latitude": 51.51712345,
     "longitude": -0.0933459,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 06:00-18:00, Fri: 06:00-16:30, Sat-Sun: Closed",
+    "phone": "+44 20 7726 6323"
   },
   {
     "id": "10446",
@@ -2905,7 +3482,9 @@ export const pretLocations: Location[] = [
     "postcode": "E14 9GE",
     "latitude": 51.49854,
     "longitude": -0.01583,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 06:00-19:00, Fri: 06:00-18:00, Sat-Sun: 07:00-18:00",
+    "phone": "+44 20 7537 9672"
   },
   {
     "id": "90",
@@ -2915,7 +3494,9 @@ export const pretLocations: Location[] = [
     "postcode": "G2 6TS",
     "latitude": 55.8610979,
     "longitude": -4.2612866,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon: 06:30-17:00, Tue-Thu: 06:30-16:00, Fri: 07:00-15:30, Sat-Sun: Closed",
+    "phone": "+44 141 248 6335"
   },
   {
     "id": "10326",
@@ -2925,7 +3506,9 @@ export const pretLocations: Location[] = [
     "postcode": "EC1V 4NJ",
     "latitude": 51.5310634,
     "longitude": -0.1057951,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:00-19:30, Sat: 07:30-17:00, Sun: Closed",
+    "phone": "+44 20 7932 5470"
   },
   {
     "id": "10332",
@@ -2935,7 +3518,9 @@ export const pretLocations: Location[] = [
     "postcode": "RH12 1PB",
     "latitude": 51.062728,
     "longitude": -0.330537,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 07:00-17:00, Sat: 07:30-17:30, Sun: 08:30-16:30",
+    "phone": "+44 1403 241280"
   },
   {
     "id": "10291",
@@ -2945,7 +3530,9 @@ export const pretLocations: Location[] = [
     "postcode": "E1 8AA",
     "latitude": 51.5137929,
     "longitude": -0.0732797,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon: 06:00-17:00, Tue-Thu: 06:00-17:30, Fri: 06:00-16:30, Sat-Sun: Closed",
+    "phone": "+44 20 7932 5456"
   },
   {
     "id": "10163",
@@ -2955,7 +3542,9 @@ export const pretLocations: Location[] = [
     "postcode": "G1 3PL",
     "latitude": 55.8603083,
     "longitude": -4.2552977,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon: 06:30-17:00, Tue-Thu: 06:30-17:30, Fri: 06:30-17:00, Sat: 08:00-16:30, Sun: 08:30-16:30",
+    "phone": "+44 141 847 0449"
   },
   {
     "id": "10477",
@@ -2965,7 +3554,9 @@ export const pretLocations: Location[] = [
     "postcode": "EC4N 5AE",
     "latitude": 51.5118373,
     "longitude": -0.0904335,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 05:30-20:30, Fri: 05:30-20:00, Sat: 06:00-19:30, Sun: 06:30-17:30",
+    "phone": "+44 20 7929 3960"
   },
   {
     "id": "10174",
@@ -2975,7 +3566,9 @@ export const pretLocations: Location[] = [
     "postcode": "E14 4QS",
     "latitude": 51.5051589,
     "longitude": -0.0201856,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 05:30-19:00, Fri: 05:30-18:00, Sat-Sun: Closed",
+    "phone": "+44 20 7516 0323"
   },
   {
     "id": "10290",
@@ -2985,7 +3578,9 @@ export const pretLocations: Location[] = [
     "postcode": "E20 1ES",
     "latitude": 51.543251,
     "longitude": -0.007338,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon: 08:00-20:00, Tue-Sat: 08:00-21:00, Sun: 09:00-20:00",
+    "phone": "+44 20 8221 2335"
   },
   {
     "id": "10552",
@@ -2995,7 +3590,9 @@ export const pretLocations: Location[] = [
     "postcode": "W1D 5LQ",
     "latitude": 51.5126935,
     "longitude": -0.1310827,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:30-20:00, Sat: 08:30-19:30, Sun: 08:30-19:00",
+    "phone": "+44 20 7287 6729"
   },
   {
     "id": "10321",
@@ -3005,7 +3602,9 @@ export const pretLocations: Location[] = [
     "postcode": "SW5 9RD",
     "latitude": 51.4920426,
     "longitude": -0.1930876,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon: 06:00-19:00, Tue-Fri: 06:30-19:00, Sat: 07:00-17:30, Sun: 07:30-17:30",
+    "phone": "+44 20 7932 5462"
   },
   {
     "id": "10674",
@@ -3015,7 +3614,9 @@ export const pretLocations: Location[] = [
     "postcode": "RG12 1AP",
     "latitude": 51.4178607,
     "longitude": -0.7501637,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 08:00-17:00, Sat: 08:00-17:30, Sun: 08:30-17:00",
+    "phone": "+44 1344 864775"
   },
   {
     "id": "10557",
@@ -3025,7 +3626,9 @@ export const pretLocations: Location[] = [
     "postcode": "G12 8SH",
     "latitude": 55.8755272,
     "longitude": -4.2931142,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 07:15-17:30, Sat: 08:00-17:30, Sun: 09:00-17:00",
+    "phone": "+44 7824 318714"
   },
   {
     "id": "195",
@@ -3035,7 +3638,9 @@ export const pretLocations: Location[] = [
     "postcode": "E14 5NY",
     "latitude": 51.5030777,
     "longitude": -0.0182551,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:00-19:30, Sat: 07:30-18:30, Sun: 08:00-18:00",
+    "phone": "+44 20 7932 5346"
   },
   {
     "id": "10790",
@@ -3045,7 +3650,9 @@ export const pretLocations: Location[] = [
     "postcode": "E20 1EJ",
     "latitude": 51.543369,
     "longitude": -0.00413,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 05:45-22:30, Sat: 06:00-22:00, Sun: 07:00-21:00",
+    "phone": "+44 20 8555 8809"
   },
   {
     "id": "10820",
@@ -3055,7 +3662,9 @@ export const pretLocations: Location[] = [
     "postcode": "SW4 0HY",
     "latitude": 51.46209,
     "longitude": -0.13791,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sat: 06:00-18:00, Sun: 07:00-17:30",
+    "phone": "+44 20 7720 6213"
   },
   {
     "id": "10837",
@@ -3065,7 +3674,9 @@ export const pretLocations: Location[] = [
     "postcode": "SY1 1DB",
     "latitude": 52.7077319074937,
     "longitude": -2.75412583048382,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sat: 07:00-16:30, Sun: Closed",
+    "phone": "+44 1743 231623"
   },
   {
     "id": "10832",
@@ -3075,7 +3686,9 @@ export const pretLocations: Location[] = [
     "postcode": "N14 5BU",
     "latitude": 51.63386556050822,
     "longitude": -0.13301843064253938,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 05:30-20:00, Sat: 06:00-19:30, Sun: 06:00-18:00",
+    "phone": "+44 20 8882 7256"
   },
   {
     "id": "10822",
@@ -3085,7 +3698,8 @@ export const pretLocations: Location[] = [
     "postcode": "CV23 0EZ",
     "latitude": 52.4048,
     "longitude": -1.24537,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 06:00-19:00, Fri: 06:00-21:00, Sat: 06:00-19:00, Sun: 07:00-19:00"
   },
   {
     "id": "10825",
@@ -3095,7 +3709,9 @@ export const pretLocations: Location[] = [
     "postcode": "RM20 2ZP",
     "latitude": 51.4870512173096,
     "longitude": 0.28357625876468,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sat: 08:00-21:00, Sun: 10:00-17:00",
+    "phone": "+44 1708 680748"
   },
   {
     "id": "10848",
@@ -3105,7 +3721,9 @@ export const pretLocations: Location[] = [
     "postcode": "NW3 2AJ",
     "latitude": 51.54803,
     "longitude": -0.16075,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:15-19:00, Sat: 07:00-19:00, Sun: 07:30-19:00",
+    "phone": "+44 20 7435 0443"
   },
   {
     "id": "10802",
@@ -3115,7 +3733,9 @@ export const pretLocations: Location[] = [
     "postcode": "W1J 0DP",
     "latitude": 51.50907835,
     "longitude": -0.13740609,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:00-20:00, Sat: 07:00-20:00, Sun: 08:00-19:00",
+    "phone": "+44 20 7287 6007"
   },
   {
     "id": "10784",
@@ -3125,7 +3745,9 @@ export const pretLocations: Location[] = [
     "postcode": "M90 1QX",
     "latitude": 53.3679533,
     "longitude": -2.2821395,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:00-18:00, Sat-Sun: 06:00-17:00",
+    "phone": "+44 161 437 2804"
   },
   {
     "id": "10842",
@@ -3135,7 +3757,9 @@ export const pretLocations: Location[] = [
     "postcode": "SE10 9EJ",
     "latitude": 51.4818227,
     "longitude": -0.010761,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 07:00-17:00, Sat-Sun: 08:00-17:30",
+    "phone": "+44 20 8853 1861"
   },
   {
     "id": "10852",
@@ -3145,7 +3769,9 @@ export const pretLocations: Location[] = [
     "postcode": "SW12 9DH",
     "latitude": 51.44485,
     "longitude": -0.1516,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 05:30-18:00, Sat: 06:30-18:00, Sun: 06:30-17:00",
+    "phone": "+44 20 8673 1710"
   },
   {
     "id": "10855",
@@ -3155,7 +3781,9 @@ export const pretLocations: Location[] = [
     "postcode": "W9 1SZ",
     "latitude": 51.52560583,
     "longitude": -0.17899788,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:30-17:00, Sat-Sun: 07:30-16:00",
+    "phone": "+44 20 7289 9163"
   },
   {
     "id": "10847",
@@ -3165,7 +3793,9 @@ export const pretLocations: Location[] = [
     "postcode": "NW1 2RT",
     "latitude": 51.528664,
     "longitude": -0.133296,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sun: 05:00-23:00",
+    "phone": "+44 20 7388 5401"
   },
   {
     "id": "10851",
@@ -3175,7 +3805,9 @@ export const pretLocations: Location[] = [
     "postcode": "EN2 6LF",
     "latitude": 51.65166,
     "longitude": -0.08213,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sat: 07:00-18:30, Sun: 07:30-18:00",
+    "phone": "+44 20 8363 1708"
   },
   {
     "id": "10856",
@@ -3185,7 +3817,9 @@ export const pretLocations: Location[] = [
     "postcode": "KT11 3EE",
     "latitude": 51.32819599,
     "longitude": -0.41067,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon: 07:30-15:00, Tue-Wed: 07:00-15:00, Thu-Fri: 06:30-15:00, Sat: 07:30-15:30, Sun: 08:00-15:30",
+    "phone": "+44 1932 866811"
   },
   {
     "id": "10781",
@@ -3195,7 +3829,9 @@ export const pretLocations: Location[] = [
     "postcode": "TW6 1EW",
     "latitude": 51.4695758,
     "longitude": -0.4496072,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sun: 04:30-22:00",
+    "phone": "+44 20 8745 4802"
   },
   {
     "id": "10859",
@@ -3205,7 +3841,9 @@ export const pretLocations: Location[] = [
     "postcode": "E16 1QT",
     "latitude": 51.51492443,
     "longitude": 0.00923386,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:30-16:00, Sat: 07:00-17:00, Sun: 08:00-17:00",
+    "phone": "+44 20 7473 6209"
   },
   {
     "id": "10867",
@@ -3215,7 +3853,9 @@ export const pretLocations: Location[] = [
     "postcode": "TW1 3SD",
     "latitude": 51.4457707,
     "longitude": -0.3287572,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 07:00-16:00, Sat: 08:30-16:00, Sun: 08:30-15:00",
+    "phone": "+44 20 8891 3966"
   },
   {
     "id": "10853",
@@ -3225,7 +3865,9 @@ export const pretLocations: Location[] = [
     "postcode": "YO24 1AB",
     "latitude": 53.95832938,
     "longitude": -1.09317067,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 05:30-21:00, Sat: 05:30-21:30, Sun: 07:00-21:30",
+    "phone": "+44 1904 629346"
   },
   {
     "id": "10783",
@@ -3235,7 +3877,9 @@ export const pretLocations: Location[] = [
     "postcode": "M90 1QX",
     "latitude": 53.36785117,
     "longitude": -2.28188467,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 03:30-20:30, Fri: 03:30-22:00, Sat-Sun: 03:30-20:30",
+    "phone": "+44 161 437 8175"
   },
   {
     "id": "10841",
@@ -3245,7 +3889,9 @@ export const pretLocations: Location[] = [
     "postcode": "SE1 7NA",
     "latitude": 51.5037078,
     "longitude": -0.1163002,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:00-17:30, Sat-Sun: Closed",
+    "phone": "+44 20 7261 0934"
   },
   {
     "id": "10868",
@@ -3255,7 +3901,9 @@ export const pretLocations: Location[] = [
     "postcode": "CM14 4AJ",
     "latitude": 51.619881,
     "longitude": 0.3003,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 07:30-16:00, Fri-Sat: 07:30-16:30, Sun: 08:00-16:00",
+    "phone": "+44 1277 217268"
   },
   {
     "id": "10869",
@@ -3265,7 +3913,9 @@ export const pretLocations: Location[] = [
     "postcode": "TW3 1HL",
     "latitude": 51.4688984,
     "longitude": -0.362738,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon: 08:30-16:00, Tue-Thu: 07:30-16:00, Fri: 08:00-16:00, Sat: 08:00-17:30, Sun: 09:00-16:00",
+    "phone": "+44 20 8814 0681"
   },
   {
     "id": "10878",
@@ -3275,7 +3925,9 @@ export const pretLocations: Location[] = [
     "postcode": "OX1 3EY",
     "latitude": 51.75304,
     "longitude": -1.25838,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sat: 07:00-20:00, Sun: 08:00-18:00",
+    "phone": "+44 1865 251864"
   },
   {
     "id": "10870",
@@ -3285,7 +3937,9 @@ export const pretLocations: Location[] = [
     "postcode": "SW8 1UG",
     "latitude": 51.4727035,
     "longitude": -0.1225105,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:30-16:30, Sat: 07:00-16:30, Sun: 07:30-16:00",
+    "phone": "+44 20 7720 8232"
   },
   {
     "id": "10877",
@@ -3295,7 +3949,8 @@ export const pretLocations: Location[] = [
     "postcode": "OX1 1NZ",
     "latitude": 51.74945,
     "longitude": -1.2658,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 07:30-20:00, Sat: 08:00-20:00, Sun: 08:30-18:00"
   },
   {
     "id": "10887",
@@ -3305,7 +3960,9 @@ export const pretLocations: Location[] = [
     "postcode": "KT6 4JL",
     "latitude": 51.5006881,
     "longitude": -0.1860604,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon: 06:30-15:30, Tue-Thu: 06:30-16:00, Fri: 06:30-15:30, Sat: 07:30-15:30, Sun: 08:00-15:30",
+    "phone": "+44 20 8390 3221"
   },
   {
     "id": "10824",
@@ -3315,7 +3972,8 @@ export const pretLocations: Location[] = [
     "postcode": "EC2M 2RH",
     "latitude": 51.5187,
     "longitude": -0.0827,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:00-20:00, Sat: 07:00-17:30, Sun: 07:00-17:00"
   },
   {
     "id": "10883",
@@ -3325,7 +3983,8 @@ export const pretLocations: Location[] = [
     "postcode": "N16 0PE",
     "latitude": 51.56155553,
     "longitude": -0.07346572,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:30-17:00, Sat: 08:00-16:30, Sun: 08:00-16:00"
   },
   {
     "id": "10897",
@@ -3335,7 +3994,9 @@ export const pretLocations: Location[] = [
     "postcode": "W1T 7RB",
     "latitude": 51.51781,
     "longitude": -0.13127,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 06:00-20:00, Fri: 06:00-18:00, Sat: 08:00-18:00, Sun: 08:00-17:00",
+    "phone": "+44 20 7436 1981"
   },
   {
     "id": "10896",
@@ -3345,7 +4006,8 @@ export const pretLocations: Location[] = [
     "postcode": "SW8 5BN",
     "latitude": 51.4823811,
     "longitude": -0.1444907,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 07:00-20:30, Sat: 08:00-20:30, Sun: 08:00-19:30"
   },
   {
     "id": "10913",
@@ -3355,7 +4017,8 @@ export const pretLocations: Location[] = [
     "postcode": "W4 5YA",
     "latitude": 51.4928524,
     "longitude": -0.2623105,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:30-17:00, Sat-Sun: Closed"
   },
   {
     "id": "10903",
@@ -3365,7 +4028,9 @@ export const pretLocations: Location[] = [
     "postcode": "EC4M 7AE",
     "latitude": 51.51378,
     "longitude": -0.10124,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 06:00-19:30, Fri: 06:00-18:00, Sat: 07:30-17:30, Sun: 07:30-16:30",
+    "phone": "+44 20 7248 9181"
   },
   {
     "id": "10506",
@@ -3375,7 +4040,9 @@ export const pretLocations: Location[] = [
     "postcode": "WC1B 5BG",
     "latitude": 51.5221659,
     "longitude": -0.1244796,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon: 06:15-19:00, Tue-Fri: 06:15-19:30, Sat-Sun: 06:45-17:00",
+    "phone": "+44 20 7837 7098"
   },
   {
     "id": "10918",
@@ -3385,7 +4052,9 @@ export const pretLocations: Location[] = [
     "postcode": "OX2 7BY",
     "latitude": 51.777431,
     "longitude": -1.26488,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sat: 08:00-18:00, Sun: 09:00-17:00",
+    "phone": "+44 1865 515060"
   },
   {
     "id": "10889",
@@ -3395,7 +4064,8 @@ export const pretLocations: Location[] = [
     "postcode": "HG1 1RF",
     "latitude": 53.99239191,
     "longitude": -1.53866808,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 07:00-16:30, Sat: 07:30-17:00, Sun: 08:30-16:00"
   },
   {
     "id": "10876",
@@ -3405,7 +4075,9 @@ export const pretLocations: Location[] = [
     "postcode": "OX3 9DU",
     "latitude": 51.765549,
     "longitude": -1.21975,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:30-20:00, Sat-Sun: 08:00-16:00",
+    "phone": "+44 1865 760910"
   },
   {
     "id": "10880",
@@ -3415,7 +4087,9 @@ export const pretLocations: Location[] = [
     "postcode": "CM1 1BE",
     "latitude": 51.7337906,
     "longitude": 0.4737235,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sat: 07:00-18:00, Sun: 08:00-17:00",
+    "phone": "+44 1245 269224"
   },
   {
     "id": "312",
@@ -3425,7 +4099,9 @@ export const pretLocations: Location[] = [
     "postcode": "SW1E 5NA",
     "latitude": 51.496379,
     "longitude": -0.1422169,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 05:30-21:00, Fri-Sat: 06:00-21:00, Sun: 06:30-21:00",
+    "phone": "+44 7721 149049"
   },
   {
     "id": "10554",
@@ -3435,7 +4111,9 @@ export const pretLocations: Location[] = [
     "postcode": "G1 3SL",
     "latitude": 55.8605147,
     "longitude": -4.256242,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:00-19:30, Sat: 06:30-19:30, Sun: 07:30-17:00",
+    "phone": "+44 141 221 7331"
   },
   {
     "id": "10854",
@@ -3445,7 +4123,8 @@ export const pretLocations: Location[] = [
     "postcode": "HA4 0EQ",
     "latitude": 51.55931334096806,
     "longitude": -0.3979765613428984,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 05:30-18:30, Sat: 06:30-18:00, Sun: 06:30-17:00"
   },
   {
     "id": "10871",
@@ -3455,7 +4134,9 @@ export const pretLocations: Location[] = [
     "postcode": "RG21 7LG",
     "latitude": 51.2657141143961,
     "longitude": -1.08791754177914,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sat: 07:00-18:30, Sun: 08:00-18:00",
+    "phone": "+44 1256 353808"
   },
   {
     "id": "10872",
@@ -3465,7 +4146,9 @@ export const pretLocations: Location[] = [
     "postcode": "BH2 5LP",
     "latitude": 50.7203177005141,
     "longitude": -1.88151236257204,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 07:00-18:00, Sat: 07:30-19:00, Sun: 07:30-18:00",
+    "phone": "+44 1202 290417"
   },
   {
     "id": "10873",
@@ -3475,7 +4158,9 @@ export const pretLocations: Location[] = [
     "postcode": "GU1 4EQ",
     "latitude": 51.235821177619,
     "longitude": -0.574418750380237,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 07:00-17:30, Sat: 07:30-18:00, Sun: 08:30-17:30",
+    "phone": "+44 1483 458406"
   },
   {
     "id": "10874",
@@ -3485,7 +4170,9 @@ export const pretLocations: Location[] = [
     "postcode": "GU21 6XX",
     "latitude": 51.3210080999179,
     "longitude": -0.580346863024071,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sat: 07:00-19:00, Sun: 08:00-18:00",
+    "phone": "+44 1483 725788"
   },
   {
     "id": "10875",
@@ -3495,7 +4182,8 @@ export const pretLocations: Location[] = [
     "postcode": "OX1 3EX",
     "latitude": 51.7523005043286,
     "longitude": -1.25772905703761,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 07:00-15:00, Sat: 08:00-15:00, Sun: Closed"
   },
   {
     "id": "10879",
@@ -3505,7 +4193,8 @@ export const pretLocations: Location[] = [
     "postcode": "AL1 3DP",
     "latitude": 51.75316,
     "longitude": -0.33815,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sat: 07:00-17:00, Sun: 07:30-17:00"
   },
   {
     "id": "10881",
@@ -3515,7 +4204,8 @@ export const pretLocations: Location[] = [
     "postcode": "CB1 2GA",
     "latitude": 52.201536536746,
     "longitude": 0.13783147737267,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 07:00-19:00, Sat: 07:30-17:00, Sun: 08:00-17:00"
   },
   {
     "id": "10882",
@@ -3525,7 +4215,8 @@ export const pretLocations: Location[] = [
     "postcode": "CB2 3NZ",
     "latitude": 52.205819,
     "longitude": 0.1197258,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 07:30-16:00, Sat: 08:00-17:00, Sun: 08:00-16:00"
   },
   {
     "id": "10845",
@@ -3535,7 +4226,8 @@ export const pretLocations: Location[] = [
     "postcode": "B2 4PX",
     "latitude": 52.47722604,
     "longitude": -1.89919102,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon: 05:30-19:30, Tue-Thu: 05:30-19:00, Fri: 05:30-19:30, Sat: 06:00-19:00, Sun: 09:00-18:00"
   },
   {
     "id": "10904",
@@ -3545,7 +4237,9 @@ export const pretLocations: Location[] = [
     "postcode": "BR3 1EN",
     "latitude": 51.4067062,
     "longitude": -0.0285417,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Tue: 06:30-16:00, Wed: 07:00-16:00, Thu: 06:30-16:30, Fri: 06:30-16:00, Sat: 08:00-16:00, Sun: 08:30-15:30",
+    "phone": "+44 20 8650 1772"
   },
   {
     "id": "10857",
@@ -3555,7 +4249,9 @@ export const pretLocations: Location[] = [
     "postcode": "EX2 7HF",
     "latitude": 50.7165959908581,
     "longitude": -3.46359359459995,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Tue: 07:30-19:00, Wed: 06:00-19:00, Thu: 07:30-19:00, Fri: 06:00-21:00, Sat: 06:00-19:00, Sun: 07:00-21:00",
+    "phone": "+44 1392 436266"
   },
   {
     "id": "10914",
@@ -3565,7 +4261,8 @@ export const pretLocations: Location[] = [
     "postcode": "W4 5TL",
     "latitude": 51.4925,
     "longitude": -0.26341,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sat: 07:00-18:00, Sun: 08:00-17:00"
   },
   {
     "id": "10817",
@@ -3575,7 +4272,8 @@ export const pretLocations: Location[] = [
     "postcode": "OX27 7RD",
     "latitude": 51.95023983137285,
     "longitude": -1.1985541846640826,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 06:00-20:00, Fri: 06:00-21:00, Sat: 06:00-20:00, Sun: 07:00-21:00"
   },
   {
     "id": "10906",
@@ -3585,7 +4283,9 @@ export const pretLocations: Location[] = [
     "postcode": "IG4 5AQ",
     "latitude": 51.57597700514442,
     "longitude": 0.046837513524284946,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sun: 06:00-18:00",
+    "phone": "+44 20 8554 7395"
   },
   {
     "id": "10865",
@@ -3595,7 +4295,8 @@ export const pretLocations: Location[] = [
     "postcode": "LS22 5GT",
     "latitude": 53.9467389871521,
     "longitude": -1.36859577407483,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sat: 06:00-20:00, Sun: 07:00-20:00"
   },
   {
     "id": "10866",
@@ -3605,7 +4306,8 @@ export const pretLocations: Location[] = [
     "postcode": "DE74 2TN",
     "latitude": 52.8216898590715,
     "longitude": -1.30815431573782,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sat: 07:00-19:00, Sun: 07:00-20:00"
   },
   {
     "id": "10890",
@@ -3615,7 +4317,8 @@ export const pretLocations: Location[] = [
     "postcode": "B77 5PS",
     "latitude": 52.6074314852375,
     "longitude": -1.64012230442322,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 07:00-18:00, Sat: 06:00-18:00, Sun: 07:00-19:00"
   },
   {
     "id": "10922",
@@ -3625,7 +4328,9 @@ export const pretLocations: Location[] = [
     "postcode": "BS7 8TX",
     "latitude": 51.48490260929731,
     "longitude": -2.5865627018228294,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sat: 07:00-17:00, Sun: 08:00-16:00",
+    "phone": "+44 117 924 9376"
   },
   {
     "id": "10891",
@@ -3635,7 +4340,8 @@ export const pretLocations: Location[] = [
     "postcode": "ST15 0EU",
     "latitude": 52.884371036112,
     "longitude": -2.17054242481578,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 06:00-19:00, Fri: 06:00-21:00, Sat: 06:00-19:00, Sun: 07:00-21:00"
   },
   {
     "id": "10895",
@@ -3645,7 +4351,9 @@ export const pretLocations: Location[] = [
     "postcode": "M12 6JZ",
     "latitude": 53.473745237259486,
     "longitude": -2.216070001743739,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:00-17:00, Sat: 07:00-17:00, Sun: 08:00-16:00",
+    "phone": "+44 161 273 1030"
   },
   {
     "id": "10901",
@@ -3655,7 +4363,9 @@ export const pretLocations: Location[] = [
     "postcode": "TN8 6HL",
     "latitude": 51.20627774706307,
     "longitude": 0.06149208282267444,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:00-17:00, Sat: 07:00-17:00, Sun: 08:00-16:00",
+    "phone": "+44 1732 867481"
   },
   {
     "id": "10892",
@@ -3665,7 +4375,8 @@ export const pretLocations: Location[] = [
     "postcode": "WF11 0AF",
     "latitude": 53.6975967091935,
     "longitude": -1.26665496545494,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sat: 06:00-19:00, Sun: 07:00-20:00"
   },
   {
     "id": "10936",
@@ -3675,7 +4386,9 @@ export const pretLocations: Location[] = [
     "postcode": "ME14 1QG",
     "latitude": 51.275208,
     "longitude": 0.5212304,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sat: 07:30-17:30, Sun: 09:00-16:30",
+    "phone": "+44 1622 664747"
   },
   {
     "id": "10940",
@@ -3685,7 +4398,8 @@ export const pretLocations: Location[] = [
     "postcode": "NW6 6JE",
     "latitude": 51.53594,
     "longitude": -0.19107,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 07:00-18:00, Sat: 07:30-18:00, Sun: 08:00-18:00"
   },
   {
     "id": "10921",
@@ -3695,7 +4409,9 @@ export const pretLocations: Location[] = [
     "postcode": "EN1 1JD",
     "latitude": 51.64233,
     "longitude": -0.06142,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 05:30-20:00, Sat: 05:30-19:00, Sun: 06:00-18:00",
+    "phone": "+44 20 8363 8856"
   },
   {
     "id": "10935",
@@ -3705,7 +4421,9 @@ export const pretLocations: Location[] = [
     "postcode": "TN1 1QR",
     "latitude": 51.13444,
     "longitude": 0.26362,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:00-17:30, Sat: 07:00-17:30, Sun: 07:00-16:30",
+    "phone": "+44 1892 575392"
   },
   {
     "id": "10907",
@@ -3715,7 +4433,8 @@ export const pretLocations: Location[] = [
     "postcode": "N10 3RS",
     "latitude": 51.59142,
     "longitude": -0.14267,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:30-18:30, Sat-Sun: 07:00-18:30"
   },
   {
     "id": "10929",
@@ -3725,7 +4444,8 @@ export const pretLocations: Location[] = [
     "postcode": "CV37 6EY",
     "latitude": 52.1931,
     "longitude": -1.7076,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sat: 08:00-17:30, Sun: 09:00-17:00"
   },
   {
     "id": "10930",
@@ -3735,7 +4455,9 @@ export const pretLocations: Location[] = [
     "postcode": "RH2 7AA",
     "latitude": 51.23770299430357,
     "longitude": -0.20552719145471196,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sat: 07:30-17:00, Sun: 09:00-16:00",
+    "phone": "+44 1737 860009"
   },
   {
     "id": "10972",
@@ -3745,7 +4467,9 @@ export const pretLocations: Location[] = [
     "postcode": "CM23 3XH",
     "latitude": 51.87034,
     "longitude": 0.160271030691,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sat: 07:30-17:00, Sun: 08:00-16:00",
+    "phone": "+44 1279 800029"
   },
   {
     "id": "10969",
@@ -3755,7 +4479,9 @@ export const pretLocations: Location[] = [
     "postcode": "RG2 8HA",
     "latitude": 51.4277017,
     "longitude": -0.9459703,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:00-18:00, Sat: 07:00-17:00, Sun: 08:00-16:00",
+    "phone": "+44 118 986 1393"
   },
   {
     "id": "10933",
@@ -3765,7 +4491,9 @@ export const pretLocations: Location[] = [
     "postcode": "BN1 1HL",
     "latitude": 50.8211158083623,
     "longitude": -0.139318344878207,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sat: 07:00-18:00, Sun: 08:30-17:00",
+    "phone": "+44 1273 779478"
   },
   {
     "id": "10932",
@@ -3775,7 +4503,9 @@ export const pretLocations: Location[] = [
     "postcode": "BN1 3XP",
     "latitude": 50.8293962189612,
     "longitude": -0.141403173649544,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:00-18:30, Sat: 07:00-18:30, Sun: 07:30-18:00",
+    "phone": "+44 1273 738992"
   },
   {
     "id": "10934",
@@ -3785,7 +4515,9 @@ export const pretLocations: Location[] = [
     "postcode": "BN1 1ZA",
     "latitude": 50.8235962,
     "longitude": -0.1440408,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 07:00-17:00, Sat: 07:00-18:00, Sun: 08:30-17:00",
+    "phone": "+44 1273 894391"
   },
   {
     "id": "10902",
@@ -3795,7 +4527,9 @@ export const pretLocations: Location[] = [
     "postcode": "SW11 1SS",
     "latitude": 51.46363317,
     "longitude": -0.16887541,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 05:30-19:00, Sat: 06:00-19:00, Sun: 07:00-18:00",
+    "phone": "+44 20 7223 6074"
   },
   {
     "id": "10941",
@@ -3805,7 +4539,9 @@ export const pretLocations: Location[] = [
     "postcode": "S9 1EH",
     "latitude": 53.414988698987564,
     "longitude": -1.4115792,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 08:30-21:00, Sat: 09:00-20:00, Sun: 10:00-17:00",
+    "phone": "+44 114 256 9181"
   },
   {
     "id": "10962",
@@ -3815,7 +4551,9 @@ export const pretLocations: Location[] = [
     "postcode": "CF10 2EF",
     "latitude": 51.4776638445611,
     "longitude": -3.17992101534399,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sat: 07:30-18:30, Sun: 09:00-17:00",
+    "phone": "+44 29 2022 4657"
   },
   {
     "id": "10964",
@@ -3825,7 +4563,9 @@ export const pretLocations: Location[] = [
     "postcode": "SL4 1TG",
     "latitude": 51.4827197068118,
     "longitude": -0.610546361375997,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 08:30-16:30, Fri: 08:00-17:00, Sat-Sun: 09:00-17:00",
+    "phone": "+44 1753 857298"
   },
   {
     "id": "10963",
@@ -3835,7 +4575,9 @@ export const pretLocations: Location[] = [
     "postcode": "SP1 2AA",
     "latitude": 51.0686885658583,
     "longitude": -1.79544442328,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 08:00-16:00, Sat: 08:00-16:30, Sun: 09:00-16:00",
+    "phone": "+44 1722 325448"
   },
   {
     "id": "10920",
@@ -3845,7 +4587,8 @@ export const pretLocations: Location[] = [
     "postcode": "SE13 6NZ",
     "latitude": 51.45207972,
     "longitude": -0.01604869,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sun: 06:00-20:00"
   },
   {
     "id": "10978",
@@ -3855,7 +4598,9 @@ export const pretLocations: Location[] = [
     "postcode": "SN14 6LB",
     "latitude": 51.51169,
     "longitude": -2.1587,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sun: 07:00-19:00",
+    "phone": "+44 7961 034696"
   },
   {
     "id": "10858",
@@ -3865,7 +4610,9 @@ export const pretLocations: Location[] = [
     "postcode": "SE10 0PH",
     "latitude": 51.50026158,
     "longitude": 0.00344265,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon: 05:30-20:00, Tue-Fri: 05:30-20:30, Sat: 06:00-21:00, Sun: 07:00-20:00",
+    "phone": "+44 20 8853 0908"
   },
   {
     "id": "10942",
@@ -3875,7 +4622,9 @@ export const pretLocations: Location[] = [
     "postcode": "WN6 9RB",
     "latitude": 53.5926448,
     "longitude": -2.6948141,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sun: 06:00-18:00",
+    "phone": "+44 1257 421390"
   },
   {
     "id": "10983",
@@ -3885,7 +4634,9 @@ export const pretLocations: Location[] = [
     "postcode": "PO19 1HL",
     "latitude": 50.836821993987506,
     "longitude": -0.7763858846596069,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sun: 08:00-17:00",
+    "phone": "+44 7767 028036"
   },
   {
     "id": "10968",
@@ -3895,7 +4646,8 @@ export const pretLocations: Location[] = [
     "postcode": "LA8 9PY",
     "latitude": 54.38047,
     "longitude": -2.85607,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 07:00-18:00, Sat-Sun: 07:00-20:00"
   },
   {
     "id": "10979",
@@ -3905,7 +4657,9 @@ export const pretLocations: Location[] = [
     "postcode": "RG13 9XX",
     "latitude": 51.44917,
     "longitude": -1.31106,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 06:00-19:00, Fri: 06:00-21:00, Sat: 06:00-19:00, Sun: 06:00-21:00",
+    "phone": "+44 7961 036562"
   },
   {
     "id": "10977",
@@ -3915,7 +4669,9 @@ export const pretLocations: Location[] = [
     "postcode": "RG30 3UQ",
     "latitude": 51.4239,
     "longitude": -1.03687,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 06:00-20:00, Fri: 06:00-21:00, Sat: 06:00-20:00, Sun: 07:00-21:00",
+    "phone": "+44 7961 034170"
   },
   {
     "id": "11001",
@@ -3925,7 +4681,8 @@ export const pretLocations: Location[] = [
     "postcode": "EH12 9DN",
     "latitude": 55.94890601,
     "longitude": -3.36362482,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sun: 04:00-20:00"
   },
   {
     "id": "10996",
@@ -3935,7 +4692,9 @@ export const pretLocations: Location[] = [
     "postcode": "LS15 8GH",
     "latitude": 53.80041621561581,
     "longitude": -1.4239499,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 07:30-18:30, Sat: 08:00-19:00, Sun: 09:00-17:00",
+    "phone": "+44 113 340 7080"
   },
   {
     "id": "10997",
@@ -3945,7 +4704,9 @@ export const pretLocations: Location[] = [
     "postcode": "LU3 2RR",
     "latitude": 51.9062321153059,
     "longitude": -0.458434967753206,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 05:00-19:00, Sat: 07:00-18:00, Sun: 08:00-17:00",
+    "phone": "+44 1582 342711"
   },
   {
     "id": "11005",
@@ -3955,7 +4716,8 @@ export const pretLocations: Location[] = [
     "postcode": "CO1 1LX",
     "latitude": 51.8887,
     "longitude": 0.9004,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sat: 07:30-17:00, Sun: 09:00-16:00"
   },
   {
     "id": "11006",
@@ -3965,7 +4727,8 @@ export const pretLocations: Location[] = [
     "postcode": "CM77 8YH",
     "latitude": 51.8801,
     "longitude": 0.5509,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 09:00-18:00, Sat: 08:30-19:00, Sun: 08:30-17:00"
   },
   {
     "id": "11004",
@@ -3975,7 +4738,9 @@ export const pretLocations: Location[] = [
     "postcode": "BN11 3HA",
     "latitude": 50.81062228887865,
     "longitude": -0.3711851613615719,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sun: 08:00-17:00",
+    "phone": "+44 7721 416510"
   },
   {
     "id": "11012",
@@ -3985,7 +4750,8 @@ export const pretLocations: Location[] = [
     "postcode": "GU51 1AA",
     "latitude": 51.35477168990843,
     "longitude": -0.8531763620630891,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Wed: 07:00-20:00, Thu-Sun: 07:00-21:00"
   },
   {
     "id": "11007",
@@ -3995,7 +4761,8 @@ export const pretLocations: Location[] = [
     "postcode": "CV35 0AA",
     "latitude": 52.21943208,
     "longitude": -1.50266772000067,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sun: 07:00-19:00"
   },
   {
     "id": "10980",
@@ -4005,7 +4772,8 @@ export const pretLocations: Location[] = [
     "postcode": "N15 4QT",
     "latitude": 51.58707666,
     "longitude": -0.06357376,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sat: 06:30-19:00, Sun: 07:00-18:30"
   },
   {
     "id": "11015",
@@ -4015,7 +4783,8 @@ export const pretLocations: Location[] = [
     "postcode": "BD1 1PR",
     "latitude": 53.79451674587288,
     "longitude": -1.7515428594426157,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 08:00-17:00, Sat: 09:00-18:00, Sun: Closed"
   },
   {
     "id": "11040",
@@ -4025,7 +4794,8 @@ export const pretLocations: Location[] = [
     "postcode": "SA33 4JW",
     "latitude": 51.81773310968125,
     "longitude": -4.505122814626002,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:00-18:00, Sat: 07:00-17:00, Sun: 08:00-16:00"
   },
   {
     "id": "11045",
@@ -4035,7 +4805,9 @@ export const pretLocations: Location[] = [
     "postcode": "MK9 1BB",
     "latitude": 52.0347,
     "longitude": -0.774,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 05:30-19:00, Sat: 06:00-19:00, Sun: 07:00-19:00",
+    "phone": "+44 1908 393298"
   },
   {
     "id": "11050",
@@ -4045,7 +4817,8 @@ export const pretLocations: Location[] = [
     "postcode": "LA2 9DU",
     "latitude": 53.96192,
     "longitude": -2.7604,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sun: 07:00-18:00"
   },
   {
     "id": "11036",
@@ -4055,7 +4828,8 @@ export const pretLocations: Location[] = [
     "postcode": "RM1 3RJ",
     "latitude": 51.5774161366792,
     "longitude": 0.18301417274721,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:30-18:30, Sat: 06:30-19:00, Sun: 06:30-17:30"
   },
   {
     "id": "11059",
@@ -4065,7 +4839,8 @@ export const pretLocations: Location[] = [
     "postcode": "OL10 2QH",
     "latitude": 53.56822,
     "longitude": -2.232,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sat: 07:00-17:00, Sun: 07:00-18:00"
   },
   {
     "id": "11055",
@@ -4075,7 +4850,8 @@ export const pretLocations: Location[] = [
     "postcode": "LU5 6HR",
     "latitude": 51.94769,
     "longitude": -0.50387,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sun: 07:00-20:00"
   },
   {
     "id": "11051",
@@ -4085,7 +4861,9 @@ export const pretLocations: Location[] = [
     "postcode": "KT13 8ED",
     "latitude": 51.3726,
     "longitude": -0.4579,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 07:00-17:00, Sat: 08:00-17:30, Sun: 08:30-17:00",
+    "phone": "+44 1932 848240"
   },
   {
     "id": "11065",
@@ -4095,7 +4873,8 @@ export const pretLocations: Location[] = [
     "postcode": "CR0 1LD",
     "latitude": 51.3746705,
     "longitude": -0.094682,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:00-17:00, Sat-Sun: 07:30-16:00"
   },
   {
     "id": "11067",
@@ -4105,7 +4884,8 @@ export const pretLocations: Location[] = [
     "postcode": "TW18 4UP",
     "latitude": 51.43467,
     "longitude": -0.51096,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 07:00-18:00, Sat: 07:30-18:30, Sun: 08:00-17:00"
   },
   {
     "id": "11068",
@@ -4115,7 +4895,8 @@ export const pretLocations: Location[] = [
     "postcode": "SE2 9SA",
     "latitude": 51.492875,
     "longitude": 0.121503,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sat: 06:00-18:00, Sun: 08:00-17:00"
   },
   {
     "id": "11060",
@@ -4125,7 +4906,8 @@ export const pretLocations: Location[] = [
     "postcode": "MK9 3GB",
     "latitude": 52.041439,
     "longitude": -0.76056,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Wed: 08:00-18:00, Thu-Sat: 08:00-19:00, Sun: 09:00-17:00"
   },
   {
     "id": "11070",
@@ -4135,7 +4917,9 @@ export const pretLocations: Location[] = [
     "postcode": "KY16 9NX",
     "latitude": 56.34069726377303,
     "longitude": -2.7966551153403927,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sat: 07:30-18:00, Sun: 08:00-18:00",
+    "phone": "+44 1334 478835"
   },
   {
     "id": "11069",
@@ -4145,7 +4929,8 @@ export const pretLocations: Location[] = [
     "postcode": "AB10 1TL",
     "latitude": 57.1460202486865,
     "longitude": -2.1027125079502276,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:30-17:30, Sat-Sun: 08:00-17:00"
   },
   {
     "id": "11073",
@@ -4155,7 +4940,8 @@ export const pretLocations: Location[] = [
     "postcode": "NE1 7AG",
     "latitude": 54.975941,
     "longitude": -1.6128,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 07:00-17:30, Sat: 07:30-17:30, Sun: 09:30-15:30"
   },
   {
     "id": "11072",
@@ -4165,7 +4951,8 @@ export const pretLocations: Location[] = [
     "postcode": "LS1 6AW",
     "latitude": 53.7974,
     "longitude": -1.54382,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sat: 07:30-18:00, Sun: 08:00-17:00"
   },
   {
     "id": "11076",
@@ -4175,7 +4962,8 @@ export const pretLocations: Location[] = [
     "postcode": "LS1 2JP",
     "latitude": 53.79772,
     "longitude": -1.54941,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon: 07:00-16:00, Tue-Thu: 07:00-16:30, Fri: 07:00-16:00, Sat-Sun: Closed"
   },
   {
     "id": "11078",
@@ -4185,7 +4973,8 @@ export const pretLocations: Location[] = [
     "postcode": "RH6 0NP",
     "latitude": 51.1555928,
     "longitude": -0.1625842,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sun: 00:00-23:59"
   },
   {
     "id": "11096",
@@ -4195,7 +4984,8 @@ export const pretLocations: Location[] = [
     "postcode": "WV11 2AT",
     "latitude": 52.64297,
     "longitude": -2.05768,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 07:00-18:00, Fri: 06:00-19:00, Sat: 06:00-18:00, Sun: 07:00-19:00"
   },
   {
     "id": "11095",
@@ -4205,7 +4995,8 @@ export const pretLocations: Location[] = [
     "postcode": "KT11 3DB",
     "latitude": 51.30438,
     "longitude": -0.40567,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sat: 06:00-19:00, Sun: 07:00-19:00"
   },
   {
     "id": "11101",
@@ -4215,7 +5006,8 @@ export const pretLocations: Location[] = [
     "postcode": "RH6 0NP",
     "latitude": 51.15627616,
     "longitude": -0.16271817,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sun: 05:00-20:00"
   },
   {
     "id": "11102",
@@ -4225,7 +5017,8 @@ export const pretLocations: Location[] = [
     "postcode": "RH6 0NP",
     "latitude": 51.152069,
     "longitude": -0.16198,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sun: 05:00-16:00"
   },
   {
     "id": "11094",
@@ -4235,7 +5028,9 @@ export const pretLocations: Location[] = [
     "postcode": "AB25 1HJ",
     "latitude": 57.149373,
     "longitude": -2.0995095,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sat: 07:30-18:00, Sun: 09:00-17:00",
+    "phone": "+44 1224 620020"
   },
   {
     "id": "11061",
@@ -4245,7 +5040,9 @@ export const pretLocations: Location[] = [
     "postcode": "BT1 6JH",
     "latitude": 54.5968,
     "longitude": -0.593177,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sat: 07:00-18:00, Sun: 09:00-17:00",
+    "phone": "+44 28 9568 5695"
   },
   {
     "id": "11079",
@@ -4255,7 +5052,9 @@ export const pretLocations: Location[] = [
     "postcode": "GU51 1AA",
     "latitude": 51.29658056,
     "longitude": -0.85563424,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sun: 07:00-19:00",
+    "phone": "+44 1908 299700"
   },
   {
     "id": "11110",
@@ -4265,7 +5064,8 @@ export const pretLocations: Location[] = [
     "postcode": "NE1 5DL",
     "latitude": 54.96909,
     "longitude": -1.61813,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 05:30-20:30, Sat: 07:00-21:00, Sun: 07:30-20:00"
   },
   {
     "id": "11109",
@@ -4275,7 +5075,8 @@ export const pretLocations: Location[] = [
     "postcode": "S1 4HN",
     "latitude": 53.379372,
     "longitude": -1.47203,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 07:30-17:00, Sat: 10:00-17:00, Sun: 10:30-17:00"
   },
   {
     "id": "11112",
@@ -4285,7 +5086,8 @@ export const pretLocations: Location[] = [
     "postcode": "RH6 0NP",
     "latitude": 51.160496,
     "longitude": -0.17783708,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sun: 00:00-23:59"
   },
   {
     "id": "11113",
@@ -4295,7 +5097,8 @@ export const pretLocations: Location[] = [
     "postcode": "NW6 1SA",
     "latitude": 51.547242706853,
     "longitude": -0.190931838956602,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:00-20:00, Sat: 06:30-19:30, Sun: 07:00-19:30"
   },
   {
     "id": "209876",
@@ -4305,7 +5108,8 @@ export const pretLocations: Location[] = [
     "postcode": "N15 4QT",
     "latitude": 51.58692,
     "longitude": -0.0635134,
-    "status": "open"
+    "status": "open",
+    "openingHours": ""
   },
   {
     "id": "11121",
@@ -4315,7 +5119,9 @@ export const pretLocations: Location[] = [
     "postcode": "RG1 2AQ",
     "latitude": 51.4536,
     "longitude": -0.9718,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 07:00-18:30, Sat: 07:30-18:30, Sun: 08:30-17:30",
+    "phone": "+44 118 227 5675"
   },
   {
     "id": "11120",
@@ -4325,7 +5131,9 @@ export const pretLocations: Location[] = [
     "postcode": "RG1 1LX",
     "latitude": 51.4581,
     "longitude": -0.9727,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Wed: 07:00-18:30, Thu-Fri: 07:00-19:00, Sat: 07:30-19:00, Sun: 08:30-17:30",
+    "phone": "+44 118 958 8020"
   },
   {
     "id": "10898",
@@ -4335,7 +5143,9 @@ export const pretLocations: Location[] = [
     "postcode": "OX1 1HS",
     "latitude": 51.7533761021506,
     "longitude": -1.27011246985964,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:00-21:00, Sat: 07:00-19:00, Sun: 07:00-17:00",
+    "phone": "+44 1789 414071"
   },
   {
     "id": "11130",
@@ -4345,7 +5155,9 @@ export const pretLocations: Location[] = [
     "postcode": "NG1 2ET",
     "latitude": 52.9533995,
     "longitude": -1.1477178,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sat: 07:30-18:30, Sun: 08:30-17:30",
+    "phone": "+44 115 941 9883"
   },
   {
     "id": "11131",
@@ -4355,7 +5167,9 @@ export const pretLocations: Location[] = [
     "postcode": "GL50 1DF",
     "latitude": 51.9003811,
     "longitude": -2.0734148,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 07:30-17:30, Sat: 07:30-18:00, Sun: 08:30-17:00",
+    "phone": "+44 1242 220378"
   },
   {
     "id": "11132",
@@ -4365,7 +5179,9 @@ export const pretLocations: Location[] = [
     "postcode": "SM1 1EX",
     "latitude": 51.36245,
     "longitude": -0.19236,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 07:00-18:00, Sat: 07:30-18:00, Sun: 08:00-17:00",
+    "phone": "+44 7407 792918"
   },
   {
     "id": "11135",
@@ -4375,7 +5191,8 @@ export const pretLocations: Location[] = [
     "postcode": "TN13 1UP",
     "latitude": 51.274522,
     "longitude": 0.196117,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 07:30-17:00, Sat-Sun: 08:00-17:00"
   },
   {
     "id": "11136",
@@ -4385,7 +5202,9 @@ export const pretLocations: Location[] = [
     "postcode": "BN11 2HP",
     "latitude": 50.815904,
     "longitude": -0.340111,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:00-18:00, Sat: 07:00-17:00, Sun: 08:00-16:00",
+    "phone": "+44 1903 497230"
   },
   {
     "id": "11092",
@@ -4395,7 +5214,9 @@ export const pretLocations: Location[] = [
     "postcode": "N43JU",
     "latitude": 51.5652376989531,
     "longitude": -0.108083676352313,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sat: 06:30-19:30, Sun: 07:00-19:30",
+    "phone": "+44 20 7263 7598"
   },
   {
     "id": "11138",
@@ -4405,7 +5226,9 @@ export const pretLocations: Location[] = [
     "postcode": "DD1 4AR",
     "latitude": 56.459548563978245,
     "longitude": -2.96928883862977,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 07:30-17:00, Sat: 09:00-17:00, Sun: 09:00-14:30",
+    "phone": "+44 1382 237717"
   },
   {
     "id": "11142",
@@ -4415,7 +5238,8 @@ export const pretLocations: Location[] = [
     "postcode": "LS1 4AP",
     "latitude": 53.796211,
     "longitude": -1.55781,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 07:00-17:30, Fri: 07:00-17:00, Sat-Sun: Closed"
   },
   {
     "id": "11146",
@@ -4425,7 +5249,9 @@ export const pretLocations: Location[] = [
     "postcode": "CA4 0NT",
     "latitude": 54.80154,
     "longitude": -2.87269,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sun: 07:00-16:00",
+    "phone": "+44 7565 996811"
   },
   {
     "id": "11147",
@@ -4435,7 +5261,9 @@ export const pretLocations: Location[] = [
     "postcode": "CA4 0NT",
     "latitude": 54.79922,
     "longitude": -2.86991,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sun: 07:00-16:00",
+    "phone": "+44 7565 996811"
   },
   {
     "id": "11148",
@@ -4445,7 +5273,9 @@ export const pretLocations: Location[] = [
     "postcode": "LE16 7PA",
     "latitude": 52.477462,
     "longitude": -0.920134,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sat: 08:00-18:00, Sun: 09:00-17:00",
+    "phone": "+44 1858 458880"
   },
   {
     "id": "11150",
@@ -4455,7 +5285,9 @@ export const pretLocations: Location[] = [
     "postcode": "EH7 4PA",
     "latitude": 55.962519699999994,
     "longitude": -3.179567,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:30-17:30, Sat-Sun: 08:00-17:30",
+    "phone": "+44 131 287 2584"
   },
   {
     "id": "11151",
@@ -4465,7 +5297,9 @@ export const pretLocations: Location[] = [
     "postcode": "EH10 4ES",
     "latitude": 55.9369202,
     "longitude": -3.207716,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sat: 06:30-18:00, Sun: 08:00-17:00",
+    "phone": "+44 131 287 0399"
   },
   {
     "id": "11152",
@@ -4475,7 +5309,9 @@ export const pretLocations: Location[] = [
     "postcode": "NW11 8LH",
     "latitude": 51.5720242195573,
     "longitude": -0.195881234055207,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sun: 06:30-18:30",
+    "phone": "+44 7918 337314"
   },
   {
     "id": "11153",
@@ -4485,7 +5321,9 @@ export const pretLocations: Location[] = [
     "postcode": "SO21 1PP",
     "latitude": 51.1169,
     "longitude": -1.25419,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 07:00-18:00, Fri: 07:00-19:00, Sat: 06:00-18:00, Sun: 07:00-18:00",
+    "phone": "+44 7961 033029"
   },
   {
     "id": "11154",
@@ -4495,7 +5333,9 @@ export const pretLocations: Location[] = [
     "postcode": "SN14 6LB",
     "latitude": 51.5103,
     "longitude": -2.15741,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 07:00-18:00, Fri: 07:00-19:00, Sat-Sun: 07:00-18:00",
+    "phone": "+44 7961 034566"
   },
   {
     "id": "11157",
@@ -4505,7 +5345,9 @@ export const pretLocations: Location[] = [
     "postcode": "DD5 2AG",
     "latitude": 56.46705,
     "longitude": -2.8736,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sat: 07:00-18:00, Sun: 08:00-18:00",
+    "phone": "+44 1382 237674"
   },
   {
     "id": "11156",
@@ -4515,7 +5357,9 @@ export const pretLocations: Location[] = [
     "postcode": "RH19 1ET",
     "latitude": 51.1278138133787,
     "longitude": -0.0127088492151697,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:00-18:00, Sat: 07:00-17:00, Sun: 08:00-16:00",
+    "phone": "+44 1342 645335"
   },
   {
     "id": "11158",
@@ -4525,7 +5369,8 @@ export const pretLocations: Location[] = [
     "postcode": "N9 OTY",
     "latitude": 51.624893855218,
     "longitude": -0.0593754809996348,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:30-18:00, Sat: 07:00-18:00, Sun: 07:30-17:00"
   },
   {
     "id": "11159",
@@ -4535,7 +5380,9 @@ export const pretLocations: Location[] = [
     "postcode": "SW6 4HH",
     "latitude": 51.47533587,
     "longitude": -0.20061257,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 07:00-18:30, Sat-Sun: 07:30-17:30",
+    "phone": "+44 7553 356618"
   },
   {
     "id": "11161",
@@ -4545,7 +5392,8 @@ export const pretLocations: Location[] = [
     "postcode": "BT12 5AH",
     "latitude": 54.586587,
     "longitude": -5.950769,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sun: 06:00-20:00"
   },
   {
     "id": "11162",
@@ -4555,7 +5403,8 @@ export const pretLocations: Location[] = [
     "postcode": "S9 1EL",
     "latitude": 53.41525,
     "longitude": -1.41404,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 10:00-21:00, Sat: 10:00-20:00, Sun: 11:00-17:00"
   },
   {
     "id": "11164",
@@ -4565,7 +5414,9 @@ export const pretLocations: Location[] = [
     "postcode": "NN10 6FH",
     "latitude": 52.30098,
     "longitude": -0.62343,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 07:30-19:00, Sat: 08:00-19:00, Sun: 08:30-19:00",
+    "phone": "+44 7503 900076"
   },
   {
     "id": "11165",
@@ -4575,7 +5426,9 @@ export const pretLocations: Location[] = [
     "postcode": "SE13 5FQ",
     "latitude": 51.46464,
     "longitude": -0.013,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 05:30-19:30, Sat-Sun: 06:00-19:30",
+    "phone": "+44 7443 744825"
   },
   {
     "id": "11168",
@@ -4585,7 +5438,9 @@ export const pretLocations: Location[] = [
     "postcode": "GL1 5SH",
     "latitude": 51.8604223,
     "longitude": -2.25256,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sat: 08:00-19:00, Sun: 09:00-17:00",
+    "phone": "+44 1452 227637"
   },
   {
     "id": "11169",
@@ -4595,7 +5450,8 @@ export const pretLocations: Location[] = [
     "postcode": "BN21 3AN",
     "latitude": 50.76826,
     "longitude": 0.28648,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sun: 08:30-17:00"
   },
   {
     "id": "11176",
@@ -4605,7 +5461,9 @@ export const pretLocations: Location[] = [
     "postcode": "W5 5AW",
     "latitude": 51.51294,
     "longitude": -0.30506,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sat: 07:00-19:00, Sun: 08:00-18:00",
+    "phone": "+44 20 8579 4615"
   },
   {
     "id": "11178",
@@ -4615,7 +5473,9 @@ export const pretLocations: Location[] = [
     "postcode": "WD17 1LQ",
     "latitude": 51.656829,
     "longitude": -0.398025,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon: 06:30-16:30, Tue-Thu: 06:30-17:30, Fri: 06:30-16:30, Sat: 07:30-17:30, Sun: 08:30-17:30",
+    "phone": "+44 1923 805285"
   },
   {
     "id": "11179",
@@ -4625,7 +5485,9 @@ export const pretLocations: Location[] = [
     "postcode": "UB8 1LN",
     "latitude": 51.546172,
     "longitude": -0.479919,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon: 07:00-18:00, Tue-Thu: 07:00-18:30, Fri: 07:00-18:00, Sat: 08:00-18:00, Sun: 08:30-17:00",
+    "phone": "+44 1895 238614"
   },
   {
     "id": "11181",
@@ -4635,7 +5497,9 @@ export const pretLocations: Location[] = [
     "postcode": "NW4 3FB",
     "latitude": 51.577256,
     "longitude": -0.224183,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sat: 09:00-20:00, Sun: 11:00-19:00",
+    "phone": "+44 20 8203 4719"
   },
   {
     "id": "11182",
@@ -4645,7 +5509,9 @@ export const pretLocations: Location[] = [
     "postcode": "HA9 0FD",
     "latitude": 51.5593027,
     "longitude": -0.277903872,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon: 07:00-18:00, Tue-Fri: 07:00-18:30, Sat: 08:00-19:30, Sun: 08:30-18:30",
+    "phone": "+44 20 8902 1735"
   },
   {
     "id": "11183",
@@ -4655,7 +5521,9 @@ export const pretLocations: Location[] = [
     "postcode": "TN24 0SD",
     "latitude": 51.1368,
     "longitude": 0.8786,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sun: 08:00-20:00",
+    "phone": "+44 1233 621562"
   },
   {
     "id": "11188",
@@ -4665,7 +5533,9 @@ export const pretLocations: Location[] = [
     "postcode": "S60 4EQ",
     "latitude": 53.39714,
     "longitude": -1.35156,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sun: 08:00-16:00",
+    "phone": "+44 1709 288940"
   },
   {
     "id": "11191",
@@ -4675,7 +5545,9 @@ export const pretLocations: Location[] = [
     "postcode": "RG9 2AH",
     "latitude": 51.53773,
     "longitude": -0.90546,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sat: 07:30-18:00, Sun: 08:00-17:00",
+    "phone": "+44 1491 527822"
   },
   {
     "id": "11193",
@@ -4685,7 +5557,8 @@ export const pretLocations: Location[] = [
     "postcode": "EH3 8RY",
     "latitude": 55.94548806558049,
     "longitude": -3.21590834887096,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 05:00-20:00, Sat-Sun: 06:30-16:30"
   },
   {
     "id": "11203",
@@ -4695,7 +5568,9 @@ export const pretLocations: Location[] = [
     "postcode": "IP28 6AE",
     "latitude": 52.337425,
     "longitude": 0.535288,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Thu: 05:00-19:00, Fri: 05:00-21:00, Sat: 07:00-18:00, Sun: 08:00-21:00",
+    "phone": "+44 1638 590829"
   },
   {
     "id": "11209",
@@ -4705,7 +5580,9 @@ export const pretLocations: Location[] = [
     "postcode": "SL6 1QQ",
     "latitude": 51.520768582404,
     "longitude": -0.720859859543313,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 07:00-18:00, Sat: 08:00-16:00, Sun: 09:00-16:00",
+    "phone": "+44 1628 562762"
   },
   {
     "id": "11180",
@@ -4715,7 +5592,9 @@ export const pretLocations: Location[] = [
     "postcode": "HA1 1JX",
     "latitude": 51.581564,
     "longitude": -0.336786,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 07:30-17:30, Sat: 07:30-18:00, Sun: 08:30-17:00",
+    "phone": "+44 20 8424 2698"
   },
   {
     "id": "11214",
@@ -4725,7 +5604,9 @@ export const pretLocations: Location[] = [
     "postcode": "YO1 8RU",
     "latitude": 53.9591926,
     "longitude": -1.0811166,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sat: 07:30-17:30, Sun: 08:00-17:30",
+    "phone": "+44 20 3937 7821"
   },
   {
     "id": "11215",
@@ -4735,7 +5616,9 @@ export const pretLocations: Location[] = [
     "postcode": "EC1A 4HY",
     "latitude": 51.5198609,
     "longitude": -0.09782261,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon: 06:00-20:00, Tue-Thu: 06:00-20:30, Fri: 06:00-20:00, Sat: 07:00-17:30, Sun: 08:00-17:00",
+    "phone": "+44 7884 923782"
   },
   {
     "id": "11218",
@@ -4745,7 +5628,8 @@ export const pretLocations: Location[] = [
     "postcode": "E8 1JB",
     "latitude": 51.546393,
     "longitude": -0.055069,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:30-19:00, Sat: 07:30-18:00, Sun: 08:00-18:00"
   },
   {
     "id": "11220",
@@ -4755,7 +5639,8 @@ export const pretLocations: Location[] = [
     "postcode": "PE28 5XW",
     "latitude": 52.42663,
     "longitude": -0.2698,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sat: 07:00-18:00, Sun: 08:00-18:00"
   },
   {
     "id": "11105",
@@ -4765,7 +5650,8 @@ export const pretLocations: Location[] = [
     "postcode": "RG30 3UQ",
     "latitude": 51.42600183,
     "longitude": -1.03514983,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 07:00-19:00, Sat-Sun: 08:00-19:00"
   },
   {
     "id": "11225",
@@ -4775,7 +5661,8 @@ export const pretLocations: Location[] = [
     "postcode": "RH15 8LJ",
     "latitude": 50.9578210058115,
     "longitude": -0.139219654339451,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:00-18:00, Sat: 07:00-17:00, Sun: 08:00-16:00"
   },
   {
     "id": "11226",
@@ -4785,7 +5672,9 @@ export const pretLocations: Location[] = [
     "postcode": "CT1 3TQ",
     "latitude": 51.2714535,
     "longitude": 1.061994,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:00-18:00, Sat: 07:00-17:00, Sun: 08:00-16:00",
+    "phone": "+44 1227 201850"
   },
   {
     "id": "11227",
@@ -4795,7 +5684,8 @@ export const pretLocations: Location[] = [
     "postcode": "BA4 4LY",
     "latitude": 51.1777868697527,
     "longitude": -2.53622815560272,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:00-18:00, Sat: 07:00-17:00, Sun: 08:00-16:00"
   },
   {
     "id": "11228",
@@ -4805,7 +5695,8 @@ export const pretLocations: Location[] = [
     "postcode": "GL20 7FY",
     "latitude": 51.996253,
     "longitude": -2.114679,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 09:30-20:30, Sat: 08:30-20:30, Sun: 10:00-16:30"
   },
   {
     "id": "11230",
@@ -4815,7 +5706,8 @@ export const pretLocations: Location[] = [
     "postcode": "SW19 7NH",
     "latitude": 51.4210612,
     "longitude": -0.206539,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:00-18:00, Sat-Sun: 07:00-17:00"
   },
   {
     "id": "11232",
@@ -4825,7 +5717,9 @@ export const pretLocations: Location[] = [
     "postcode": "EH1 3AE",
     "latitude": 55.955180649151366,
     "longitude": -3.1883127477264583,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sat: 08:00-20:00, Sun: 09:00-18:00",
+    "phone": "+44 7980 554001"
   },
   {
     "id": "11234",
@@ -4835,7 +5729,9 @@ export const pretLocations: Location[] = [
     "postcode": "AL1 4LW",
     "latitude": 51.751688,
     "longitude": -0.313178,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Wed: 05:30-19:00, Thu-Fri: 05:30-20:00, Sat: 06:30-20:00, Sun: 07:00-17:00",
+    "phone": "+44 1727 221830"
   },
   {
     "id": "11235",
@@ -4845,7 +5741,9 @@ export const pretLocations: Location[] = [
     "postcode": "CV31 3NT",
     "latitude": 52.2842023,
     "longitude": -1.5428655,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:00-18:00, Sat: 07:00-17:00, Sun: 08:00-16:00",
+    "phone": "+44 1926 293449"
   },
   {
     "id": "10961",
@@ -4855,7 +5753,9 @@ export const pretLocations: Location[] = [
     "postcode": "CF10 1FS",
     "latitude": 51.4767363852714,
     "longitude": -3.179496984656,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 07:00-19:00, Sat: 08:00-17:30, Sun: 09:00-16:00",
+    "phone": "+44 29 2022 4736"
   },
   {
     "id": "11240",
@@ -4865,7 +5765,8 @@ export const pretLocations: Location[] = [
     "postcode": "SW7 2AZ",
     "latitude": 51.49949760960905,
     "longitude": -0.17805464482421263,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 08:00-19:00, Sat-Sun: 08:00-16:00"
   },
   {
     "id": "11233",
@@ -4875,7 +5776,9 @@ export const pretLocations: Location[] = [
     "postcode": "BH11 8PT",
     "latitude": 50.72162973247383,
     "longitude": -1.866051712164305,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:00-18:00, Sat: 07:00-17:00, Sun: 08:00-16:00",
+    "phone": "+44 1202 573779"
   },
   {
     "id": "11236",
@@ -4885,7 +5788,8 @@ export const pretLocations: Location[] = [
     "postcode": "CV35 0AA",
     "latitude": 52.2166644621271,
     "longitude": -1.50532163627102,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Sun: 07:00-19:00"
   },
   {
     "id": "11237",
@@ -4895,7 +5799,9 @@ export const pretLocations: Location[] = [
     "postcode": "SR7 9HU",
     "latitude": 54.815043,
     "longitude": -1.3735886,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:00-18:00, Sat: 07:00-17:00, Sun: 08:00-16:00",
+    "phone": "+44 191 406 5728"
   },
   {
     "id": "11238",
@@ -4905,7 +5811,9 @@ export const pretLocations: Location[] = [
     "postcode": "N21 3RL",
     "latitude": 51.629753,
     "longitude": -0.096905,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:00-18:00, Sat: 07:00-17:00, Sun: 08:00-16:00",
+    "phone": "+44 20 3837 0687"
   },
   {
     "id": "11248",
@@ -4915,6 +5823,8 @@ export const pretLocations: Location[] = [
     "postcode": "B98 0SW",
     "latitude": 52.30115093453935,
     "longitude": -1.9041994629852321,
-    "status": "open"
+    "status": "open",
+    "openingHours": "Mon-Fri: 06:00-18:00, Sat: 07:00-17:00, Sun: 08:00-16:00",
+    "phone": "+44 1527 911245"
   }
 ];

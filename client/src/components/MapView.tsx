@@ -93,11 +93,23 @@ export default function MapView({ locations, selectedLocation, onLocationSelect,
         closeButton: true,
         closeOnClick: false,
       }).setHTML(`
-        <div style="padding: 8px; min-width: 200px; font-family: Inter, sans-serif;">
-          <h3 style="font-weight: 600; font-size: 14px; margin: 0 0 8px 0; color: #1a1a1a;">${location.name}</h3>
-          <p style="font-size: 12px; color: #666; margin: 4px 0;">${location.address}</p>
-          <p style="font-size: 12px; color: #666; margin: 4px 0;">${location.city}, ${location.postcode}</p>
-          ${location.openingHours ? `<p style="font-size: 12px; color: #666; margin: 8px 0 0 0;">⏰ ${location.openingHours}</p>` : ''}
+        <div style="padding: 12px; min-width: 250px; max-width: 350px; font-family: Inter, sans-serif;">
+          <h3 style="font-weight: 600; font-size: 15px; margin: 0 0 10px 0; color: #8B1538; border-bottom: 2px solid #8B1538; padding-bottom: 6px;">${location.name}</h3>
+          <div style="margin-bottom: 8px;">
+            <p style="font-size: 13px; color: #333; margin: 3px 0; line-height: 1.4;">📍 ${location.address}</p>
+            <p style="font-size: 13px; color: #333; margin: 3px 0;">${location.city}, ${location.postcode}</p>
+          </div>
+          ${location.openingHours ? `
+            <div style="margin-top: 10px; padding-top: 8px; border-top: 1px solid #eee;">
+              <p style="font-size: 12px; color: #555; margin: 0 0 4px 0; font-weight: 500;">⏰ Opening Hours</p>
+              <p style="font-size: 12px; color: #666; margin: 0; line-height: 1.5;">${location.openingHours}</p>
+            </div>
+          ` : ''}
+          ${location.phone ? `
+            <div style="margin-top: 8px;">
+              <p style="font-size: 12px; color: #555; margin: 0;">📞 <a href="tel:${location.phone}" style="color: #8B1538; text-decoration: none;">${location.phone}</a></p>
+            </div>
+          ` : ''}
         </div>
       `);
 
