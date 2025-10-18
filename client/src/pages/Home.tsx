@@ -5,10 +5,12 @@ import MapFilterBox from "@/components/MapFilterBox";
 import type { Location } from "@shared/schema";
 
 export default function Home() {
+  const [selectedBrand, setSelectedBrand] = useState<'pret' | 'sainsburys'>('pret');
   const [showLondonOnly, setShowLondonOnly] = useState(false);
+  const [showLocalOnly, setShowLocalOnly] = useState(false);
   const [selectedLocation, setSelectedLocation] = useState<Location | undefined>();
 
-  // Fetch real Pret locations from backend
+  // Fetch all locations from backend
   const { data, isLoading, error } = useQuery<{ success: boolean; locations: Location[] }>({
     queryKey: ["/api/locations"],
   });
@@ -16,21 +18,33 @@ export default function Home() {
   const allLocations = data?.locations || [];
 
   const filteredLocations = useMemo(() => {
-    if (showLondonOnly) {
-      // Filter to show ONLY London locations (exactly 275)
-      return allLocations.filter(loc => 
+    let filtered = allLocations;
+
+    // Filter by brand
+    filtered = filtered.filter(loc => loc.brand === selectedBrand);
+
+    // Apply brand-specific filters
+    if (selectedBrand === 'pret' && showLondonOnly) {
+      filtered = filtered.filter(loc => 
         loc.city.trim().toLowerCase() === 'london'
       );
     }
-    return allLocations;
-  }, [allLocations, showLondonOnly]);
+
+    if (selectedBrand === 'sainsburys' && showLocalOnly) {
+      filtered = filtered.filter(loc => 
+        loc.name.toLowerCase().includes('local')
+      );
+    }
+
+    return filtered;
+  }, [allLocations, selectedBrand, showLondonOnly, showLocalOnly]);
 
   if (isLoading) {
     return (
       <div className="flex items-center justify-center h-screen bg-background">
         <div className="text-center space-y-4">
           <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary mx-auto" data-testid="loading-spinner"></div>
-          <p className="text-muted-foreground">Loading Pret locations...</p>
+          <p className="text-muted-foreground">Loading locations...</p>
         </div>
       </div>
     );
@@ -54,14 +68,18 @@ export default function Home() {
         locations={filteredLocations}
         selectedLocation={selectedLocation}
         onLocationSelect={setSelectedLocation}
-        showLondonOnly={showLondonOnly}
+        selectedBrand={selectedBrand}
       />
       
       {/* Filter box in top-right corner */}
       <div className="absolute top-4 right-4 z-[1000]">
         <MapFilterBox
+          selectedBrand={selectedBrand}
+          onBrandChange={setSelectedBrand}
           showLondonOnly={showLondonOnly}
-          onToggle={setShowLondonOnly}
+          onLondonToggle={setShowLondonOnly}
+          showLocalOnly={showLocalOnly}
+          onLocalToggle={setShowLocalOnly}
           locationCount={filteredLocations.length}
         />
       </div>
