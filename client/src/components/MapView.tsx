@@ -3,7 +3,8 @@ import type { Location } from "@shared/schema";
 
 declare global {
   interface Window {
-    L: any;
+    google: any;
+    initMap: () => void;
   }
 }
 
@@ -19,14 +20,19 @@ export default function MapView({ locations, selectedLocation, onLocationSelect 
   const markersRef = useRef<any[]>([]);
 
   useEffect(() => {
-    const loadLeaflet = () => {
-      // Load Leaflet from CDN if not already loaded
-      if (!window.L) {
+    const loadGoogleMaps = () => {
+      // Check if Google Maps is already loaded
+      if (!window.google) {
         const script = document.createElement('script');
-        script.src = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js';
-        script.integrity = 'sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=';
-        script.crossOrigin = '';
-        script.onload = () => initializeMap();
+        // Note: For production, you'd need a real API key
+        script.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&callback=initMap`;
+        script.async = true;
+        script.defer = true;
+        
+        window.initMap = () => {
+          initializeMap();
+        };
+        
         document.head.appendChild(script);
       } else {
         initializeMap();
@@ -34,95 +40,112 @@ export default function MapView({ locations, selectedLocation, onLocationSelect 
     };
 
     const initializeMap = () => {
-      if (!mapRef.current || !window.L) return;
+      if (!mapRef.current || !window.google) return;
 
-      const L = window.L;
-
-      // Fix default icon paths for Leaflet
-      delete (L.Icon.Default.prototype as any)._getIconUrl;
-      L.Icon.Default.mergeOptions({
-        iconRetinaUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon-2x.png',
-        iconUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon.png',
-        shadowUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png',
-      });
-
-      // Initialize map only once
-      if (!mapInstanceRef.current && mapRef.current) {
-        const map = L.map(mapRef.current).setView([54.5, -3.5], 6);
-
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-          attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-        }).addTo(map);
-
-        mapInstanceRef.current = map;
+      // Initialize map centered on UK
+      if (!mapInstanceRef.current) {
+        mapInstanceRef.current = new window.google.maps.Map(mapRef.current, {
+          center: { lat: 54.5, lng: -3.5 },
+          zoom: 6,
+          mapTypeControl: true,
+          streetViewControl: false,
+          fullscreenControl: true,
+          zoomControl: true,
+        });
       }
 
       updateMarkers();
     };
 
     const updateMarkers = () => {
-      if (!window.L || !mapInstanceRef.current) return;
-
-      const L = window.L;
+      if (!window.google || !mapInstanceRef.current) return;
 
       // Clear existing markers
-      markersRef.current.forEach(marker => marker.remove());
+      markersRef.current.forEach(marker => marker.setMap(null));
       markersRef.current = [];
 
-      // Custom icon for Pret locations
-      const pretIcon = L.divIcon({
-        className: 'custom-marker',
-        html: `<div style="width: 32px; height: 32px; background-color: hsl(var(--primary)); border-radius: 50%; border: 2px solid white; box-shadow: 0 2px 8px rgba(0,0,0,0.3); display: flex; align-items: center; justify-content: center;">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="white">
-                  <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
-                </svg>
-              </div>`,
-        iconSize: [32, 32],
-        iconAnchor: [16, 32],
-      });
+      // Create custom icon for Pret locations
+      const icon = {
+        path: window.google.maps.SymbolPath.CIRCLE,
+        fillColor: '#8B1538', // Pret burgundy
+        fillOpacity: 1,
+        strokeColor: '#ffffff',
+        strokeWeight: 2,
+        scale: 10,
+      };
 
       // Add markers for all locations
       locations.forEach(location => {
-        const marker = L.marker([location.latitude, location.longitude], { icon: pretIcon })
-          .addTo(mapInstanceRef.current!)
-          .bindPopup(`
-            <div style="padding: 8px; min-width: 180px;">
-              <h3 style="font-weight: 600; font-size: 14px; margin-bottom: 4px; color: hsl(var(--foreground));">${location.name}</h3>
-              <p style="font-size: 12px; color: hsl(var(--muted-foreground)); margin-bottom: 2px;">${location.address}</p>
-              <p style="font-size: 12px; color: hsl(var(--muted-foreground)); margin-bottom: 4px;">${location.city}, ${location.postcode}</p>
-              ${location.openingHours ? `<p style="font-size: 12px; color: hsl(var(--muted-foreground)); margin-top: 4px;">⏰ ${location.openingHours}</p>` : ''}
-            </div>
-          `)
-          .on('click', () => {
-            onLocationSelect(location);
-          });
+        const marker = new window.google.maps.Marker({
+          position: { lat: location.latitude, lng: location.longitude },
+          map: mapInstanceRef.current,
+          title: location.name,
+          icon: icon,
+        });
 
+        // Create info window
+        const infoWindow = new window.google.maps.InfoWindow({
+          content: `
+            <div style="padding: 8px; min-width: 200px; font-family: Inter, sans-serif;">
+              <h3 style="font-weight: 600; font-size: 14px; margin: 0 0 8px 0; color: #1a1a1a;">${location.name}</h3>
+              <p style="font-size: 12px; color: #666; margin: 4px 0;">${location.address}</p>
+              <p style="font-size: 12px; color: #666; margin: 4px 0;">${location.city}, ${location.postcode}</p>
+              ${location.openingHours ? `<p style="font-size: 12px; color: #666; margin: 8px 0 0 0;">⏰ ${location.openingHours}</p>` : ''}
+            </div>
+          `,
+        });
+
+        // Add click listener
+        marker.addListener('click', () => {
+          // Close all other info windows
+          markersRef.current.forEach(m => {
+            if (m.infoWindow) {
+              m.infoWindow.close();
+            }
+          });
+          
+          infoWindow.open(mapInstanceRef.current, marker);
+          onLocationSelect(location);
+        });
+
+        marker.infoWindow = infoWindow;
         markersRef.current.push(marker);
       });
     };
 
-    loadLeaflet();
+    loadGoogleMaps();
 
     return () => {
-      if (mapInstanceRef.current) {
-        mapInstanceRef.current.remove();
-        mapInstanceRef.current = null;
-      }
+      // Clean up markers
+      markersRef.current.forEach(marker => marker.setMap(null));
+      markersRef.current = [];
     };
   }, [locations, onLocationSelect]);
 
-  // Pan to selected location
+  // Pan to selected location and open info window
   useEffect(() => {
-    if (selectedLocation && mapInstanceRef.current && window.L) {
-      mapInstanceRef.current.setView([selectedLocation.latitude, selectedLocation.longitude], 15);
-      
-      // Open popup for selected marker
-      markersRef.current.forEach(marker => {
-        const markerLatLng = marker.getLatLng();
-        if (markerLatLng.lat === selectedLocation.latitude && markerLatLng.lng === selectedLocation.longitude) {
-          marker.openPopup();
-        }
+    if (selectedLocation && mapInstanceRef.current && window.google) {
+      mapInstanceRef.current.setCenter({ 
+        lat: selectedLocation.latitude, 
+        lng: selectedLocation.longitude 
       });
+      mapInstanceRef.current.setZoom(15);
+      
+      // Open the info window for the selected marker
+      const marker = markersRef.current.find(m => {
+        const pos = m.getPosition();
+        return pos.lat() === selectedLocation.latitude && pos.lng() === selectedLocation.longitude;
+      });
+      
+      if (marker && marker.infoWindow) {
+        // Close all other info windows first
+        markersRef.current.forEach(m => {
+          if (m.infoWindow && m !== marker) {
+            m.infoWindow.close();
+          }
+        });
+        marker.infoWindow.open(mapInstanceRef.current, marker);
+      }
     }
   }, [selectedLocation]);
 
