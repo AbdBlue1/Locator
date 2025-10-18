@@ -32,7 +32,7 @@ export default function Home() {
 
     if (filters.showPretLondon) {
       const pretLondon = allLocations.filter(loc => 
-        loc.brand === 'pret' && loc.city.trim().toLowerCase() === 'london'
+        loc.brand === 'pret' && loc.city?.trim().toLowerCase() === 'london'
       );
       // Only add if not already included from showPretAll
       if (!filters.showPretAll) {
