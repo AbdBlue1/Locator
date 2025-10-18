@@ -17,7 +17,10 @@ export default function Home() {
 
   const filteredLocations = useMemo(() => {
     if (showLondonOnly) {
-      return allLocations.filter(loc => loc.city.toLowerCase() === 'london');
+      // Filter to show ONLY London locations (exactly 275)
+      return allLocations.filter(loc => 
+        loc.city.trim().toLowerCase() === 'london'
+      );
     }
     return allLocations;
   }, [allLocations, showLondonOnly]);
@@ -51,6 +54,7 @@ export default function Home() {
         locations={filteredLocations}
         selectedLocation={selectedLocation}
         onLocationSelect={setSelectedLocation}
+        showLondonOnly={showLondonOnly}
       />
       
       {/* Filter box in top-right corner */}

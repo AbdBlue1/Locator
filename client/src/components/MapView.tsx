@@ -7,9 +7,10 @@ interface MapViewProps {
   locations: Location[];
   selectedLocation?: Location;
   onLocationSelect: (location: Location) => void;
+  showLondonOnly?: boolean;
 }
 
-export default function MapView({ locations, selectedLocation, onLocationSelect }: MapViewProps) {
+export default function MapView({ locations, selectedLocation, onLocationSelect, showLondonOnly }: MapViewProps) {
   const mapContainerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<mapboxgl.Map | null>(null);
   const markersRef = useRef<mapboxgl.Marker[]>([]);
@@ -43,6 +44,27 @@ export default function MapView({ locations, selectedLocation, onLocationSelect 
       mapRef.current = null;
     };
   }, []);
+
+  // Adjust map view when filter changes
+  useEffect(() => {
+    if (!mapRef.current) return;
+    
+    if (showLondonOnly) {
+      // Zoom to London
+      mapRef.current.flyTo({
+        center: [-0.1276, 51.5074], // London center
+        zoom: 10,
+        duration: 1500,
+      });
+    } else {
+      // Zoom out to show all UK
+      mapRef.current.flyTo({
+        center: [-3.5, 54.5], // UK center
+        zoom: 5.5,
+        duration: 1500,
+      });
+    }
+  }, [showLondonOnly]);
 
   // Update markers when locations change
   useEffect(() => {
