@@ -61,6 +61,19 @@ export default function Home() {
     return uniqueFiltered;
   }, [allLocations, filters]);
 
+  // Determine which brand to show based on filters
+  const selectedBrand = useMemo(() => {
+    const hasPret = filters.showPretAll || filters.showPretLondon;
+    const hasSainsburys = filters.showSainsburysAll || filters.showSainsburysLocal;
+    
+    // If both or neither are selected, default to pret for map centering
+    if ((hasPret && hasSainsburys) || (!hasPret && !hasSainsburys)) {
+      return 'pret' as const;
+    }
+    
+    return hasSainsburys ? 'sainsburys' as const : 'pret' as const;
+  }, [filters]);
+
   if (isLoading) {
     return (
       <div className="flex items-center justify-center h-screen bg-background">
@@ -82,19 +95,6 @@ export default function Home() {
       </div>
     );
   }
-
-  // Determine which brand to show based on filters
-  const selectedBrand = useMemo(() => {
-    const hasPret = filters.showPretAll || filters.showPretLondon;
-    const hasSainsburys = filters.showSainsburysAll || filters.showSainsburysLocal;
-    
-    // If both or neither are selected, default to pret for map centering
-    if ((hasPret && hasSainsburys) || (!hasPret && !hasSainsburys)) {
-      return 'pret' as const;
-    }
-    
-    return hasSainsburys ? 'sainsburys' as const : 'pret' as const;
-  }, [filters]);
 
   return (
     <div className="relative h-screen w-full overflow-hidden">
