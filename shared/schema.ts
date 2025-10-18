@@ -28,6 +28,7 @@ export const locationSchema = z.object({
   status: z.enum(['open', 'closed', 'closing_soon']),
   openingHours: z.string().optional(),
   phone: z.string().optional(),
+  brand: z.enum(['pret', 'sainsburys']),
 });
 
 export type Location = z.infer<typeof locationSchema>;
