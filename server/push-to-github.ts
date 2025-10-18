@@ -1,22 +1,13 @@
 import { getUncachableGitHubClient } from './github-client';
 import { execSync } from 'child_process';
-import readline from 'readline';
-
-const rl = readline.createInterface({
-  input: process.stdin,
-  output: process.stdout
-});
-
-function question(prompt: string): Promise<string> {
-  return new Promise((resolve) => {
-    rl.question(prompt, (answer) => {
-      resolve(answer);
-    });
-  });
-}
 
 async function pushToGitHub() {
   try {
+    // Get arguments
+    const repoName = process.argv[2] || 'pret-store-finder';
+    const repoDescription = process.argv[3] || 'Pret A Manger UK Store Finder - Interactive map showing all 491 UK locations with opening hours and contact details';
+    const isPrivate = process.argv[4] === 'private';
+    
     console.log('🔗 Getting GitHub client...');
     const octokit = await getUncachableGitHubClient();
     
@@ -24,36 +15,43 @@ async function pushToGitHub() {
     const { data: user } = await octokit.users.getAuthenticated();
     console.log(`✅ Authenticated as: ${user.login}`);
     
-    // Ask for repository name
-    const repoName = await question('Enter repository name (e.g., pret-store-finder): ');
-    const repoDescription = await question('Enter repository description (optional): ');
-    const isPrivate = (await question('Make repository private? (y/n): ')).toLowerCase() === 'y';
-    
-    console.log('\n📦 Creating GitHub repository...');
+    console.log(`\n📦 Creating repository: ${repoName}`);
+    console.log(`📝 Description: ${repoDescription}`);
+    console.log(`🔒 Private: ${isPrivate}`);
     
     // Create repository
     const { data: repo } = await octokit.repos.createForAuthenticatedUser({
       name: repoName.trim(),
-      description: repoDescription.trim() || 'Pret A Manger UK Store Finder - Interactive map with all locations',
+      description: repoDescription.trim(),
       private: isPrivate,
       auto_init: false
     });
     
     console.log(`✅ Repository created: ${repo.html_url}`);
     
-    // Initialize git if needed
+    // Check if git is initialized
     try {
       execSync('git rev-parse --git-dir', { stdio: 'ignore' });
       console.log('✅ Git repository already initialized');
     } catch {
       console.log('📝 Initializing git repository...');
-      execSync('git init');
-      execSync('git add .');
-      execSync('git commit -m "Initial commit: Pret A Manger UK Store Finder"');
+      execSync('git init', { stdio: 'inherit' });
+    }
+    
+    // Check if there are commits
+    let hasCommits = false;
+    try {
+      execSync('git rev-parse HEAD', { stdio: 'ignore' });
+      hasCommits = true;
+      console.log('✅ Found existing commits');
+    } catch {
+      console.log('📝 Creating initial commit...');
+      execSync('git add .', { stdio: 'inherit' });
+      execSync('git commit -m "Initial commit: Pret A Manger UK Store Finder with 491 locations"', { stdio: 'inherit' });
     }
     
     // Add remote and push
-    console.log('📤 Pushing to GitHub...');
+    console.log('📤 Configuring remote and pushing...');
     
     try {
       execSync('git remote remove origin', { stdio: 'ignore' });
@@ -61,21 +59,28 @@ async function pushToGitHub() {
       // Remote doesn't exist yet
     }
     
-    execSync(`git remote add origin ${repo.clone_url.replace('https://', `https://${user.login}:${process.env.GITHUB_TOKEN}@`)}`);
-    execSync('git branch -M main');
-    execSync('git push -u origin main');
+    // Use SSH URL for GitHub
+    execSync(`git remote add origin ${repo.ssh_url}`, { stdio: 'inherit' });
+    execSync('git branch -M main', { stdio: 'inherit' });
+    
+    console.log('⬆️ Pushing to GitHub...');
+    execSync('git push -u origin main', { stdio: 'inherit' });
     
     console.log('\n✅ Successfully pushed to GitHub!');
     console.log(`🔗 Repository URL: ${repo.html_url}`);
+    console.log(`📦 Clone URL (HTTPS): ${repo.clone_url}`);
+    console.log(`📦 Clone URL (SSH): ${repo.ssh_url}`);
     
   } catch (error: any) {
     console.error('❌ Error:', error.message);
     if (error.response?.data) {
       console.error('Details:', JSON.stringify(error.response.data, null, 2));
     }
-  } finally {
-    rl.close();
+    process.exit(1);
   }
 }
+
+// Usage: npx tsx server/push-to-github.ts [repo-name] [description] [public|private]
+// Example: npx tsx server/push-to-github.ts pret-finder "My Pret Finder" private
 
 pushToGitHub();
