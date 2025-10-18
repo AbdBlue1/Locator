@@ -1,10 +1,5 @@
 import type { Location } from "@shared/schema";
 
-// Real Pret A Manger UK locations
-// Scraped from https://www.pret.co.uk/en-GB/shop-finder
-// Total: 491 locations across the UK
-// Includes opening hours and phone numbers
-
 export const pretLocations: Location[] = [
   {
     "id": "10325",
@@ -16,7 +11,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.12496523,
     "status": "open",
     "openingHours": "Mon-Fri: 06:30-20:00, Sat: 07:30-20:00, Sun: 08:00-18:30",
-    "phone": "+44 20 7932 5466"
+    "phone": "+44 20 7932 5466",
+    "brand": "pret"
   },
   {
     "id": "10439",
@@ -28,7 +24,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1389788,
     "status": "open",
     "openingHours": "Mon-Wed: 06:00-18:00, Thu: 06:00-18:30, Fri: 06:00-17:30, Sat: 07:00-16:30, Sun: Closed",
-    "phone": "+44 20 7387 6661"
+    "phone": "+44 20 7387 6661",
+    "brand": "pret"
   },
   {
     "id": "10145",
@@ -40,7 +37,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1342397,
     "status": "open",
     "openingHours": "Mon-Fri: 06:30-18:00, Sat-Sun: Closed",
-    "phone": "+44 20 7932 5205"
+    "phone": "+44 20 7932 5205",
+    "brand": "pret"
   },
   {
     "id": "10560",
@@ -52,7 +50,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.126133,
     "status": "open",
     "openingHours": "Mon-Sun: Closed",
-    "phone": "+44 20 7278 2563"
+    "phone": "+44 20 7278 2563",
+    "brand": "pret"
   },
   {
     "id": "10317",
@@ -64,7 +63,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.12457351,
     "status": "open",
     "openingHours": "Mon-Sat: 05:00-24:00, Sun: 05:30-24:00",
-    "phone": "+44 20 7932 5465"
+    "phone": "+44 20 7932 5465",
+    "brand": "pret"
   },
   {
     "id": "10563",
@@ -76,7 +76,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1331756,
     "status": "open",
     "openingHours": "Mon-Thu: 06:00-21:00, Fri: 06:00-24:00, Sat: 00:00-23:59, Sun: 00:00-21:00",
-    "phone": "+44 20 7278 8054"
+    "phone": "+44 20 7278 8054",
+    "brand": "pret"
   },
   {
     "id": "10567",
@@ -88,7 +89,8 @@ export const pretLocations: Location[] = [
     "longitude": -3.2058397,
     "status": "open",
     "openingHours": "Mon-Fri: 06:30-17:00, Sat: 08:30-16:00, Sun: Closed",
-    "phone": "+44 131 228 2169"
+    "phone": "+44 131 228 2169",
+    "brand": "pret"
   },
   {
     "id": "10555",
@@ -100,7 +102,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.160508,
     "status": "open",
     "openingHours": "Mon-Fri: 06:00-21:00, Sat-Sun: 07:30-21:00",
-    "phone": "+44 20 7723 1141"
+    "phone": "+44 20 7723 1141",
+    "brand": "pret"
   },
   {
     "id": "10438",
@@ -112,7 +115,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1127745,
     "status": "open",
     "openingHours": "Mon: 06:30-21:00, Tue-Fri: 06:00-21:00, Sat-Sun: 07:00-19:00",
-    "phone": "+44 20 7936 4839"
+    "phone": "+44 20 7936 4839",
+    "brand": "pret"
   },
   {
     "id": "10433",
@@ -124,7 +128,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.16199477,
     "status": "open",
     "openingHours": "Mon-Fri: 05:00-21:00, Sat: 06:30-20:00, Sun: 07:00-19:00",
-    "phone": "+44 20 7730 9655"
+    "phone": "+44 20 7730 9655",
+    "brand": "pret"
   },
   {
     "id": "10440",
@@ -136,7 +141,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1060342,
     "status": "open",
     "openingHours": "Mon-Fri: 06:30-20:30, Sat-Sun: 07:00-20:30",
-    "phone": "+44 20 7226 4292"
+    "phone": "+44 20 7226 4292",
+    "brand": "pret"
   },
   {
     "id": "10680",
@@ -148,7 +154,8 @@ export const pretLocations: Location[] = [
     "longitude": -3.36381354,
     "status": "open",
     "openingHours": "Mon-Sun: 04:00-22:00",
-    "phone": "+44 131 333 1714"
+    "phone": "+44 131 333 1714",
+    "brand": "pret"
   },
   {
     "id": "10578",
@@ -160,7 +167,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.15630102,
     "status": "open",
     "openingHours": "Mon-Fri: 06:45-18:00, Sat-Sun: 08:00-17:00",
-    "phone": "+44 20 7486 2023"
+    "phone": "+44 20 7486 2023",
+    "brand": "pret"
   },
   {
     "id": "10382",
@@ -172,7 +180,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1124044,
     "status": "open",
     "openingHours": "Mon-Fri: 05:00-24:00, Sat: 05:30-23:00, Sun: 05:30-22:30",
-    "phone": "+44 20 7633 9233"
+    "phone": "+44 20 7633 9233",
+    "brand": "pret"
   },
   {
     "id": "10444",
@@ -184,7 +193,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1769328,
     "status": "open",
     "openingHours": "Mon-Fri: 04:30-22:30, Sat: 05:00-22:00, Sun: 06:00-22:00",
-    "phone": "+44 20 7262 9784"
+    "phone": "+44 20 7262 9784",
+    "brand": "pret"
   },
   {
     "id": "10445",
@@ -196,7 +206,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.0924261,
     "status": "open",
     "openingHours": "Mon-Fri: 07:00-16:00, Sat: 08:00-16:00, Sun: 08:30-16:00",
-    "phone": "+44 20 7256 8280"
+    "phone": "+44 20 7256 8280",
+    "brand": "pret"
   },
   {
     "id": "10657",
@@ -208,7 +219,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.0859852813422683,
     "status": "open",
     "openingHours": "Mon-Fri: 05:00-23:30, Sat: 05:30-23:30, Sun: 06:00-23:30",
-    "phone": "+44 20 7378 0366"
+    "phone": "+44 20 7378 0366",
+    "brand": "pret"
   },
   {
     "id": "10413",
@@ -220,7 +232,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.0026537,
     "status": "open",
     "openingHours": "Mon-Sat: 05:00-22:00, Sun: 06:00-21:30",
-    "phone": "+44 20 8519 6859"
+    "phone": "+44 20 8519 6859",
+    "brand": "pret"
   },
   {
     "id": "10200",
@@ -232,7 +245,8 @@ export const pretLocations: Location[] = [
     "longitude": -2.3472996,
     "status": "open",
     "openingHours": "Mon-Fri: 09:00-21:30, Sat: 09:00-20:30, Sun: 11:30-17:30",
-    "phone": "+44 161 755 0942"
+    "phone": "+44 161 755 0942",
+    "brand": "pret"
   },
   {
     "id": "10140",
@@ -244,7 +258,8 @@ export const pretLocations: Location[] = [
     "longitude": -2.25192072,
     "status": "open",
     "openingHours": "Mon-Fri: 06:30-18:00, Sat-Sun: Closed",
-    "phone": "+44 161 832 1471"
+    "phone": "+44 161 832 1471",
+    "brand": "pret"
   },
   {
     "id": "10530",
@@ -256,7 +271,8 @@ export const pretLocations: Location[] = [
     "longitude": 0.04858966,
     "status": "open",
     "openingHours": "Mon-Fri: 05:00-22:00, Sat: 05:00-12:00, Sun: 11:00-22:00",
-    "phone": "+44 20 7511 1736"
+    "phone": "+44 20 7511 1736",
+    "brand": "pret"
   },
   {
     "id": "10316",
@@ -268,7 +284,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1439031,
     "status": "open",
     "openingHours": "Mon-Fri: 05:30-21:30, Sat: 06:00-21:00, Sun: 07:00-21:00",
-    "phone": "+44 20 7932 5464"
+    "phone": "+44 20 7932 5464",
+    "brand": "pret"
   },
   {
     "id": "10261",
@@ -280,7 +297,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1409513,
     "status": "open",
     "openingHours": "Mon-Fri: 06:15-18:30, Sat: 06:30-18:00, Sun: 07:00-17:00",
-    "phone": "+44 20 7932 5383"
+    "phone": "+44 20 7932 5383",
+    "brand": "pret"
   },
   {
     "id": "10659",
@@ -292,7 +310,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.37525119,
     "status": "open",
     "openingHours": "Mon-Sun: 05:00-20:00",
-    "phone": "+44 1582 730224"
+    "phone": "+44 1582 730224",
+    "brand": "pret"
   },
   {
     "id": "102",
@@ -304,7 +323,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.14390863,
     "status": "open",
     "openingHours": "Mon: 05:30-21:30, Tue-Sat: 05:30-22:00, Sun: 05:30-21:30",
-    "phone": "+44 20 7932 5318"
+    "phone": "+44 20 7932 5318",
+    "brand": "pret"
   },
   {
     "id": "10322",
@@ -316,7 +336,8 @@ export const pretLocations: Location[] = [
     "longitude": -2.740114,
     "status": "open",
     "openingHours": "Mon-Wed: 08:30-19:00, Thu: 08:30-20:00, Fri-Sat: 08:30-19:00, Sun: 09:00-17:30",
-    "phone": "+44 1458 445406"
+    "phone": "+44 1458 445406",
+    "brand": "pret"
   },
   {
     "id": "10519",
@@ -328,7 +349,8 @@ export const pretLocations: Location[] = [
     "longitude": -2.2729717,
     "status": "open",
     "openingHours": "Mon-Sun: 03:30-20:00",
-    "phone": "+44 161 437 3453"
+    "phone": "+44 161 437 3453",
+    "brand": "pret"
   },
   {
     "id": "10385",
@@ -340,7 +362,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1716,
     "status": "open",
     "openingHours": "Mon: 06:00-19:00, Tue: 05:30-19:30, Wed: 05:30-20:00, Thu: 06:00-19:30, Fri: 06:00-19:00, Sat: 06:00-18:30, Sun: 06:30-18:00",
-    "phone": "+44 20 7483 4433"
+    "phone": "+44 20 7483 4433",
+    "brand": "pret"
   },
   {
     "id": "104",
@@ -352,7 +375,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1967,
     "status": "open",
     "openingHours": "Mon-Fri: 05:30-21:00, Sat: 06:00-20:30, Sun: 06:30-19:30",
-    "phone": "+44 20 7041 9040"
+    "phone": "+44 20 7041 9040",
+    "brand": "pret"
   },
   {
     "id": "10607",
@@ -364,7 +388,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.143954340401493,
     "status": "open",
     "openingHours": "Mon-Fri: 06:00-20:00, Sat: 06:00-21:00, Sun: 07:00-20:00",
-    "phone": "+44 20 7267 1845"
+    "phone": "+44 20 7267 1845",
+    "brand": "pret"
   },
   {
     "id": "10388",
@@ -376,7 +401,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.75343527,
     "status": "open",
     "openingHours": "Mon-Sat: 07:30-19:30, Sun: 08:30-17:30",
-    "phone": "+44 1908 665811"
+    "phone": "+44 1908 665811",
+    "brand": "pret"
   },
   {
     "id": "10387",
@@ -388,7 +414,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.30413,
     "status": "open",
     "openingHours": "Mon-Fri: 06:00-18:30, Sat: 06:30-19:00, Sun: 07:00-18:00",
-    "phone": "+44 20 8541 5834"
+    "phone": "+44 20 8541 5834",
+    "brand": "pret"
   },
   {
     "id": "106",
@@ -400,7 +427,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.10709,
     "status": "open",
     "openingHours": "Mon-Thu: 06:00-19:00, Fri: 06:30-18:00, Sat-Sun: Closed",
-    "phone": "+44 20 7932 5323"
+    "phone": "+44 20 7932 5323",
+    "brand": "pret"
   },
   {
     "id": "211",
@@ -412,7 +440,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.079606,
     "status": "open",
     "openingHours": "Mon-Thu: 05:30-19:00, Fri: 05:30-17:00, Sat-Sun: Closed",
-    "phone": "+44 20 7932 5348"
+    "phone": "+44 20 7932 5348",
+    "brand": "pret"
   },
   {
     "id": "219",
@@ -424,7 +453,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.128631,
     "status": "open",
     "openingHours": "Mon-Fri: 05:30-21:00, Sat: 05:30-20:30, Sun: 06:00-20:00",
-    "phone": "+44 20 7932 5350"
+    "phone": "+44 20 7932 5350",
+    "brand": "pret"
   },
   {
     "id": "10435",
@@ -436,7 +466,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.0826456,
     "status": "open",
     "openingHours": "Mon-Thu: 05:30-20:00, Fri: 05:30-18:00, Sat: 08:00-17:00, Sun: Closed",
-    "phone": "+44 20 7374 6420"
+    "phone": "+44 20 7374 6420",
+    "brand": "pret"
   },
   {
     "id": "54",
@@ -448,7 +479,8 @@ export const pretLocations: Location[] = [
     "longitude": -1.15653069,
     "status": "open",
     "openingHours": "Mon-Sat: 09:00-21:30, Sun: 10:00-19:30",
-    "phone": "+44 1869 241069"
+    "phone": "+44 1869 241069",
+    "brand": "pret"
   },
   {
     "id": "10175",
@@ -460,7 +492,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.01904,
     "status": "open",
     "openingHours": "Mon-Thu: 05:30-16:00, Fri: 05:30-15:00, Sat-Sun: Closed",
-    "phone": "+44 20 7513 1963"
+    "phone": "+44 20 7513 1963",
+    "brand": "pret"
   },
   {
     "id": "223",
@@ -472,7 +505,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.144161545,
     "status": "open",
     "openingHours": "Mon-Thu: 06:00-19:30, Fri: 06:00-19:00, Sat: 07:30-18:00, Sun: 08:00-17:00",
-    "phone": "+44 20 7629 7946"
+    "phone": "+44 20 7629 7946",
+    "brand": "pret"
   },
   {
     "id": "174",
@@ -484,7 +518,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1426412,
     "status": "open",
     "openingHours": "Mon-Thu: 06:00-19:00, Fri: 06:00-18:30, Sat: 06:30-17:30, Sun: 07:00-16:30",
-    "phone": "+44 20 7323 9440"
+    "phone": "+44 20 7323 9440",
+    "brand": "pret"
   },
   {
     "id": "265",
@@ -496,7 +531,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1421851,
     "status": "open",
     "openingHours": "Mon-Thu: 05:30-21:00, Fri-Sat: 06:00-21:00, Sun: 06:30-21:00",
-    "phone": "+44 20 7827 8882"
+    "phone": "+44 20 7827 8882",
+    "brand": "pret"
   },
   {
     "id": "10434",
@@ -508,7 +544,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.130062,
     "status": "open",
     "openingHours": "Mon-Fri: 06:00-20:00, Sat: 07:00-19:30, Sun: 08:00-18:30",
-    "phone": "+44 20 7839 3995"
+    "phone": "+44 20 7839 3995",
+    "brand": "pret"
   },
   {
     "id": "10479",
@@ -520,7 +557,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.17801046,
     "status": "open",
     "openingHours": "Mon-Sun: 04:30-20:00",
-    "phone": "+44 1293 579464"
+    "phone": "+44 1293 579464",
+    "brand": "pret"
   },
   {
     "id": "10401",
@@ -532,7 +570,8 @@ export const pretLocations: Location[] = [
     "longitude": -2.24299833969689,
     "status": "open",
     "openingHours": "Mon: 06:30-19:00, Tue-Thu: 06:30-19:30, Fri: 06:30-18:30, Sat: 07:30-18:30, Sun: 08:00-17:00",
-    "phone": "+44 161 228 7965"
+    "phone": "+44 161 228 7965",
+    "brand": "pret"
   },
   {
     "id": "156",
@@ -544,7 +583,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1657017,
     "status": "open",
     "openingHours": "Mon-Fri: 07:00-19:00, Sat-Sun: 08:00-17:00",
-    "phone": "+44 20 7932 5337"
+    "phone": "+44 20 7932 5337",
+    "brand": "pret"
   },
   {
     "id": "10437",
@@ -556,7 +596,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1353875,
     "status": "open",
     "openingHours": "Mon-Fri: 05:30-19:30, Sat: 06:00-19:30, Sun: 06:30-19:30",
-    "phone": "+44 20 7222 6293"
+    "phone": "+44 20 7222 6293",
+    "brand": "pret"
   },
   {
     "id": "92",
@@ -568,7 +609,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1392553,
     "status": "open",
     "openingHours": "Mon: 06:00-18:00, Tue-Thu: 05:30-19:00, Fri: 06:00-17:00, Sat-Sun: Closed",
-    "phone": "+44 20 3583 3860"
+    "phone": "+44 20 3583 3860",
+    "brand": "pret"
   },
   {
     "id": "10402",
@@ -580,7 +622,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.0728276799831688,
     "status": "open",
     "openingHours": "Mon-Fri: 05:30-19:30, Sat: 06:30-18:00, Sun: 07:00-17:00",
-    "phone": "+44 20 7092 9114"
+    "phone": "+44 20 7092 9114",
+    "brand": "pret"
   },
   {
     "id": "10114",
@@ -592,7 +635,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1275658,
     "status": "open",
     "openingHours": "Mon-Fri: 06:00-20:30, Sat: 06:00-19:00, Sun: 07:00-18:30",
-    "phone": "+44 20 7932 5256"
+    "phone": "+44 20 7932 5256",
+    "brand": "pret"
   },
   {
     "id": "86",
@@ -604,7 +648,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1438496,
     "status": "open",
     "openingHours": "Mon-Fri: 05:30-20:30, Sat: 06:00-20:30, Sun: 06:00-20:00",
-    "phone": "+44 20 7932 5301"
+    "phone": "+44 20 7932 5301",
+    "brand": "pret"
   },
   {
     "id": "10414",
@@ -616,7 +661,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.117104594327442,
     "status": "open",
     "openingHours": "Mon-Thu: 06:00-18:30, Fri: 06:00-18:00, Sat: 08:00-17:00, Sun: Closed",
-    "phone": "+44 20 7405 4290"
+    "phone": "+44 20 7405 4290",
+    "brand": "pret"
   },
   {
     "id": "10418",
@@ -628,7 +674,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.08874475089940473,
     "status": "open",
     "openingHours": "Mon-Thu: 05:30-20:30, Fri: 05:30-20:00, Sat: 05:30-19:30, Sun: 06:30-19:00",
-    "phone": "+44 20 7089 9067"
+    "phone": "+44 20 7089 9067",
+    "brand": "pret"
   },
   {
     "id": "10173",
@@ -640,7 +687,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.0278379,
     "status": "open",
     "openingHours": "Mon-Thu: 05:30-20:00, Fri: 05:30-19:30, Sat: 08:30-18:30, Sun: 09:00-18:00",
-    "phone": "+44 20 7932 5435"
+    "phone": "+44 20 7932 5435",
+    "brand": "pret"
   },
   {
     "id": "10179",
@@ -652,7 +700,8 @@ export const pretLocations: Location[] = [
     "longitude": -2.9896093,
     "status": "open",
     "openingHours": "Mon-Fri: 07:00-18:00, Sat: 08:00-17:30, Sun: 08:30-17:00",
-    "phone": "+44 151 236 9964"
+    "phone": "+44 151 236 9964",
+    "brand": "pret"
   },
   {
     "id": "10436",
@@ -664,7 +713,8 @@ export const pretLocations: Location[] = [
     "longitude": -2.595577,
     "status": "open",
     "openingHours": "Mon-Sat: 08:30-20:00, Sun: 09:00-17:00",
-    "phone": "+44 117 959 0326"
+    "phone": "+44 117 959 0326",
+    "brand": "pret"
   },
   {
     "id": "284",
@@ -676,7 +726,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1248167,
     "status": "open",
     "openingHours": "Mon-Sun: 05:00-23:00",
-    "phone": "+44 20 7932 5374"
+    "phone": "+44 20 7932 5374",
+    "brand": "pret"
   },
   {
     "id": "10556",
@@ -688,7 +739,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.13257288,
     "status": "open",
     "openingHours": "Mon-Fri: 06:00-18:30, Sat: 06:30-17:30, Sun: 07:00-16:00",
-    "phone": "+44 20 7828 2102"
+    "phone": "+44 20 7828 2102",
+    "brand": "pret"
   },
   {
     "id": "10526",
@@ -700,7 +752,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.0846698130406552,
     "status": "open",
     "openingHours": "Mon: 06:00-18:00, Tue-Thu: 06:00-19:00, Fri: 06:00-17:30, Sat: 07:00-17:30, Sun: 08:00-16:00",
-    "phone": "+44 20 7220 7519"
+    "phone": "+44 20 7220 7519",
+    "brand": "pret"
   },
   {
     "id": "10527",
@@ -712,7 +765,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.098685,
     "status": "open",
     "openingHours": "Mon-Fri: 05:30-20:00, Sat: 06:30-18:30, Sun: 07:00-19:00",
-    "phone": "+44 20 7582 8429"
+    "phone": "+44 20 7582 8429",
+    "brand": "pret"
   },
   {
     "id": "10394",
@@ -724,7 +778,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1075039,
     "status": "open",
     "openingHours": "Mon-Thu: 06:00-18:00, Fri: 06:00-17:30, Sat: 08:00-16:00, Sun: Closed",
-    "phone": "+44 20 7713 8885"
+    "phone": "+44 20 7713 8885",
+    "brand": "pret"
   },
   {
     "id": "10521",
@@ -736,7 +791,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.10883632,
     "status": "open",
     "openingHours": "Mon-Thu: 06:00-18:00, Fri: 06:00-17:00, Sat-Sun: Closed",
-    "phone": "+44 20 7242 5622"
+    "phone": "+44 20 7242 5622",
+    "brand": "pret"
   },
   {
     "id": "10553",
@@ -748,7 +804,8 @@ export const pretLocations: Location[] = [
     "longitude": -2.58834124,
     "status": "open",
     "openingHours": "Mon: 06:00-16:30, Tue-Thu: 06:00-18:00, Fri: 06:00-16:30, Sat-Sun: Closed",
-    "phone": "+44 117 316 9238"
+    "phone": "+44 117 316 9238",
+    "brand": "pret"
   },
   {
     "id": "10523",
@@ -760,7 +817,8 @@ export const pretLocations: Location[] = [
     "longitude": -3.53440574159748,
     "status": "open",
     "openingHours": "Mon-Fri: 07:30-20:00, Sat: 08:30-19:00, Sun: 09:00-17:00",
-    "phone": "+44 1392 271691"
+    "phone": "+44 1392 271691",
+    "brand": "pret"
   },
   {
     "id": "10568",
@@ -772,7 +830,8 @@ export const pretLocations: Location[] = [
     "longitude": -1.3974389,
     "status": "open",
     "openingHours": "Mon-Thu: 06:30-17:00, Fri: 06:30-17:30, Sat-Sun: 04:00-04:01",
-    "phone": "+44 20 3937 7832"
+    "phone": "+44 20 3937 7832",
+    "brand": "pret"
   },
   {
     "id": "95",
@@ -784,7 +843,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1036033,
     "status": "open",
     "openingHours": "Mon-Thu: 05:30-19:00, Fri: 05:30-18:00, Sat-Sun: Closed",
-    "phone": "+44 20 3201 0046"
+    "phone": "+44 20 3201 0046",
+    "brand": "pret"
   },
   {
     "id": "66",
@@ -796,7 +856,8 @@ export const pretLocations: Location[] = [
     "longitude": -1.077677,
     "status": "open",
     "openingHours": "Mon-Sat: 09:00-20:00, Sun: 09:00-18:00",
-    "phone": "+44 1904 639899"
+    "phone": "+44 1904 639899",
+    "brand": "pret"
   },
   {
     "id": "10538",
@@ -808,7 +869,8 @@ export const pretLocations: Location[] = [
     "longitude": -2.35838849,
     "status": "open",
     "openingHours": "Mon-Thu: 07:00-18:00, Fri: 07:00-18:30, Sat: 07:30-19:00, Sun: 08:30-17:00",
-    "phone": "+44 1225 319092"
+    "phone": "+44 1225 319092",
+    "brand": "pret"
   },
   {
     "id": "10670",
@@ -820,7 +882,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1674908,
     "status": "open",
     "openingHours": "Mon-Fri: 06:30-16:30, Sat: 07:30-17:00, Sun: 07:30-16:30",
-    "phone": "+44 20 7228 5413"
+    "phone": "+44 20 7228 5413",
+    "brand": "pret"
   },
   {
     "id": "10539",
@@ -832,7 +895,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.221872018104517,
     "status": "open",
     "openingHours": "Mon-Sun: 07:00-17:00",
-    "phone": "+44 1707 659443"
+    "phone": "+44 1707 659443",
+    "brand": "pret"
   },
   {
     "id": "293",
@@ -844,7 +908,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.0931504,
     "status": "open",
     "openingHours": "Mon-Thu: 06:00-18:00, Fri: 06:00-16:00, Sat-Sun: Closed",
-    "phone": "+44 20 7932 5209"
+    "phone": "+44 20 7932 5209",
+    "brand": "pret"
   },
   {
     "id": "10682",
@@ -856,7 +921,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1405998,
     "status": "open",
     "openingHours": "Mon-Sat: 06:00-22:00, Sun: 07:00-21:00",
-    "phone": "+44 20 3937 7831"
+    "phone": "+44 20 3937 7831",
+    "brand": "pret"
   },
   {
     "id": "10536",
@@ -868,7 +934,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.108530129673587,
     "status": "open",
     "openingHours": "Mon-Sat: 06:30-19:30, Sun: 07:30-18:30",
-    "phone": "+44 20 8889 1347"
+    "phone": "+44 20 8889 1347",
+    "brand": "pret"
   },
   {
     "id": "10643",
@@ -880,7 +947,8 @@ export const pretLocations: Location[] = [
     "longitude": 0.11250255,
     "status": "open",
     "openingHours": "Mon-Fri: 06:30-17:00, Sat: 07:30-17:00, Sun: 08:00-16:30",
-    "phone": "+44 1689 820172"
+    "phone": "+44 1689 820172",
+    "brand": "pret"
   },
   {
     "id": "10277",
@@ -892,7 +960,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.45796032,
     "status": "open",
     "openingHours": "Mon-Sun: 04:30-22:00",
-    "phone": "+44 20 8759 8971"
+    "phone": "+44 20 8759 8971",
+    "brand": "pret"
   },
   {
     "id": "10644",
@@ -904,7 +973,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.3058201,
     "status": "open",
     "openingHours": "Mon-Fri: 07:00-17:00, Sat: 07:30-18:00, Sun: 08:00-17:00",
-    "phone": "+44 20 8549 9125"
+    "phone": "+44 20 8549 9125",
+    "brand": "pret"
   },
   {
     "id": "10286",
@@ -916,7 +986,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.12221597,
     "status": "open",
     "openingHours": "Mon-Thu: 05:30-18:00, Fri: 05:30-16:30, Sat-Sun: 06:30-16:30",
-    "phone": "+44 20 7932 5452"
+    "phone": "+44 20 7932 5452",
+    "brand": "pret"
   },
   {
     "id": "10683",
@@ -928,7 +999,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.0223932,
     "status": "open",
     "openingHours": "Mon-Fri: 07:00-18:00, Sat: 07:00-18:30, Sun: 07:30-18:00",
-    "phone": "+44 20 8520 3630"
+    "phone": "+44 20 8520 3630",
+    "brand": "pret"
   },
   {
     "id": "10701",
@@ -940,7 +1012,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.10327176,
     "status": "open",
     "openingHours": "Mon-Thu: 06:00-23:30, Fri: 06:00-22:30, Sat: 07:30-17:30, Sun: 07:30-18:00",
-    "phone": "+44 20 7236 4660"
+    "phone": "+44 20 7236 4660",
+    "brand": "pret"
   },
   {
     "id": "10639",
@@ -952,7 +1025,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1145677,
     "status": "open",
     "openingHours": "Mon-Fri: 05:30-19:30, Sat: 06:00-19:30, Sun: 06:30-19:00",
-    "phone": "+44 20 7737 3809"
+    "phone": "+44 20 7737 3809",
+    "brand": "pret"
   },
   {
     "id": "10466",
@@ -964,7 +1038,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.0861277,
     "status": "open",
     "openingHours": "Mon-Thu: 05:30-19:00, Fri: 05:30-17:00, Sat-Sun: Closed",
-    "phone": "+44 20 7374 4550"
+    "phone": "+44 20 7374 4550",
+    "brand": "pret"
   },
   {
     "id": "285",
@@ -976,7 +1051,8 @@ export const pretLocations: Location[] = [
     "longitude": -1.8928407,
     "status": "open",
     "openingHours": "Mon-Fri: 09:30-20:00, Sat: 09:00-21:00, Sun: 10:00-17:30",
-    "phone": "+44 121 600 6957"
+    "phone": "+44 121 600 6957",
+    "brand": "pret"
   },
   {
     "id": "10297",
@@ -988,7 +1064,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.4462066,
     "status": "open",
     "openingHours": "Mon-Sun: 05:00-22:00",
-    "phone": "+44 7876 881673"
+    "phone": "+44 7876 881673",
+    "brand": "pret"
   },
   {
     "id": "6",
@@ -1000,7 +1077,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.13803,
     "status": "open",
     "openingHours": "Mon-Thu: 06:00-17:00, Fri: 06:00-16:30, Sat-Sun: Closed",
-    "phone": "+44 20 7839 1883"
+    "phone": "+44 20 7839 1883",
+    "brand": "pret"
   },
   {
     "id": "89",
@@ -1012,7 +1090,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1170943,
     "status": "open",
     "openingHours": "Mon: 06:30-16:30, Tue-Thu: 06:30-17:00, Fri: 06:30-16:00, Sat-Sun: Closed",
-    "phone": "+44 20 7932 5304"
+    "phone": "+44 20 7932 5304",
+    "brand": "pret"
   },
   {
     "id": "10778",
@@ -1024,7 +1103,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.07575948,
     "status": "open",
     "openingHours": "Mon-Fri: 06:30-19:00, Sat: 07:00-19:00, Sun: 07:00-18:30",
-    "phone": "+44 20 7254 4701"
+    "phone": "+44 20 7254 4701",
+    "brand": "pret"
   },
   {
     "id": "10638",
@@ -1036,7 +1116,8 @@ export const pretLocations: Location[] = [
     "longitude": -3.20627863,
     "status": "open",
     "openingHours": "Mon-Fri: 06:30-17:30, Sat-Sun: 07:30-16:30",
-    "phone": "+44 131 225 6761"
+    "phone": "+44 131 225 6761",
+    "brand": "pret"
   },
   {
     "id": "10750",
@@ -1048,7 +1129,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.0950272,
     "status": "open",
     "openingHours": "Mon-Fri: 06:30-20:00, Sat-Sun: 08:00-20:00",
-    "phone": "+44 20 3268 2185"
+    "phone": "+44 20 3268 2185",
+    "brand": "pret"
   },
   {
     "id": "85",
@@ -1060,7 +1142,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.15461801,
     "status": "open",
     "openingHours": "Mon-Sun: Closed",
-    "phone": "+44 20 7932 5300"
+    "phone": "+44 20 7932 5300",
+    "brand": "pret"
   },
   {
     "id": "10768",
@@ -1072,7 +1155,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.0894169,
     "status": "open",
     "openingHours": "Mon: 06:00-17:30, Tue-Thu: 06:00-19:00, Fri: 06:00-17:00, Sat-Sun: Closed",
-    "phone": "+44 20 7256 9686"
+    "phone": "+44 20 7256 9686",
+    "brand": "pret"
   },
   {
     "id": "10461",
@@ -1084,7 +1168,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.0792881,
     "status": "open",
     "openingHours": "Mon-Fri: 06:00-20:30, Sat-Sun: 06:30-20:30",
-    "phone": "+44 20 7929 7408"
+    "phone": "+44 20 7929 7408",
+    "brand": "pret"
   },
   {
     "id": "74",
@@ -1096,7 +1181,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.0810238,
     "status": "open",
     "openingHours": "Mon-Thu: 05:30-19:30, Fri: 05:30-18:00, Sat: 08:00-16:00, Sun: Closed",
-    "phone": "+44 20 7929 4188"
+    "phone": "+44 20 7929 4188",
+    "brand": "pret"
   },
   {
     "id": "10580",
@@ -1108,7 +1194,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.17424993,
     "status": "open",
     "openingHours": "Mon-Fri: 06:00-19:30, Sat: 09:00-17:00, Sun: 09:00-16:00",
-    "phone": "+44 20 7591 0437"
+    "phone": "+44 20 7591 0437",
+    "brand": "pret"
   },
   {
     "id": "10600",
@@ -1120,7 +1207,8 @@ export const pretLocations: Location[] = [
     "longitude": -3.1899862,
     "status": "open",
     "openingHours": "Mon-Fri: 05:30-21:00, Sat: 07:00-18:00, Sun: 08:00-18:00",
-    "phone": "+44 131 261 5818"
+    "phone": "+44 131 261 5818",
+    "brand": "pret"
   },
   {
     "id": "10181",
@@ -1132,7 +1220,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.147475,
     "status": "open",
     "openingHours": "Mon-Thu: 06:00-20:00, Fri: 06:00-19:00, Sat: 07:00-18:00, Sun: Closed",
-    "phone": "+44 20 7932 5291"
+    "phone": "+44 20 7932 5291",
+    "brand": "pret"
   },
   {
     "id": "10333",
@@ -1144,7 +1233,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1435076,
     "status": "open",
     "openingHours": "Mon-Sat: 05:30-23:00, Sun: 05:30-22:30",
-    "phone": "+44 20 7495 6264"
+    "phone": "+44 20 7495 6264",
+    "brand": "pret"
   },
   {
     "id": "10505",
@@ -1156,7 +1246,8 @@ export const pretLocations: Location[] = [
     "longitude": -1.547506,
     "status": "open",
     "openingHours": "Mon-Fri: 05:00-21:00, Sat: 06:30-20:30, Sun: 07:30-19:30",
-    "phone": "+44 113 244 2612"
+    "phone": "+44 113 244 2612",
+    "brand": "pret"
   },
   {
     "id": "10342",
@@ -1168,7 +1259,8 @@ export const pretLocations: Location[] = [
     "longitude": -4.2513791,
     "status": "open",
     "openingHours": "Mon: 06:30-16:00, Tue-Thu: 06:30-16:30, Fri: 06:30-16:00, Sat-Sun: Closed",
-    "phone": "+44 141 221 7602"
+    "phone": "+44 141 221 7602",
+    "brand": "pret"
   },
   {
     "id": "10189",
@@ -1180,7 +1272,8 @@ export const pretLocations: Location[] = [
     "longitude": -2.584915,
     "status": "open",
     "openingHours": "Mon-Fri: 07:00-18:30, Sat: 07:30-18:30, Sun: 08:30-18:00",
-    "phone": "+44 117 929 9201"
+    "phone": "+44 117 929 9201",
+    "brand": "pret"
   },
   {
     "id": "10166",
@@ -1192,7 +1285,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1291979,
     "status": "open",
     "openingHours": "Mon-Fri: 06:00-19:00, Sat: 07:30-17:00, Sun: 07:30-16:00",
-    "phone": "+44 20 7932 5401"
+    "phone": "+44 20 7932 5401",
+    "brand": "pret"
   },
   {
     "id": "50",
@@ -1204,7 +1298,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.0825844,
     "status": "open",
     "openingHours": "Mon-Thu: 06:00-18:30, Fri: 06:00-17:30, Sat-Sun: Closed",
-    "phone": "+44 20 7932 5265"
+    "phone": "+44 20 7932 5265",
+    "brand": "pret"
   },
   {
     "id": "10222",
@@ -1216,7 +1311,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.132851,
     "status": "open",
     "openingHours": "Mon-Fri: 05:30-20:00, Sat: 06:00-19:30, Sun: 06:30-18:00",
-    "phone": "+44 20 7932 5309"
+    "phone": "+44 20 7932 5309",
+    "brand": "pret"
   },
   {
     "id": "10180",
@@ -1228,7 +1324,8 @@ export const pretLocations: Location[] = [
     "longitude": -2.986558,
     "status": "open",
     "openingHours": "Mon-Fri: 08:00-20:00, Sat: 08:00-19:30, Sun: 08:30-18:00",
-    "phone": "+44 151 709 7850"
+    "phone": "+44 151 709 7850",
+    "brand": "pret"
   },
   {
     "id": "10665",
@@ -1240,7 +1337,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.126133,
     "status": "open",
     "openingHours": "Mon-Sat: 05:30-23:00, Sun: 07:30-22:30",
-    "phone": "+44 20 7278 6134"
+    "phone": "+44 20 7278 6134",
+    "brand": "pret"
   },
   {
     "id": "10469",
@@ -1252,7 +1350,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.128429,
     "status": "open",
     "openingHours": "Mon-Fri: 06:30-18:00, Sat-Sun: 08:00-16:30",
-    "phone": "+44 20 7387 2186"
+    "phone": "+44 20 7387 2186",
+    "brand": "pret"
   },
   {
     "id": "10186",
@@ -1264,7 +1363,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.0897945,
     "status": "open",
     "openingHours": "Mon-Fri: 06:30-19:00, Sat: 07:30-17:30, Sun: Closed",
-    "phone": "+44 20 7932 5392"
+    "phone": "+44 20 7932 5392",
+    "brand": "pret"
   },
   {
     "id": "57",
@@ -1276,7 +1376,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.0797849,
     "status": "open",
     "openingHours": "Mon-Fri: 05:00-22:30, Sat-Sun: 05:30-20:30",
-    "phone": "+44 20 7932 5272"
+    "phone": "+44 20 7932 5272",
+    "brand": "pret"
   },
   {
     "id": "10570",
@@ -1288,7 +1389,8 @@ export const pretLocations: Location[] = [
     "longitude": -2.9930611,
     "status": "open",
     "openingHours": "Mon-Fri: 07:00-15:30, Sat-Sun: Closed",
-    "phone": "+44 151 236 9933"
+    "phone": "+44 151 236 9933",
+    "brand": "pret"
   },
   {
     "id": "10540",
@@ -1300,7 +1402,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.14270927,
     "status": "open",
     "openingHours": "Mon-Thu: 06:00-19:00, Fri: 06:00-18:30, Sat-Sun: 08:00-17:00",
-    "phone": "+44 7867 349080"
+    "phone": "+44 7867 349080",
+    "brand": "pret"
   },
   {
     "id": "10187",
@@ -1312,7 +1415,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1424848,
     "status": "open",
     "openingHours": "Mon: 05:30-20:00, Tue-Fri: 05:30-20:30, Sat: 06:00-20:30, Sun: 06:00-20:00",
-    "phone": "+44 20 7630 0146"
+    "phone": "+44 20 7630 0146",
+    "brand": "pret"
   },
   {
     "id": "10185",
@@ -1324,7 +1428,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.08116903,
     "status": "open",
     "openingHours": "Mon: 07:00-17:00, Tue-Thu: 07:00-18:30, Fri: 07:00-17:00, Sat: 08:00-16:30, Sun: 08:30-16:00",
-    "phone": "+44 20 7932 5393"
+    "phone": "+44 20 7932 5393",
+    "brand": "pret"
   },
   {
     "id": "10668",
@@ -1336,7 +1441,8 @@ export const pretLocations: Location[] = [
     "longitude": -1.90112024058191,
     "status": "open",
     "openingHours": "Mon: 06:30-16:00, Tue-Thu: 06:30-16:30, Fri: 06:30-16:00, Sat-Sun: Closed",
-    "phone": "+44 121 233 0976"
+    "phone": "+44 121 233 0976",
+    "brand": "pret"
   },
   {
     "id": "58",
@@ -1348,7 +1454,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.07623,
     "status": "open",
     "openingHours": "Mon-Thu: 05:30-21:00, Fri: 05:30-20:30, Sat: 05:30-18:30, Sun: 06:00-18:00",
-    "phone": "+44 20 7932 5273"
+    "phone": "+44 20 7932 5273",
+    "brand": "pret"
   },
   {
     "id": "10743",
@@ -1360,7 +1467,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1088443,
     "status": "open",
     "openingHours": "Mon-Fri: 06:00-17:30, Sat-Sun: Closed",
-    "phone": "+44 20 7242 3062"
+    "phone": "+44 20 7242 3062",
+    "brand": "pret"
   },
   {
     "id": "10753",
@@ -1372,7 +1480,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1423136,
     "status": "open",
     "openingHours": "Mon: 07:00-15:00, Tue-Thu: 07:00-16:00, Fri: 07:00-15:00, Sat-Sun: Closed",
-    "phone": "+44 20 7387 1284"
+    "phone": "+44 20 7387 1284",
+    "brand": "pret"
   },
   {
     "id": "63",
@@ -1384,7 +1493,8 @@ export const pretLocations: Location[] = [
     "longitude": -2.24428964,
     "status": "open",
     "openingHours": "Mon: 06:30-18:30, Tue-Thu: 06:30-19:00, Fri: 06:30-18:30, Sat: 08:00-19:00, Sun: 09:00-17:00",
-    "phone": "+44 161 839 5602"
+    "phone": "+44 161 839 5602",
+    "brand": "pret"
   },
   {
     "id": "10235",
@@ -1396,7 +1506,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1409564,
     "status": "open",
     "openingHours": "Mon-Fri: 06:30-19:30, Sat: 08:00-18:00, Sun: 08:30-18:00",
-    "phone": "+44 20 7434 4324"
+    "phone": "+44 20 7434 4324",
+    "brand": "pret"
   },
   {
     "id": "10451",
@@ -1408,7 +1519,8 @@ export const pretLocations: Location[] = [
     "longitude": -3.1881406,
     "status": "open",
     "openingHours": "Mon-Fri: 07:00-16:30, Sat: 08:30-16:00, Sun: 09:30-16:00",
-    "phone": "+44 131 226 2861"
+    "phone": "+44 131 226 2861",
+    "brand": "pret"
   },
   {
     "id": "10238",
@@ -1420,7 +1532,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.2073728,
     "status": "open",
     "openingHours": "Mon-Fri: 05:30-20:00, Sat: 06:30-19:30, Sun: 07:00-19:00",
-    "phone": "+44 20 8946 7918"
+    "phone": "+44 20 8946 7918",
+    "brand": "pret"
   },
   {
     "id": "3",
@@ -1432,7 +1545,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1127135,
     "status": "open",
     "openingHours": "Mon-Thu: 06:00-18:00, Fri: 06:00-17:30, Sat-Sun: Closed",
-    "phone": "+44 20 7932 5202"
+    "phone": "+44 20 7932 5202",
+    "brand": "pret"
   },
   {
     "id": "10606",
@@ -1444,7 +1558,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.21250883,
     "status": "open",
     "openingHours": "Mon-Fri: 06:30-18:00, Sat-Sun: Closed",
-    "phone": "+44 20 7602 8772"
+    "phone": "+44 20 7602 8772",
+    "brand": "pret"
   },
   {
     "id": "10273",
@@ -1456,7 +1571,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1580332,
     "status": "open",
     "openingHours": "Mon-Fri: 06:00-20:30, Sat-Sun: 06:30-20:00",
-    "phone": "+44 20 7487 2712"
+    "phone": "+44 20 7487 2712",
+    "brand": "pret"
   },
   {
     "id": "10511",
@@ -1468,7 +1584,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1931406,
     "status": "open",
     "openingHours": "Mon-Fri: 06:00-17:30, Sat: 07:00-18:30, Sun: 07:30-18:30",
-    "phone": "+44 20 8874 8039"
+    "phone": "+44 20 8874 8039",
+    "brand": "pret"
   },
   {
     "id": "10741",
@@ -1480,7 +1597,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.0882404,
     "status": "open",
     "openingHours": "Mon-Fri: 05:30-21:00, Sat: 06:00-19:00, Sun: 06:00-18:00",
-    "phone": "+44 20 7256 7868"
+    "phone": "+44 20 7256 7868",
+    "brand": "pret"
   },
   {
     "id": "65",
@@ -1492,7 +1610,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1495888,
     "status": "open",
     "openingHours": "Mon-Fri: 06:30-22:00, Sat: 08:00-22:00, Sun: 10:00-21:00",
-    "phone": "+44 20 7932 5280"
+    "phone": "+44 20 7932 5280",
+    "brand": "pret"
   },
   {
     "id": "10237",
@@ -1504,7 +1623,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.07928689,
     "status": "open",
     "openingHours": "Mon-Thu: 05:30-18:30, Fri: 05:30-17:00, Sat-Sun: Closed",
-    "phone": "+44 20 7932 5427"
+    "phone": "+44 20 7932 5427",
+    "brand": "pret"
   },
   {
     "id": "10696",
@@ -1516,7 +1636,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.10345024,
     "status": "open",
     "openingHours": "Mon-Fri: 05:30-20:00, Sat-Sun: 06:00-20:00",
-    "phone": "+44 20 7288 2766"
+    "phone": "+44 20 7288 2766",
+    "brand": "pret"
   },
   {
     "id": "10623",
@@ -1528,7 +1649,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.0093168,
     "status": "open",
     "openingHours": "Mon-Fri: 06:00-18:30, Sat-Sun: 07:00-18:30",
-    "phone": "+44 20 8534 6310"
+    "phone": "+44 20 8534 6310",
+    "brand": "pret"
   },
   {
     "id": "10274",
@@ -1540,7 +1662,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.078125,
     "status": "open",
     "openingHours": "Mon-Fri: 06:00-17:30, Sat-Sun: Closed",
-    "phone": "+44 20 7283 8494"
+    "phone": "+44 20 7283 8494",
+    "brand": "pret"
   },
   {
     "id": "10108",
@@ -1552,7 +1675,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.22337689,
     "status": "open",
     "openingHours": "Mon-Thu: 06:00-20:30, Fri: 06:00-20:00, Sat: 06:00-20:30, Sun: 06:30-20:30",
-    "phone": "+44 20 8741 0864"
+    "phone": "+44 20 8741 0864",
+    "brand": "pret"
   },
   {
     "id": "78",
@@ -1564,7 +1688,8 @@ export const pretLocations: Location[] = [
     "longitude": -2.605728,
     "status": "open",
     "openingHours": "Mon-Fri: 07:00-17:00, Sat: 08:00-17:00, Sun: 09:00-16:00",
-    "phone": "+44 117 929 3885"
+    "phone": "+44 117 929 3885",
+    "brand": "pret"
   },
   {
     "id": "70",
@@ -1576,7 +1701,8 @@ export const pretLocations: Location[] = [
     "longitude": 0.272056,
     "status": "open",
     "openingHours": "Mon-Sat: 08:00-21:00, Sun: 08:30-17:30",
-    "phone": "+44 1322 624988"
+    "phone": "+44 1322 624988",
+    "brand": "pret"
   },
   {
     "id": "10426",
@@ -1588,7 +1714,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.091684502137973,
     "status": "open",
     "openingHours": "Mon: 06:00-17:30, Tue-Thu: 06:00-18:30, Fri: 06:00-17:30, Sat-Sun: Closed",
-    "phone": "+44 20 7332 0238"
+    "phone": "+44 20 7332 0238",
+    "brand": "pret"
   },
   {
     "id": "10296",
@@ -1600,7 +1727,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.109562,
     "status": "open",
     "openingHours": "Mon-Thu: 06:00-19:30, Fri: 06:00-18:30, Sat-Sun: Closed",
-    "phone": "+44 20 7932 5453"
+    "phone": "+44 20 7932 5453",
+    "brand": "pret"
   },
   {
     "id": "10757",
@@ -1612,7 +1740,8 @@ export const pretLocations: Location[] = [
     "longitude": -1.91330591,
     "status": "open",
     "openingHours": "Mon: 07:00-16:00, Tue-Thu: 06:30-16:30, Fri: 07:00-16:00, Sat-Sun: Closed",
-    "phone": "+44 121 643 1904"
+    "phone": "+44 121 643 1904",
+    "brand": "pret"
   },
   {
     "id": "80",
@@ -1624,7 +1753,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1078545,
     "status": "open",
     "openingHours": "Mon-Thu: 06:00-17:30, Fri: 06:00-16:30, Sat-Sun: Closed",
-    "phone": "+44 20 7932 5295"
+    "phone": "+44 20 7932 5295",
+    "brand": "pret"
   },
   {
     "id": "10660",
@@ -1636,7 +1766,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.21003508,
     "status": "open",
     "openingHours": "Mon-Fri: 06:00-18:00, Sat: 07:00-18:00, Sun: 08:00-17:30",
-    "phone": "+44 20 8960 4281"
+    "phone": "+44 20 8960 4281",
+    "brand": "pret"
   },
   {
     "id": "10752",
@@ -1648,7 +1779,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.16468526,
     "status": "open",
     "openingHours": "Mon-Fri: 05:30-20:00, Sat: 06:30-19:00, Sun: 07:00-19:00",
-    "phone": "+44 20 7589 5306"
+    "phone": "+44 20 7589 5306",
+    "brand": "pret"
   },
   {
     "id": "81",
@@ -1660,7 +1792,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1396972,
     "status": "open",
     "openingHours": "Mon-Fri: 06:00-22:00, Sat: 06:30-22:00, Sun: 06:30-20:30",
-    "phone": "+44 20 7932 5296"
+    "phone": "+44 20 7932 5296",
+    "brand": "pret"
   },
   {
     "id": "10295",
@@ -1672,7 +1805,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.18009402,
     "status": "open",
     "openingHours": "Mon: 06:30-16:30, Tue-Thu: 06:30-17:30, Fri: 06:30-16:30, Sat-Sun: Closed",
-    "phone": "+44 20 7932 5451"
+    "phone": "+44 20 7932 5451",
+    "brand": "pret"
   },
   {
     "id": "10711",
@@ -1684,7 +1818,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1769328,
     "status": "open",
     "openingHours": "Mon-Fri: 05:00-22:30, Sat: 05:00-21:30, Sun: 05:30-21:30",
-    "phone": "+44 20 7402 2132"
+    "phone": "+44 20 7402 2132",
+    "brand": "pret"
   },
   {
     "id": "10712",
@@ -1696,7 +1831,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.16336733,
     "status": "open",
     "openingHours": "Mon-Fri: 05:30-21:00, Sat: 06:30-20:00, Sun: 07:00-19:30",
-    "phone": "+44 20 7724 7226"
+    "phone": "+44 20 7724 7226",
+    "brand": "pret"
   },
   {
     "id": "10284",
@@ -1708,7 +1844,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1500155,
     "status": "open",
     "openingHours": "Mon-Fri: 06:30-19:00, Sat-Sun: 07:00-19:00",
-    "phone": "+44 20 7932 5441"
+    "phone": "+44 20 7932 5441",
+    "brand": "pret"
   },
   {
     "id": "10581",
@@ -1720,7 +1857,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.0172657,
     "status": "open",
     "openingHours": "Mon: 06:00-16:00, Tue-Thu: 06:00-16:30, Fri: 06:00-16:00, Sat-Sun: Closed",
-    "phone": "+44 20 7531 1648"
+    "phone": "+44 20 7531 1648",
+    "brand": "pret"
   },
   {
     "id": "10212",
@@ -1732,7 +1870,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.121175,
     "status": "open",
     "openingHours": "Mon-Fri: 06:00-19:00, Sat: 07:30-18:00, Sun: 08:00-16:30",
-    "phone": "+44 20 3674 8960"
+    "phone": "+44 20 3674 8960",
+    "brand": "pret"
   },
   {
     "id": "177",
@@ -1744,7 +1883,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.07564366,
     "status": "open",
     "openingHours": "Mon-Thu: 06:00-17:00, Fri: 06:00-16:30, Sat: 07:00-16:00, Sun: Closed",
-    "phone": "+44 20 7932 5342"
+    "phone": "+44 20 7932 5342",
+    "brand": "pret"
   },
   {
     "id": "10604",
@@ -1756,7 +1896,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.14848442,
     "status": "open",
     "openingHours": "Mon-Sun: 05:30-23:30",
-    "phone": "+44 20 7730 8267"
+    "phone": "+44 20 7730 8267",
+    "brand": "pret"
   },
   {
     "id": "10666",
@@ -1768,7 +1909,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.0034123,
     "status": "open",
     "openingHours": "Mon-Sat: 06:00-23:00, Sun: 06:00-22:00",
-    "phone": "+44 20 8519 4030"
+    "phone": "+44 20 8519 4030",
+    "brand": "pret"
   },
   {
     "id": "10292",
@@ -1780,7 +1922,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1295317,
     "status": "open",
     "openingHours": "Mon-Fri: 05:30-20:00, Sat-Sun: 06:00-20:00",
-    "phone": "+44 20 7932 5459"
+    "phone": "+44 20 7932 5459",
+    "brand": "pret"
   },
   {
     "id": "10759",
@@ -1792,7 +1935,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.08250872,
     "status": "open",
     "openingHours": "Mon-Fri: 05:00-21:30, Sat-Sun: 05:30-19:00",
-    "phone": "+44 20 7929 7253"
+    "phone": "+44 20 7929 7253",
+    "brand": "pret"
   },
   {
     "id": "272",
@@ -1804,7 +1948,8 @@ export const pretLocations: Location[] = [
     "longitude": -2.3602462,
     "status": "open",
     "openingHours": "Mon-Fri: 07:30-16:00, Sat: 08:00-17:30, Sun: 09:00-16:30",
-    "phone": "+44 1225 338225"
+    "phone": "+44 1225 338225",
+    "brand": "pret"
   },
   {
     "id": "10287",
@@ -1816,7 +1961,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1042396,
     "status": "open",
     "openingHours": "Mon-Thu: 06:00-18:30, Fri: 06:00-17:00, Sat-Sun: Closed",
-    "phone": "+44 20 7932 5450"
+    "phone": "+44 20 7932 5450",
+    "brand": "pret"
   },
   {
     "id": "10220",
@@ -1828,7 +1974,8 @@ export const pretLocations: Location[] = [
     "longitude": 0.0497659,
     "status": "open",
     "openingHours": "Mon-Fri: 05:00-23:00, Sat: 05:00-12:00, Sun: 11:00-23:00",
-    "phone": "+44 20 7932 5389"
+    "phone": "+44 20 7932 5389",
+    "brand": "pret"
   },
   {
     "id": "10304",
@@ -1840,7 +1987,8 @@ export const pretLocations: Location[] = [
     "longitude": -2.23110349,
     "status": "open",
     "openingHours": "Mon: 07:00-22:00, Tue-Fri: 05:00-22:00, Sat: 06:30-22:00, Sun: 07:00-22:00",
-    "phone": "+44 161 228 6511"
+    "phone": "+44 161 228 6511",
+    "brand": "pret"
   },
   {
     "id": "10289",
@@ -1852,7 +2000,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1214387,
     "status": "open",
     "openingHours": "Mon-Fri: 06:00-20:30, Sat: 06:00-20:00, Sun: 06:30-19:00",
-    "phone": "+44 20 7932 5455"
+    "phone": "+44 20 7932 5455",
+    "brand": "pret"
   },
   {
     "id": "10669",
@@ -1864,7 +2013,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.37548001,
     "status": "open",
     "openingHours": "Mon-Sun: 05:00-19:00",
-    "phone": "+44 1582 730919"
+    "phone": "+44 1582 730919",
+    "brand": "pret"
   },
   {
     "id": "179",
@@ -1876,7 +2026,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.08726891,
     "status": "open",
     "openingHours": "Mon-Thu: 06:00-18:00, Fri: 06:00-17:00, Sat: 07:00-16:00, Sun: 07:30-15:30",
-    "phone": "+44 20 7932 5343"
+    "phone": "+44 20 7932 5343",
+    "brand": "pret"
   },
   {
     "id": "10576",
@@ -1888,7 +2039,8 @@ export const pretLocations: Location[] = [
     "longitude": -2.27373096,
     "status": "open",
     "openingHours": "Mon-Fri: 06:00-19:00, Sat-Sun: 07:00-17:00",
-    "phone": "+44 161 437 6967"
+    "phone": "+44 161 437 6967",
+    "brand": "pret"
   },
   {
     "id": "10738",
@@ -1900,7 +2052,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.16755,
     "status": "open",
     "openingHours": "Mon-Fri: 06:00-18:00, Sat: 06:30-18:00, Sun: 06:30-17:00",
-    "phone": "+44 20 8672 6215"
+    "phone": "+44 20 8672 6215",
+    "brand": "pret"
   },
   {
     "id": "10662",
@@ -1912,7 +2065,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1261342,
     "status": "open",
     "openingHours": "Mon-Fri: 04:30-19:45, Sat: 05:00-19:45, Sun: 06:00-20:00",
-    "phone": "+44 20 7833 4095"
+    "phone": "+44 20 7833 4095",
+    "brand": "pret"
   },
   {
     "id": "275",
@@ -1924,7 +2078,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.19451943,
     "status": "open",
     "openingHours": "Mon-Fri: 06:00-20:30, Sat-Sun: 07:00-20:00",
-    "phone": "+44 20 7932 5373"
+    "phone": "+44 20 7932 5373",
+    "brand": "pret"
   },
   {
     "id": "10396",
@@ -1936,7 +2091,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1867556,
     "status": "open",
     "openingHours": "Mon-Sun: Closed",
-    "phone": "+44 1293 228929"
+    "phone": "+44 1293 228929",
+    "brand": "pret"
   },
   {
     "id": "10583",
@@ -1948,7 +2104,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1384267,
     "status": "open",
     "openingHours": "Mon-Fri: 06:30-19:00, Sat: 08:00-18:00, Sun: 08:00-17:00",
-    "phone": "+44 20 7387 8730"
+    "phone": "+44 20 7387 8730",
+    "brand": "pret"
   },
   {
     "id": "10399",
@@ -1960,7 +2117,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.14697921,
     "status": "open",
     "openingHours": "Mon-Thu: 06:30-19:00, Fri: 06:30-18:00, Sat: 08:00-17:30, Sun: 08:30-17:00",
-    "phone": "+44 20 7495 0840"
+    "phone": "+44 20 7495 0840",
+    "brand": "pret"
   },
   {
     "id": "10211",
@@ -1972,7 +2130,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.0912484,
     "status": "open",
     "openingHours": "Mon-Fri: 07:00-17:30, Sat-Sun: 08:30-17:30",
-    "phone": "+44 20 7932 5226"
+    "phone": "+44 20 7932 5226",
+    "brand": "pret"
   },
   {
     "id": "292",
@@ -1984,7 +2143,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.08166179,
     "status": "open",
     "openingHours": "Mon-Thu: 06:30-18:00, Fri: 06:30-17:00, Sat-Sun: Closed",
-    "phone": "+44 20 7932 5277"
+    "phone": "+44 20 7932 5277",
+    "brand": "pret"
   },
   {
     "id": "10705",
@@ -1996,7 +2156,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.206148,
     "status": "open",
     "openingHours": "Mon-Fri: 06:00-19:00, Sat: 06:30-19:00, Sun: 07:00-17:30",
-    "phone": "+44 20 7792 7813"
+    "phone": "+44 20 7792 7813",
+    "brand": "pret"
   },
   {
     "id": "10167",
@@ -2008,7 +2169,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1625586,
     "status": "open",
     "openingHours": "Mon-Sun: 00:00-23:59",
-    "phone": "+44 1293 223495"
+    "phone": "+44 1293 223495",
+    "brand": "pret"
   },
   {
     "id": "10215",
@@ -2020,7 +2182,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.09758021,
     "status": "open",
     "openingHours": "Mon-Thu: 06:00-19:00, Fri: 06:00-17:30, Sat-Sun: Closed",
-    "phone": "+44 20 7932 5437"
+    "phone": "+44 20 7932 5437",
+    "brand": "pret"
   },
   {
     "id": "10410",
@@ -2032,7 +2195,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.104305257565902,
     "status": "open",
     "openingHours": "Mon-Thu: 06:30-18:00, Fri: 06:30-17:30, Sat-Sun: Closed",
-    "phone": "+44 20 7620 0689"
+    "phone": "+44 20 7620 0689",
+    "brand": "pret"
   },
   {
     "id": "10221",
@@ -2044,7 +2208,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.08148789,
     "status": "open",
     "openingHours": "Mon-Tue: 06:00-19:30, Wed-Thu: 06:00-19:00, Fri: 06:00-19:30, Sat: 09:00-17:30, Sun: Closed",
-    "phone": "+44 20 7932 5391"
+    "phone": "+44 20 7932 5391",
+    "brand": "pret"
   },
   {
     "id": "10244",
@@ -2056,7 +2221,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1458012,
     "status": "open",
     "openingHours": "Mon-Wed: 06:00-21:00, Thu-Sat: 06:00-21:30, Sun: 06:00-21:00",
-    "phone": "+44 20 7592 0046"
+    "phone": "+44 20 7592 0046",
+    "brand": "pret"
   },
   {
     "id": "10702",
@@ -2068,7 +2234,8 @@ export const pretLocations: Location[] = [
     "longitude": -2.23541131,
     "status": "open",
     "openingHours": "Mon: 07:00-17:30, Tue-Thu: 07:00-18:00, Fri: 07:00-17:30, Sat: 08:30-17:30, Sun: Closed",
-    "phone": "+44 161 273 1815"
+    "phone": "+44 161 273 1815",
+    "brand": "pret"
   },
   {
     "id": "10424",
@@ -2080,7 +2247,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.08795169,
     "status": "open",
     "openingHours": "Mon-Thu: 06:00-18:30, Fri: 06:00-17:00, Sat-Sun: Closed",
-    "phone": "+44 20 7628 0368"
+    "phone": "+44 20 7628 0368",
+    "brand": "pret"
   },
   {
     "id": "10423",
@@ -2092,7 +2260,8 @@ export const pretLocations: Location[] = [
     "longitude": -1.89790503,
     "status": "open",
     "openingHours": "Mon: 06:00-17:00, Tue-Thu: 06:00-17:30, Fri: 06:00-17:00, Sat: 07:30-16:30, Sun: 08:00-16:00",
-    "phone": "+44 121 236 9394"
+    "phone": "+44 121 236 9394",
+    "brand": "pret"
   },
   {
     "id": "10708",
@@ -2104,7 +2273,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.0783155,
     "status": "open",
     "openingHours": "Mon-Thu: 07:00-16:30, Fri: 07:00-15:30, Sat-Sun: Closed",
-    "phone": "+44 20 7729 2713"
+    "phone": "+44 20 7729 2713",
+    "brand": "pret"
   },
   {
     "id": "10251",
@@ -2116,7 +2286,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1272275,
     "status": "open",
     "openingHours": "Mon: 06:00-19:30, Tue-Wed: 05:30-20:00, Thu: 05:30-20:30, Fri: 05:30-19:30, Sat: 06:00-19:30, Sun: 07:00-19:00",
-    "phone": "+44 20 7932 5308"
+    "phone": "+44 20 7932 5308",
+    "brand": "pret"
   },
   {
     "id": "10223",
@@ -2128,7 +2299,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.0978839,
     "status": "open",
     "openingHours": "Mon-Thu: 06:00-19:00, Fri: 06:00-18:00, Sat: 08:00-17:30, Sun: 08:00-16:00",
-    "phone": "+44 20 7932 5386"
+    "phone": "+44 20 7932 5386",
+    "brand": "pret"
   },
   {
     "id": "10194",
@@ -2140,7 +2312,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.0895298,
     "status": "open",
     "openingHours": "Mon-Thu: 05:30-19:00, Fri: 05:30-17:00, Sat-Sun: Closed",
-    "phone": "+44 20 7932 5410"
+    "phone": "+44 20 7932 5410",
+    "brand": "pret"
   },
   {
     "id": "10456",
@@ -2152,7 +2325,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1372491,
     "status": "open",
     "openingHours": "Mon-Fri: 06:30-18:00, Sat-Sun: Closed",
-    "phone": "+44 7502 612535"
+    "phone": "+44 7502 612535",
+    "brand": "pret"
   },
   {
     "id": "10262",
@@ -2164,7 +2338,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.06816988,
     "status": "open",
     "openingHours": "Mon-Thu: 06:00-17:00, Fri: 06:00-16:30, Sat-Sun: Closed",
-    "phone": "+44 20 7932 5279"
+    "phone": "+44 20 7932 5279",
+    "brand": "pret"
   },
   {
     "id": "12",
@@ -2176,7 +2351,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1274809,
     "status": "open",
     "openingHours": "Mon-Fri: 05:00-23:30, Sat: 05:30-23:30, Sun: 06:00-23:00",
-    "phone": "+44 7469 650251"
+    "phone": "+44 7469 650251",
+    "brand": "pret"
   },
   {
     "id": "10303",
@@ -2188,7 +2364,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1692863,
     "status": "open",
     "openingHours": "Mon: 06:00-18:00, Tue-Thu: 06:00-18:30, Fri: 06:00-18:00, Sat: 06:30-18:00, Sun: 06:30-17:30",
-    "phone": "+44 20 7932 5445"
+    "phone": "+44 20 7932 5445",
+    "brand": "pret"
   },
   {
     "id": "10541",
@@ -2200,7 +2377,8 @@ export const pretLocations: Location[] = [
     "longitude": 0.323117,
     "status": "open",
     "openingHours": "Mon-Fri: 07:00-18:00, Sat: 07:30-17:30, Sun: 07:30-17:00",
-    "phone": "+44 1962 860284"
+    "phone": "+44 1962 860284",
+    "brand": "pret"
   },
   {
     "id": "10365",
@@ -2212,7 +2390,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1816043,
     "status": "open",
     "openingHours": "Mon-Fri: 06:00-20:00, Sat: 06:30-18:00, Sun: 07:00-18:00",
-    "phone": "+44 20 7351 0649"
+    "phone": "+44 20 7351 0649",
+    "brand": "pret"
   },
   {
     "id": "10457",
@@ -2224,7 +2403,8 @@ export const pretLocations: Location[] = [
     "longitude": -2.24691611,
     "status": "open",
     "openingHours": "Mon-Fri: 06:45-18:00, Sat: 07:30-18:00, Sun: 08:30-17:30",
-    "phone": "+44 161 832 8292"
+    "phone": "+44 161 832 8292",
+    "brand": "pret"
   },
   {
     "id": "10605",
@@ -2236,7 +2416,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1872789,
     "status": "open",
     "openingHours": "Mon-Fri: 07:00-21:00, Sat: 07:00-21:45, Sun: 08:00-21:30",
-    "phone": "+44 20 7221 0656"
+    "phone": "+44 20 7221 0656",
+    "brand": "pret"
   },
   {
     "id": "19",
@@ -2248,7 +2429,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1400834,
     "status": "open",
     "openingHours": "Mon-Fri: 06:00-21:00, Sat-Sun: 06:00-20:30",
-    "phone": "+44 20 7932 5229"
+    "phone": "+44 20 7932 5229",
+    "brand": "pret"
   },
   {
     "id": "10232",
@@ -2260,7 +2442,8 @@ export const pretLocations: Location[] = [
     "longitude": -1.734342,
     "status": "open",
     "openingHours": "Mon-Sun: 03:00-22:15",
-    "phone": "+44 121 767 8231"
+    "phone": "+44 121 767 8231",
+    "brand": "pret"
   },
   {
     "id": "10544",
@@ -2272,7 +2455,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.112773,
     "status": "open",
     "openingHours": "Mon-Tue: 06:00-20:30, Wed-Thu: 05:30-20:30, Fri: 06:00-20:30, Sat: 06:30-19:30, Sun: 07:30-18:00",
-    "phone": "+44 20 3937 7828"
+    "phone": "+44 20 3937 7828",
+    "brand": "pret"
   },
   {
     "id": "121",
@@ -2284,7 +2468,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.0960176,
     "status": "open",
     "openingHours": "Mon-Thu: 06:00-19:00, Fri: 06:00-18:00, Sat: 07:00-18:00, Sun: 07:00-17:00",
-    "phone": "+44 20 7600 1649"
+    "phone": "+44 20 7600 1649",
+    "brand": "pret"
   },
   {
     "id": "10602",
@@ -2296,7 +2481,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.11325905,
     "status": "open",
     "openingHours": "Mon: 06:00-18:30, Tue-Thu: 06:00-19:00, Fri: 06:00-18:30, Sat: 06:30-17:00, Sun: 06:30-16:00",
-    "phone": "+44 20 3674 0012"
+    "phone": "+44 20 3674 0012",
+    "brand": "pret"
   },
   {
     "id": "1",
@@ -2308,7 +2494,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1120312,
     "status": "open",
     "openingHours": "Mon: 06:00-18:00, Tue-Thu: 06:00-19:00, Fri: 06:00-18:00, Sat-Sun: Closed",
-    "phone": "+44 20 7242 5627"
+    "phone": "+44 20 7242 5627",
+    "brand": "pret"
   },
   {
     "id": "10367",
@@ -2320,7 +2507,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.126561,
     "status": "open",
     "openingHours": "Mon-Fri: 06:00-20:00, Sat-Sun: 07:00-20:00",
-    "phone": "+44 20 7713 9512"
+    "phone": "+44 20 7713 9512",
+    "brand": "pret"
   },
   {
     "id": "243",
@@ -2332,7 +2520,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.10191644,
     "status": "open",
     "openingHours": "Mon-Thu: 05:30-18:00, Fri: 06:30-18:00, Sat-Sun: Closed",
-    "phone": "+44 20 7490 1830"
+    "phone": "+44 20 7490 1830",
+    "brand": "pret"
   },
   {
     "id": "10587",
@@ -2344,7 +2533,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1058653,
     "status": "open",
     "openingHours": "Mon-Fri: 06:00-19:00, Sat: 06:30-19:30, Sun: 06:30-18:00",
-    "phone": "+44 20 7263 7598"
+    "phone": "+44 20 7263 7598",
+    "brand": "pret"
   },
   {
     "id": "39",
@@ -2356,7 +2546,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.02019024,
     "status": "open",
     "openingHours": "Mon-Fri: 05:30-22:00, Sat-Sun: 06:30-21:00",
-    "phone": "+44 20 7932 5249"
+    "phone": "+44 20 7932 5249",
+    "brand": "pret"
   },
   {
     "id": "10621",
@@ -2368,7 +2559,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.2214629,
     "status": "open",
     "openingHours": "Mon: 08:00-19:00, Tue-Fri: 06:30-20:00, Sat: 07:30-20:00, Sun: 08:00-20:00",
-    "phone": "+44 20 8749 2215"
+    "phone": "+44 20 8749 2215",
+    "brand": "pret"
   },
   {
     "id": "10667",
@@ -2380,7 +2572,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.22049998,
     "status": "open",
     "openingHours": "Mon-Thu: 08:30-21:00, Fri-Sat: 08:30-22:00, Sun: 09:30-18:30",
-    "phone": "+44 20 8749 5499"
+    "phone": "+44 20 8749 5499",
+    "brand": "pret"
   },
   {
     "id": "10498",
@@ -2392,7 +2585,8 @@ export const pretLocations: Location[] = [
     "longitude": -1.8993359,
     "status": "open",
     "openingHours": "Mon-Sat: 05:30-22:30, Sun: 08:00-22:30",
-    "phone": "+44 121 643 6943"
+    "phone": "+44 121 643 6943",
+    "brand": "pret"
   },
   {
     "id": "10376",
@@ -2404,7 +2598,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1383445,
     "status": "open",
     "openingHours": "Mon-Fri: 06:00-20:00, Sat: 07:30-20:00, Sun: 08:00-19:00",
-    "phone": "+44 20 7494 4760"
+    "phone": "+44 20 7494 4760",
+    "brand": "pret"
   },
   {
     "id": "10631",
@@ -2416,7 +2611,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.10993477,
     "status": "open",
     "openingHours": "Mon-Thu: 07:00-17:30, Fri: 07:00-17:00, Sat-Sun: Closed",
-    "phone": "+44 20 8001 0259"
+    "phone": "+44 20 8001 0259",
+    "brand": "pret"
   },
   {
     "id": "10697",
@@ -2428,7 +2624,8 @@ export const pretLocations: Location[] = [
     "longitude": -2.59393311,
     "status": "open",
     "openingHours": "Mon: 07:30-16:00, Tue-Thu: 07:30-16:30, Fri: 07:30-16:00, Sat-Sun: Closed",
-    "phone": "+44 117 929 3439"
+    "phone": "+44 117 929 3439",
+    "brand": "pret"
   },
   {
     "id": "10720",
@@ -2440,7 +2637,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1026117,
     "status": "open",
     "openingHours": "Mon: 06:30-16:30, Tue-Thu: 06:00-17:00, Fri: 06:30-16:00, Sat-Sun: Closed",
-    "phone": "+44 20 7620 2085"
+    "phone": "+44 20 7620 2085",
+    "brand": "pret"
   },
   {
     "id": "253",
@@ -2452,7 +2650,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.14697332,
     "status": "open",
     "openingHours": "Mon-Fri: 06:00-16:30, Sat: 07:00-15:30, Sun: Closed",
-    "phone": "+44 20 7932 5367"
+    "phone": "+44 20 7932 5367",
+    "brand": "pret"
   },
   {
     "id": "10715",
@@ -2464,7 +2663,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.18094,
     "status": "open",
     "openingHours": "Mon-Sat: 06:00-19:30, Sun: 07:00-19:30",
-    "phone": "+44 20 7372 3010"
+    "phone": "+44 20 7372 3010",
+    "brand": "pret"
   },
   {
     "id": "10486",
@@ -2476,7 +2676,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.2204083,
     "status": "open",
     "openingHours": "Mon-Fri: 05:30-17:00, Sat: 06:00-17:00, Sun: 07:00-16:00",
-    "phone": "+44 20 7381 0906"
+    "phone": "+44 20 7381 0906",
+    "brand": "pret"
   },
   {
     "id": "10254",
@@ -2488,7 +2689,8 @@ export const pretLocations: Location[] = [
     "longitude": -1.7787857,
     "status": "open",
     "openingHours": "Mon-Fri: 08:00-17:00, Sat: 08:00-17:30, Sun: 09:00-16:00",
-    "phone": "+44 121 709 0751"
+    "phone": "+44 121 709 0751",
+    "brand": "pret"
   },
   {
     "id": "10698",
@@ -2500,7 +2702,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.119285482424048,
     "status": "open",
     "openingHours": "Mon-Fri: 05:30-21:00, Sat: 06:00-21:00, Sun: 06:30-19:00",
-    "phone": "+44 20 7240 2689"
+    "phone": "+44 20 7240 2689",
+    "brand": "pret"
   },
   {
     "id": "10693",
@@ -2512,7 +2715,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1267583,
     "status": "open",
     "openingHours": "Mon-Fri: 06:00-21:00, Sat: 07:00-20:00, Sun: 07:00-19:00",
-    "phone": "+44 20 7930 6222"
+    "phone": "+44 20 7930 6222",
+    "brand": "pret"
   },
   {
     "id": "10739",
@@ -2524,7 +2728,8 @@ export const pretLocations: Location[] = [
     "longitude": -1.5612244,
     "status": "open",
     "openingHours": "Mon-Sun: 07:30-19:00",
-    "phone": "+44 24 7641 4067"
+    "phone": "+44 24 7641 4067",
+    "brand": "pret"
   },
   {
     "id": "254",
@@ -2536,7 +2741,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.17427353,
     "status": "open",
     "openingHours": "Mon-Wed: 05:00-22:30, Thu-Fri: 05:00-22:00, Sat: 06:00-21:30, Sun: 06:30-20:30",
-    "phone": "+44 20 7932 5368"
+    "phone": "+44 20 7932 5368",
+    "brand": "pret"
   },
   {
     "id": "10476",
@@ -2548,7 +2754,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.08944553,
     "status": "open",
     "openingHours": "Mon-Fri: 05:30-20:00, Sat: 06:00-19:00, Sun: 06:30-18:00",
-    "phone": "+44 20 7253 7266"
+    "phone": "+44 20 7253 7266",
+    "brand": "pret"
   },
   {
     "id": "10723",
@@ -2560,7 +2767,8 @@ export const pretLocations: Location[] = [
     "longitude": 0.87860748,
     "status": "open",
     "openingHours": "Mon-Sat: 08:30-19:00, Sun: 10:00-18:00",
-    "phone": "+44 1233 621562"
+    "phone": "+44 1233 621562",
+    "brand": "pret"
   },
   {
     "id": "10756",
@@ -2572,7 +2780,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.11707268,
     "status": "open",
     "openingHours": "Mon-Sat: 07:30-21:30, Sun: 07:30-20:00",
-    "phone": "+44 20 7021 0191"
+    "phone": "+44 20 7021 0191",
+    "brand": "pret"
   },
   {
     "id": "10770",
@@ -2584,7 +2793,8 @@ export const pretLocations: Location[] = [
     "longitude": -2.24199,
     "status": "open",
     "openingHours": "Mon-Fri: 07:45-20:00, Sat: 07:45-20:30, Sun: 09:30-17:30",
-    "phone": "+44 161 832 2014"
+    "phone": "+44 161 832 2014",
+    "brand": "pret"
   },
   {
     "id": "10755",
@@ -2596,7 +2806,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.15173055,
     "status": "open",
     "openingHours": "Mon-Fri: 06:30-19:30, Sat: 07:30-19:00, Sun: 07:30-18:30",
-    "phone": "+44 20 7224 4730"
+    "phone": "+44 20 7224 4730",
+    "brand": "pret"
   },
   {
     "id": "10786",
@@ -2608,7 +2819,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1141443,
     "status": "open",
     "openingHours": "Mon-Thu: 06:30-20:00, Fri: 06:30-17:00, Sat-Sun: 07:00-16:00",
-    "phone": "+44 20 7240 9925"
+    "phone": "+44 20 7240 9925",
+    "brand": "pret"
   },
   {
     "id": "10330",
@@ -2620,7 +2832,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.48723192,
     "status": "open",
     "openingHours": "Mon-Sun: 05:30-20:30",
-    "phone": "+44 20 8283 8120"
+    "phone": "+44 20 8283 8120",
+    "brand": "pret"
   },
   {
     "id": "10378",
@@ -2632,7 +2845,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.07747,
     "status": "open",
     "openingHours": "Mon-Fri: 05:30-20:00, Sat-Sun: 06:30-20:00",
-    "phone": "+44 20 7033 0209"
+    "phone": "+44 20 7033 0209",
+    "brand": "pret"
   },
   {
     "id": "103",
@@ -2644,7 +2858,8 @@ export const pretLocations: Location[] = [
     "longitude": -3.20296392,
     "status": "open",
     "openingHours": "Mon: 07:30-16:30, Tue-Thu: 07:00-16:30, Fri: 07:30-16:30, Sat: 08:30-16:30, Sun: Closed",
-    "phone": "+44 131 260 9728"
+    "phone": "+44 131 260 9728",
+    "brand": "pret"
   },
   {
     "id": "10749",
@@ -2656,7 +2871,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.136507,
     "status": "open",
     "openingHours": "Mon-Thu: 06:00-17:00, Fri: 06:00-16:00, Sat-Sun: Closed",
-    "phone": "+44 20 7839 6390"
+    "phone": "+44 20 7839 6390",
+    "brand": "pret"
   },
   {
     "id": "10520",
@@ -2668,7 +2884,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.0932354,
     "status": "open",
     "openingHours": "Mon-Thu: 06:00-18:00, Fri: 06:30-16:30, Sat-Sun: Closed",
-    "phone": "+44 20 7248 2190"
+    "phone": "+44 20 7248 2190",
+    "brand": "pret"
   },
   {
     "id": "33",
@@ -2680,7 +2897,8 @@ export const pretLocations: Location[] = [
     "longitude": -1.8998463,
     "status": "open",
     "openingHours": "Mon-Tue: 07:00-16:30, Wed: 07:00-17:00, Thu: 07:00-16:30, Fri: 06:30-17:00, Sat: 08:00-17:00, Sun: 09:00-16:00",
-    "phone": "+44 121 643 2359"
+    "phone": "+44 121 643 2359",
+    "brand": "pret"
   },
   {
     "id": "10508",
@@ -2692,7 +2910,8 @@ export const pretLocations: Location[] = [
     "longitude": -2.29678307,
     "status": "open",
     "openingHours": "Mon: 06:30-18:30, Tue-Thu: 06:30-19:00, Fri: 06:30-18:00, Sat-Sun: 07:30-18:00",
-    "phone": "+44 161 713 3829"
+    "phone": "+44 161 713 3829",
+    "brand": "pret"
   },
   {
     "id": "10474",
@@ -2704,7 +2923,8 @@ export const pretLocations: Location[] = [
     "longitude": 0.2607307,
     "status": "open",
     "openingHours": "Mon-Sun: 00:00-23:50",
-    "phone": "+44 1279 661149"
+    "phone": "+44 1279 661149",
+    "brand": "pret"
   },
   {
     "id": "114",
@@ -2716,7 +2936,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1419489,
     "status": "open",
     "openingHours": "Mon-Fri: 06:30-20:00, Sat: 07:00-20:00, Sun: 08:00-19:00",
-    "phone": "+44 20 7629 4350"
+    "phone": "+44 20 7629 4350",
+    "brand": "pret"
   },
   {
     "id": "10629",
@@ -2728,7 +2949,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.17558,
     "status": "open",
     "openingHours": "Mon-Fri: 06:00-19:00, Sat: 07:00-18:00, Sun: 07:00-17:30",
-    "phone": "+44 20 8672 8734"
+    "phone": "+44 20 8672 8734",
+    "brand": "pret"
   },
   {
     "id": "107",
@@ -2740,7 +2962,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.122915,
     "status": "open",
     "openingHours": "Mon-Fri: 06:30-19:00, Sat: 08:00-19:00, Sun: 08:30-18:00",
-    "phone": "+44 20 7932 5324"
+    "phone": "+44 20 7932 5324",
+    "brand": "pret"
   },
   {
     "id": "21",
@@ -2752,7 +2975,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1189221,
     "status": "open",
     "openingHours": "Mon: 06:00-19:00, Tue-Thu: 06:00-19:30, Fri: 06:00-16:30, Sat-Sun: Closed",
-    "phone": "+44 20 7932 5231"
+    "phone": "+44 20 7932 5231",
+    "brand": "pret"
   },
   {
     "id": "116",
@@ -2764,7 +2988,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.142214,
     "status": "open",
     "openingHours": "Mon-Fri: 06:30-17:30, Sat-Sun: 07:30-17:30",
-    "phone": "+44 20 7932 5407"
+    "phone": "+44 20 7932 5407",
+    "brand": "pret"
   },
   {
     "id": "10676",
@@ -2776,7 +3001,8 @@ export const pretLocations: Location[] = [
     "longitude": 0.0150561,
     "status": "open",
     "openingHours": "Mon-Thu: 07:00-17:00, Fri: 07:00-16:00, Sat: 07:00-17:00, Sun: 08:00-16:30",
-    "phone": "+44 20 8290 5376"
+    "phone": "+44 20 8290 5376",
+    "brand": "pret"
   },
   {
     "id": "10745",
@@ -2788,7 +3014,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.0769397,
     "status": "open",
     "openingHours": "Mon-Thu: 06:30-17:00, Fri: 06:30-16:00, Sat-Sun: Closed",
-    "phone": "+44 20 7283 1118"
+    "phone": "+44 20 7283 1118",
+    "brand": "pret"
   },
   {
     "id": "10591",
@@ -2800,7 +3027,8 @@ export const pretLocations: Location[] = [
     "longitude": 0.2388661,
     "status": "open",
     "openingHours": "Mon-Sun: 02:30-22:00",
-    "phone": "+44 1279 681950"
+    "phone": "+44 1279 681950",
+    "brand": "pret"
   },
   {
     "id": "10404",
@@ -2812,7 +3040,8 @@ export const pretLocations: Location[] = [
     "longitude": -1.32459797432626,
     "status": "open",
     "openingHours": "Mon-Fri: 07:30-16:30, Sat: 07:30-17:30, Sun: 08:30-16:30",
-    "phone": "+44 1635 581630"
+    "phone": "+44 1635 581630",
+    "brand": "pret"
   },
   {
     "id": "10110",
@@ -2824,7 +3053,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.0992494,
     "status": "open",
     "openingHours": "Mon-Thu: 06:00-18:30, Fri: 06:00-17:00, Sat: 06:30-17:00, Sun: Closed",
-    "phone": "+44 20 7932 5257"
+    "phone": "+44 20 7932 5257",
+    "brand": "pret"
   },
   {
     "id": "319",
@@ -2836,7 +3066,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.18201869,
     "status": "open",
     "openingHours": "Mon: 06:00-20:00, Tue-Thu: 05:30-20:00, Fri: 06:00-20:00, Sat: 05:30-20:00, Sun: 06:00-19:30",
-    "phone": "+44 20 7932 5214"
+    "phone": "+44 20 7932 5214",
+    "brand": "pret"
   },
   {
     "id": "113",
@@ -2848,7 +3079,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.10638551,
     "status": "open",
     "openingHours": "Mon-Fri: 05:30-20:00, Sat-Sun: 06:00-19:00",
-    "phone": "+44 20 7932 5403"
+    "phone": "+44 20 7932 5403",
+    "brand": "pret"
   },
   {
     "id": "38",
@@ -2860,7 +3092,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1238025,
     "status": "open",
     "openingHours": "Mon-Fri: 06:00-19:30, Sat: 07:00-19:30, Sun: 08:30-17:00",
-    "phone": "+44 20 7932 5248"
+    "phone": "+44 20 7932 5248",
+    "brand": "pret"
   },
   {
     "id": "310",
@@ -2872,7 +3105,8 @@ export const pretLocations: Location[] = [
     "longitude": -2.87915934,
     "status": "open",
     "openingHours": "Mon-Fri: 09:00-20:00, Sat: 08:30-21:00, Sun: 09:00-18:00",
-    "phone": "+44 151 355 9162"
+    "phone": "+44 151 355 9162",
+    "brand": "pret"
   },
   {
     "id": "10002",
@@ -2884,7 +3118,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.0866542,
     "status": "open",
     "openingHours": "Mon-Thu: 06:00-20:00, Fri: 06:30-18:30, Sat-Sun: 08:30-18:30",
-    "phone": "+44 20 7932 5217"
+    "phone": "+44 20 7932 5217",
+    "brand": "pret"
   },
   {
     "id": "47",
@@ -2896,7 +3131,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.118532,
     "status": "open",
     "openingHours": "Mon-Thu: 06:30-19:30, Fri: 06:30-18:00, Sat: 08:30-17:00, Sun: Closed",
-    "phone": "+44 20 7932 5262"
+    "phone": "+44 20 7932 5262",
+    "brand": "pret"
   },
   {
     "id": "10779",
@@ -2908,7 +3144,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.14943966,
     "status": "open",
     "openingHours": "Mon-Fri: 06:00-20:00, Sat: 07:00-19:30, Sun: 07:30-18:30",
-    "phone": "+44 20 7235 1927"
+    "phone": "+44 20 7235 1927",
+    "brand": "pret"
   },
   {
     "id": "10645",
@@ -2920,7 +3157,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.130815098804287,
     "status": "open",
     "openingHours": "Mon: 06:00-19:30, Tue-Wed: 05:45-20:30, Thu: 06:00-20:00, Fri: 05:45-20:00, Sat: 06:00-18:30, Sun: 07:30-16:30",
-    "phone": "+44 20 7287 1472"
+    "phone": "+44 20 7287 1472",
+    "brand": "pret"
   },
   {
     "id": "35",
@@ -2932,7 +3170,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1043052,
     "status": "open",
     "openingHours": "Mon-Fri: 05:00-19:00, Sat-Sun: 06:00-19:30",
-    "phone": "+44 20 3937 7825"
+    "phone": "+44 20 3937 7825",
+    "brand": "pret"
   },
   {
     "id": "10777",
@@ -2944,7 +3183,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.08686051,
     "status": "open",
     "openingHours": "Mon-Thu: 07:00-16:00, Fri: 07:00-15:30, Sat-Sun: Closed",
-    "phone": "+44 20 7374 6634"
+    "phone": "+44 20 7374 6634",
+    "brand": "pret"
   },
   {
     "id": "10149",
@@ -2956,7 +3196,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.08765949,
     "status": "open",
     "openingHours": "Mon: 06:00-18:00, Tue-Thu: 06:00-19:00, Fri: 06:00-18:00, Sat-Sun: Closed",
-    "phone": "+44 20 7932 5405"
+    "phone": "+44 20 7932 5405",
+    "brand": "pret"
   },
   {
     "id": "30",
@@ -2968,7 +3209,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.15860488,
     "status": "open",
     "openingHours": "Mon-Fri: 06:15-22:00, Sat: 07:00-22:00, Sun: 07:00-21:00",
-    "phone": "+44 20 7932 5240"
+    "phone": "+44 20 7932 5240",
+    "brand": "pret"
   },
   {
     "id": "43",
@@ -2980,7 +3222,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.19265253,
     "status": "open",
     "openingHours": "Mon-Fri: 06:00-21:00, Sat-Sun: 07:00-21:00",
-    "phone": "+44 20 7932 5254"
+    "phone": "+44 20 7932 5254",
+    "brand": "pret"
   },
   {
     "id": "10240",
@@ -2992,7 +3235,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.2212054,
     "status": "open",
     "openingHours": "Mon-Thu: 08:00-21:00, Fri: 08:00-21:30, Sat: 08:00-22:00, Sun: 09:30-19:00",
-    "phone": "+44 20 8749 1681"
+    "phone": "+44 20 8749 1681",
+    "brand": "pret"
   },
   {
     "id": "10248",
@@ -3004,7 +3248,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.138999,
     "status": "open",
     "openingHours": "Mon-Fri: 06:00-19:00, Sat: 08:30-17:00, Sun: Closed",
-    "phone": "+44 20 7932 5412"
+    "phone": "+44 20 7932 5412",
+    "brand": "pret"
   },
   {
     "id": "10253",
@@ -3016,7 +3261,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.145394,
     "status": "open",
     "openingHours": "Mon-Thu: 06:30-18:00, Fri: 06:30-17:30, Sat-Sun: Closed",
-    "phone": "+44 20 7932 5447"
+    "phone": "+44 20 7932 5447",
+    "brand": "pret"
   },
   {
     "id": "10246",
@@ -3028,7 +3274,8 @@ export const pretLocations: Location[] = [
     "longitude": -2.8913903,
     "status": "open",
     "openingHours": "Mon: 07:00-17:00, Tue-Wed: 07:00-17:30, Thu-Fri: 07:00-17:00, Sat: 07:00-17:30, Sun: 08:00-17:00",
-    "phone": "+44 7920 020150"
+    "phone": "+44 7920 020150",
+    "brand": "pret"
   },
   {
     "id": "10354",
@@ -3040,7 +3287,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.13596343,
     "status": "open",
     "openingHours": "Mon: 06:30-18:00, Tue-Fri: 06:30-17:00, Sat-Sun: Closed",
-    "phone": "+44 20 7799 6002"
+    "phone": "+44 20 7799 6002",
+    "brand": "pret"
   },
   {
     "id": "10197",
@@ -3052,7 +3300,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1275658,
     "status": "open",
     "openingHours": "Mon-Sat: 05:00-23:00, Sun: 06:00-22:00",
-    "phone": "+44 20 7932 5432"
+    "phone": "+44 20 7932 5432",
+    "brand": "pret"
   },
   {
     "id": "10369",
@@ -3064,7 +3313,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.0844184,
     "status": "open",
     "openingHours": "Mon-Wed: 06:00-19:30, Thu: 06:00-20:00, Fri: 06:00-19:00, Sat: 08:00-17:00, Sun: 08:00-17:30",
-    "phone": "+44 20 7283 7261"
+    "phone": "+44 20 7283 7261",
+    "brand": "pret"
   },
   {
     "id": "239",
@@ -3076,7 +3326,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.37539066,
     "status": "open",
     "openingHours": "Mon-Sun: 03:00-22:00",
-    "phone": "+44 1582 453398"
+    "phone": "+44 1582 453398",
+    "brand": "pret"
   },
   {
     "id": "14",
@@ -3088,7 +3339,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1420877,
     "status": "open",
     "openingHours": "Mon-Fri: 06:00-21:30, Sat: 06:30-20:30, Sun: 07:00-20:30",
-    "phone": "+44 20 7580 3876"
+    "phone": "+44 20 7580 3876",
+    "brand": "pret"
   },
   {
     "id": "10374",
@@ -3100,7 +3352,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.09191,
     "status": "open",
     "openingHours": "Mon: 06:30-17:00, Tue-Thu: 06:00-17:00, Fri: 06:30-17:00, Sat-Sun: Closed",
-    "phone": "+44 20 8001 7457"
+    "phone": "+44 20 8001 7457",
+    "brand": "pret"
   },
   {
     "id": "10366",
@@ -3112,7 +3365,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.3035163,
     "status": "open",
     "openingHours": "Mon-Fri: 06:00-18:30, Sat-Sun: 06:30-18:30",
-    "phone": "+44 20 8332 1012"
+    "phone": "+44 20 8332 1012",
+    "brand": "pret"
   },
   {
     "id": "10375",
@@ -3124,7 +3378,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1551687,
     "status": "open",
     "openingHours": "Mon: 06:30-18:30, Tue-Fri: 06:00-18:30, Sat: 07:00-18:30, Sun: 08:00-17:00",
-    "phone": "+44 20 7486 1713"
+    "phone": "+44 20 7486 1713",
+    "brand": "pret"
   },
   {
     "id": "41",
@@ -3136,7 +3391,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.22559,
     "status": "open",
     "openingHours": "Mon-Wed: 05:30-20:00, Thu-Fri: 06:00-20:00, Sat: 06:30-20:00, Sun: 07:00-19:00",
-    "phone": "+44 20 7932 5252"
+    "phone": "+44 20 7932 5252",
+    "brand": "pret"
   },
   {
     "id": "10488",
@@ -3148,7 +3404,8 @@ export const pretLocations: Location[] = [
     "longitude": -3.5285448,
     "status": "open",
     "openingHours": "Mon-Fri: 07:00-18:00, Sat: 07:00-18:30, Sun: 08:30-17:30",
-    "phone": "+44 1392 459661"
+    "phone": "+44 1392 459661",
+    "brand": "pret"
   },
   {
     "id": "120",
@@ -3160,7 +3417,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1325016,
     "status": "open",
     "openingHours": "Mon-Thu: 05:30-22:00, Fri-Sun: 06:00-22:00",
-    "phone": "+44 20 7932 5328"
+    "phone": "+44 20 7932 5328",
+    "brand": "pret"
   },
   {
     "id": "10475",
@@ -3172,7 +3430,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.0718784,
     "status": "open",
     "openingHours": "Mon-Sun: 07:00-17:00",
-    "phone": "+44 20 7739 0086"
+    "phone": "+44 20 7739 0086",
+    "brand": "pret"
   },
   {
     "id": "124",
@@ -3184,7 +3443,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.21622,
     "status": "open",
     "openingHours": "Mon-Fri: 06:00-18:30, Sat: 06:30-18:30, Sun: 07:30-17:30",
-    "phone": "+44 20 8780 3150"
+    "phone": "+44 20 8780 3150",
+    "brand": "pret"
   },
   {
     "id": "10497",
@@ -3196,7 +3456,8 @@ export const pretLocations: Location[] = [
     "longitude": -2.23594,
     "status": "open",
     "openingHours": "Mon: 06:30-18:30, Tue-Thu: 06:30-19:00, Fri: 06:30-18:00, Sat: 08:00-18:00, Sun: Closed",
-    "phone": "+44 161 228 6797"
+    "phone": "+44 161 228 6797",
+    "brand": "pret"
   },
   {
     "id": "235",
@@ -3208,7 +3469,8 @@ export const pretLocations: Location[] = [
     "longitude": 1.293512,
     "status": "open",
     "openingHours": "Mon: 07:00-17:30, Tue-Fri: 06:30-17:30, Sat: 07:00-18:00, Sun: 07:30-17:30",
-    "phone": "+44 117 370 5847"
+    "phone": "+44 117 370 5847",
+    "brand": "pret"
   },
   {
     "id": "10236",
@@ -3220,7 +3482,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.12483,
     "status": "open",
     "openingHours": "Mon-Fri: 05:30-20:00, Sat-Sun: 06:00-20:00",
-    "phone": "+44 20 7932 5415"
+    "phone": "+44 20 7932 5415",
+    "brand": "pret"
   },
   {
     "id": "10470",
@@ -3232,7 +3495,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1040824,
     "status": "open",
     "openingHours": "Mon-Thu: 06:00-18:00, Fri: 06:00-17:00, Sat-Sun: Closed",
-    "phone": "+44 20 7620 4580"
+    "phone": "+44 20 7620 4580",
+    "brand": "pret"
   },
   {
     "id": "166",
@@ -3244,7 +3508,8 @@ export const pretLocations: Location[] = [
     "longitude": -3.19679578,
     "status": "open",
     "openingHours": "Mon-Sat: 07:00-18:00, Sun: 07:30-18:00",
-    "phone": "+44 131 260 9727"
+    "phone": "+44 131 260 9727",
+    "brand": "pret"
   },
   {
     "id": "282",
@@ -3256,7 +3521,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1316134,
     "status": "open",
     "openingHours": "Mon-Fri: 06:00-22:30, Sat: 07:00-22:30, Sun: 07:00-20:00",
-    "phone": "+44 20 3272 0090"
+    "phone": "+44 20 3272 0090",
+    "brand": "pret"
   },
   {
     "id": "250",
@@ -3268,7 +3534,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.08499506,
     "status": "open",
     "openingHours": "Mon-Fri: 05:30-19:30, Sat-Sun: 07:00-19:30",
-    "phone": "+44 20 7932 5366"
+    "phone": "+44 20 7932 5366",
+    "brand": "pret"
   },
   {
     "id": "252",
@@ -3280,7 +3547,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.0875261,
     "status": "open",
     "openingHours": "Mon: 06:00-17:30, Tue-Thu: 06:00-18:00, Fri: 06:30-17:00, Sat-Sun: Closed",
-    "phone": "+44 20 7932 5365"
+    "phone": "+44 20 7932 5365",
+    "brand": "pret"
   },
   {
     "id": "283",
@@ -3292,7 +3560,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.4533148,
     "status": "open",
     "openingHours": "Mon-Sun: 06:00-22:00",
-    "phone": "+44 20 8759 6716"
+    "phone": "+44 20 8759 6716",
+    "brand": "pret"
   },
   {
     "id": "10599",
@@ -3304,7 +3573,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.267315,
     "status": "open",
     "openingHours": "Mon-Fri: 06:00-17:30, Sat: 06:30-17:30, Sun: 07:30-16:30",
-    "phone": "+44 1372 722458"
+    "phone": "+44 1372 722458",
+    "brand": "pret"
   },
   {
     "id": "87",
@@ -3316,7 +3586,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.0985752,
     "status": "open",
     "openingHours": "Mon: 06:00-19:00, Tue: 06:00-20:00, Wed: 06:00-20:30, Thu: 06:00-20:00, Fri: 06:00-19:00, Sat: 07:30-15:30, Sun: Closed",
-    "phone": "+44 20 7932 5302"
+    "phone": "+44 20 7932 5302",
+    "brand": "pret"
   },
   {
     "id": "51",
@@ -3328,7 +3599,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.0925261,
     "status": "open",
     "openingHours": "Mon-Thu: 06:00-20:00, Fri: 06:00-18:00, Sat: 06:30-17:00, Sun: 07:00-17:00",
-    "phone": "+44 20 7932 5266"
+    "phone": "+44 20 7932 5266",
+    "brand": "pret"
   },
   {
     "id": "10593",
@@ -3340,7 +3612,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.10464827,
     "status": "open",
     "openingHours": "Mon-Fri: 05:30-17:30, Sat-Sun: Closed",
-    "phone": "+44 20 7253 8111"
+    "phone": "+44 20 7253 8111",
+    "brand": "pret"
   },
   {
     "id": "10199",
@@ -3352,7 +3625,8 @@ export const pretLocations: Location[] = [
     "longitude": 1.0806776,
     "status": "open",
     "openingHours": "Mon-Fri: 07:00-17:00, Sat: 07:30-17:30, Sun: 08:30-17:00",
-    "phone": "+44 1227 479563"
+    "phone": "+44 1227 479563",
+    "brand": "pret"
   },
   {
     "id": "278",
@@ -3364,7 +3638,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.09907372,
     "status": "open",
     "openingHours": "Mon-Thu: 06:00-20:00, Fri: 06:00-18:00, Sat-Sun: 07:00-18:00",
-    "phone": "+44 20 7932 5379"
+    "phone": "+44 20 7932 5379",
+    "brand": "pret"
   },
   {
     "id": "10595",
@@ -3376,7 +3651,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1330828,
     "status": "open",
     "openingHours": "Mon-Thu: 06:00-20:00, Fri: 06:00-19:00, Sat: 07:00-19:00, Sun: 08:30-17:00",
-    "phone": "+44 20 7631 3195"
+    "phone": "+44 20 7631 3195",
+    "brand": "pret"
   },
   {
     "id": "117",
@@ -3388,7 +3664,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1445307,
     "status": "open",
     "openingHours": "Mon-Fri: 05:30-21:30, Sat: 06:30-20:30, Sun: 07:00-20:00",
-    "phone": "+44 20 7932 5408"
+    "phone": "+44 20 7932 5408",
+    "brand": "pret"
   },
   {
     "id": "68",
@@ -3400,7 +3677,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.0272556,
     "status": "open",
     "openingHours": "Mon-Thu: 06:30-17:00, Fri: 06:30-16:30, Sat-Sun: Closed",
-    "phone": "+44 20 3229 0248"
+    "phone": "+44 20 3229 0248",
+    "brand": "pret"
   },
   {
     "id": "10159",
@@ -3412,7 +3690,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.08140526,
     "status": "open",
     "openingHours": "Mon-Fri: 06:00-17:00, Sat-Sun: Closed",
-    "phone": "+44 20 7932 5344"
+    "phone": "+44 20 7932 5344",
+    "brand": "pret"
   },
   {
     "id": "84",
@@ -3424,7 +3703,8 @@ export const pretLocations: Location[] = [
     "longitude": -4.2543235,
     "status": "open",
     "openingHours": "Mon-Fri: 06:30-18:30, Sat: 07:30-18:00, Sun: 07:30-17:30",
-    "phone": "+44 141 333 9647"
+    "phone": "+44 141 333 9647",
+    "brand": "pret"
   },
   {
     "id": "10363",
@@ -3436,7 +3716,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1775294,
     "status": "open",
     "openingHours": "Mon-Sun: 00:00-23:59",
-    "phone": "+44 1293 223496"
+    "phone": "+44 1293 223496",
+    "brand": "pret"
   },
   {
     "id": "10147",
@@ -3448,7 +3729,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.48812143,
     "status": "open",
     "openingHours": "Mon-Sun: 04:30-22:00",
-    "phone": "+44 20 8283 8120"
+    "phone": "+44 20 8283 8120",
+    "brand": "pret"
   },
   {
     "id": "10323",
@@ -3460,7 +3742,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1030966,
     "status": "open",
     "openingHours": "Mon-Thu: 06:00-18:00, Fri: 06:00-17:30, Sat: 07:30-15:30, Sun: Closed",
-    "phone": "+44 20 3370 9296"
+    "phone": "+44 20 3370 9296",
+    "brand": "pret"
   },
   {
     "id": "10191",
@@ -3472,7 +3755,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.0933459,
     "status": "open",
     "openingHours": "Mon-Thu: 06:00-18:00, Fri: 06:00-16:30, Sat-Sun: Closed",
-    "phone": "+44 20 7726 6323"
+    "phone": "+44 20 7726 6323",
+    "brand": "pret"
   },
   {
     "id": "10446",
@@ -3484,7 +3768,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.01583,
     "status": "open",
     "openingHours": "Mon-Thu: 06:00-19:00, Fri: 06:00-18:00, Sat-Sun: 07:00-18:00",
-    "phone": "+44 20 7537 9672"
+    "phone": "+44 20 7537 9672",
+    "brand": "pret"
   },
   {
     "id": "90",
@@ -3496,7 +3781,8 @@ export const pretLocations: Location[] = [
     "longitude": -4.2612866,
     "status": "open",
     "openingHours": "Mon: 06:30-17:00, Tue-Thu: 06:30-16:00, Fri: 07:00-15:30, Sat-Sun: Closed",
-    "phone": "+44 141 248 6335"
+    "phone": "+44 141 248 6335",
+    "brand": "pret"
   },
   {
     "id": "10326",
@@ -3508,7 +3794,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1057951,
     "status": "open",
     "openingHours": "Mon-Fri: 06:00-19:30, Sat: 07:30-17:00, Sun: Closed",
-    "phone": "+44 20 7932 5470"
+    "phone": "+44 20 7932 5470",
+    "brand": "pret"
   },
   {
     "id": "10332",
@@ -3520,7 +3807,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.330537,
     "status": "open",
     "openingHours": "Mon-Fri: 07:00-17:00, Sat: 07:30-17:30, Sun: 08:30-16:30",
-    "phone": "+44 1403 241280"
+    "phone": "+44 1403 241280",
+    "brand": "pret"
   },
   {
     "id": "10291",
@@ -3532,7 +3820,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.0732797,
     "status": "open",
     "openingHours": "Mon: 06:00-17:00, Tue-Thu: 06:00-17:30, Fri: 06:00-16:30, Sat-Sun: Closed",
-    "phone": "+44 20 7932 5456"
+    "phone": "+44 20 7932 5456",
+    "brand": "pret"
   },
   {
     "id": "10163",
@@ -3544,7 +3833,8 @@ export const pretLocations: Location[] = [
     "longitude": -4.2552977,
     "status": "open",
     "openingHours": "Mon: 06:30-17:00, Tue-Thu: 06:30-17:30, Fri: 06:30-17:00, Sat: 08:00-16:30, Sun: 08:30-16:30",
-    "phone": "+44 141 847 0449"
+    "phone": "+44 141 847 0449",
+    "brand": "pret"
   },
   {
     "id": "10477",
@@ -3556,7 +3846,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.0904335,
     "status": "open",
     "openingHours": "Mon-Thu: 05:30-20:30, Fri: 05:30-20:00, Sat: 06:00-19:30, Sun: 06:30-17:30",
-    "phone": "+44 20 7929 3960"
+    "phone": "+44 20 7929 3960",
+    "brand": "pret"
   },
   {
     "id": "10174",
@@ -3568,7 +3859,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.0201856,
     "status": "open",
     "openingHours": "Mon-Thu: 05:30-19:00, Fri: 05:30-18:00, Sat-Sun: Closed",
-    "phone": "+44 20 7516 0323"
+    "phone": "+44 20 7516 0323",
+    "brand": "pret"
   },
   {
     "id": "10290",
@@ -3580,7 +3872,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.007338,
     "status": "open",
     "openingHours": "Mon: 08:00-20:00, Tue-Sat: 08:00-21:00, Sun: 09:00-20:00",
-    "phone": "+44 20 8221 2335"
+    "phone": "+44 20 8221 2335",
+    "brand": "pret"
   },
   {
     "id": "10552",
@@ -3592,7 +3885,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1310827,
     "status": "open",
     "openingHours": "Mon-Fri: 06:30-20:00, Sat: 08:30-19:30, Sun: 08:30-19:00",
-    "phone": "+44 20 7287 6729"
+    "phone": "+44 20 7287 6729",
+    "brand": "pret"
   },
   {
     "id": "10321",
@@ -3604,7 +3898,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1930876,
     "status": "open",
     "openingHours": "Mon: 06:00-19:00, Tue-Fri: 06:30-19:00, Sat: 07:00-17:30, Sun: 07:30-17:30",
-    "phone": "+44 20 7932 5462"
+    "phone": "+44 20 7932 5462",
+    "brand": "pret"
   },
   {
     "id": "10674",
@@ -3616,7 +3911,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.7501637,
     "status": "open",
     "openingHours": "Mon-Fri: 08:00-17:00, Sat: 08:00-17:30, Sun: 08:30-17:00",
-    "phone": "+44 1344 864775"
+    "phone": "+44 1344 864775",
+    "brand": "pret"
   },
   {
     "id": "10557",
@@ -3628,7 +3924,8 @@ export const pretLocations: Location[] = [
     "longitude": -4.2931142,
     "status": "open",
     "openingHours": "Mon-Fri: 07:15-17:30, Sat: 08:00-17:30, Sun: 09:00-17:00",
-    "phone": "+44 7824 318714"
+    "phone": "+44 7824 318714",
+    "brand": "pret"
   },
   {
     "id": "195",
@@ -3640,7 +3937,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.0182551,
     "status": "open",
     "openingHours": "Mon-Fri: 06:00-19:30, Sat: 07:30-18:30, Sun: 08:00-18:00",
-    "phone": "+44 20 7932 5346"
+    "phone": "+44 20 7932 5346",
+    "brand": "pret"
   },
   {
     "id": "10790",
@@ -3652,7 +3950,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.00413,
     "status": "open",
     "openingHours": "Mon-Fri: 05:45-22:30, Sat: 06:00-22:00, Sun: 07:00-21:00",
-    "phone": "+44 20 8555 8809"
+    "phone": "+44 20 8555 8809",
+    "brand": "pret"
   },
   {
     "id": "10820",
@@ -3664,7 +3963,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.13791,
     "status": "open",
     "openingHours": "Mon-Sat: 06:00-18:00, Sun: 07:00-17:30",
-    "phone": "+44 20 7720 6213"
+    "phone": "+44 20 7720 6213",
+    "brand": "pret"
   },
   {
     "id": "10837",
@@ -3676,7 +3976,8 @@ export const pretLocations: Location[] = [
     "longitude": -2.75412583048382,
     "status": "open",
     "openingHours": "Mon-Sat: 07:00-16:30, Sun: Closed",
-    "phone": "+44 1743 231623"
+    "phone": "+44 1743 231623",
+    "brand": "pret"
   },
   {
     "id": "10832",
@@ -3688,7 +3989,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.13301843064253938,
     "status": "open",
     "openingHours": "Mon-Fri: 05:30-20:00, Sat: 06:00-19:30, Sun: 06:00-18:00",
-    "phone": "+44 20 8882 7256"
+    "phone": "+44 20 8882 7256",
+    "brand": "pret"
   },
   {
     "id": "10822",
@@ -3699,7 +4001,8 @@ export const pretLocations: Location[] = [
     "latitude": 52.4048,
     "longitude": -1.24537,
     "status": "open",
-    "openingHours": "Mon-Thu: 06:00-19:00, Fri: 06:00-21:00, Sat: 06:00-19:00, Sun: 07:00-19:00"
+    "openingHours": "Mon-Thu: 06:00-19:00, Fri: 06:00-21:00, Sat: 06:00-19:00, Sun: 07:00-19:00",
+    "brand": "pret"
   },
   {
     "id": "10825",
@@ -3711,7 +4014,8 @@ export const pretLocations: Location[] = [
     "longitude": 0.28357625876468,
     "status": "open",
     "openingHours": "Mon-Sat: 08:00-21:00, Sun: 10:00-17:00",
-    "phone": "+44 1708 680748"
+    "phone": "+44 1708 680748",
+    "brand": "pret"
   },
   {
     "id": "10848",
@@ -3723,7 +4027,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.16075,
     "status": "open",
     "openingHours": "Mon-Fri: 06:15-19:00, Sat: 07:00-19:00, Sun: 07:30-19:00",
-    "phone": "+44 20 7435 0443"
+    "phone": "+44 20 7435 0443",
+    "brand": "pret"
   },
   {
     "id": "10802",
@@ -3735,7 +4040,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.13740609,
     "status": "open",
     "openingHours": "Mon-Fri: 06:00-20:00, Sat: 07:00-20:00, Sun: 08:00-19:00",
-    "phone": "+44 20 7287 6007"
+    "phone": "+44 20 7287 6007",
+    "brand": "pret"
   },
   {
     "id": "10784",
@@ -3747,7 +4053,8 @@ export const pretLocations: Location[] = [
     "longitude": -2.2821395,
     "status": "open",
     "openingHours": "Mon-Fri: 06:00-18:00, Sat-Sun: 06:00-17:00",
-    "phone": "+44 161 437 2804"
+    "phone": "+44 161 437 2804",
+    "brand": "pret"
   },
   {
     "id": "10842",
@@ -3759,7 +4066,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.010761,
     "status": "open",
     "openingHours": "Mon-Fri: 07:00-17:00, Sat-Sun: 08:00-17:30",
-    "phone": "+44 20 8853 1861"
+    "phone": "+44 20 8853 1861",
+    "brand": "pret"
   },
   {
     "id": "10852",
@@ -3771,7 +4079,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1516,
     "status": "open",
     "openingHours": "Mon-Fri: 05:30-18:00, Sat: 06:30-18:00, Sun: 06:30-17:00",
-    "phone": "+44 20 8673 1710"
+    "phone": "+44 20 8673 1710",
+    "brand": "pret"
   },
   {
     "id": "10855",
@@ -3783,7 +4092,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.17899788,
     "status": "open",
     "openingHours": "Mon-Fri: 06:30-17:00, Sat-Sun: 07:30-16:00",
-    "phone": "+44 20 7289 9163"
+    "phone": "+44 20 7289 9163",
+    "brand": "pret"
   },
   {
     "id": "10847",
@@ -3795,7 +4105,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.133296,
     "status": "open",
     "openingHours": "Mon-Sun: 05:00-23:00",
-    "phone": "+44 20 7388 5401"
+    "phone": "+44 20 7388 5401",
+    "brand": "pret"
   },
   {
     "id": "10851",
@@ -3807,7 +4118,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.08213,
     "status": "open",
     "openingHours": "Mon-Sat: 07:00-18:30, Sun: 07:30-18:00",
-    "phone": "+44 20 8363 1708"
+    "phone": "+44 20 8363 1708",
+    "brand": "pret"
   },
   {
     "id": "10856",
@@ -3819,7 +4131,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.41067,
     "status": "open",
     "openingHours": "Mon: 07:30-15:00, Tue-Wed: 07:00-15:00, Thu-Fri: 06:30-15:00, Sat: 07:30-15:30, Sun: 08:00-15:30",
-    "phone": "+44 1932 866811"
+    "phone": "+44 1932 866811",
+    "brand": "pret"
   },
   {
     "id": "10781",
@@ -3831,7 +4144,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.4496072,
     "status": "open",
     "openingHours": "Mon-Sun: 04:30-22:00",
-    "phone": "+44 20 8745 4802"
+    "phone": "+44 20 8745 4802",
+    "brand": "pret"
   },
   {
     "id": "10859",
@@ -3843,7 +4157,8 @@ export const pretLocations: Location[] = [
     "longitude": 0.00923386,
     "status": "open",
     "openingHours": "Mon-Fri: 06:30-16:00, Sat: 07:00-17:00, Sun: 08:00-17:00",
-    "phone": "+44 20 7473 6209"
+    "phone": "+44 20 7473 6209",
+    "brand": "pret"
   },
   {
     "id": "10867",
@@ -3855,7 +4170,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.3287572,
     "status": "open",
     "openingHours": "Mon-Fri: 07:00-16:00, Sat: 08:30-16:00, Sun: 08:30-15:00",
-    "phone": "+44 20 8891 3966"
+    "phone": "+44 20 8891 3966",
+    "brand": "pret"
   },
   {
     "id": "10853",
@@ -3867,7 +4183,8 @@ export const pretLocations: Location[] = [
     "longitude": -1.09317067,
     "status": "open",
     "openingHours": "Mon-Fri: 05:30-21:00, Sat: 05:30-21:30, Sun: 07:00-21:30",
-    "phone": "+44 1904 629346"
+    "phone": "+44 1904 629346",
+    "brand": "pret"
   },
   {
     "id": "10783",
@@ -3879,7 +4196,8 @@ export const pretLocations: Location[] = [
     "longitude": -2.28188467,
     "status": "open",
     "openingHours": "Mon-Thu: 03:30-20:30, Fri: 03:30-22:00, Sat-Sun: 03:30-20:30",
-    "phone": "+44 161 437 8175"
+    "phone": "+44 161 437 8175",
+    "brand": "pret"
   },
   {
     "id": "10841",
@@ -3891,7 +4209,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1163002,
     "status": "open",
     "openingHours": "Mon-Fri: 06:00-17:30, Sat-Sun: Closed",
-    "phone": "+44 20 7261 0934"
+    "phone": "+44 20 7261 0934",
+    "brand": "pret"
   },
   {
     "id": "10868",
@@ -3903,7 +4222,8 @@ export const pretLocations: Location[] = [
     "longitude": 0.3003,
     "status": "open",
     "openingHours": "Mon-Thu: 07:30-16:00, Fri-Sat: 07:30-16:30, Sun: 08:00-16:00",
-    "phone": "+44 1277 217268"
+    "phone": "+44 1277 217268",
+    "brand": "pret"
   },
   {
     "id": "10869",
@@ -3915,7 +4235,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.362738,
     "status": "open",
     "openingHours": "Mon: 08:30-16:00, Tue-Thu: 07:30-16:00, Fri: 08:00-16:00, Sat: 08:00-17:30, Sun: 09:00-16:00",
-    "phone": "+44 20 8814 0681"
+    "phone": "+44 20 8814 0681",
+    "brand": "pret"
   },
   {
     "id": "10878",
@@ -3927,7 +4248,8 @@ export const pretLocations: Location[] = [
     "longitude": -1.25838,
     "status": "open",
     "openingHours": "Mon-Sat: 07:00-20:00, Sun: 08:00-18:00",
-    "phone": "+44 1865 251864"
+    "phone": "+44 1865 251864",
+    "brand": "pret"
   },
   {
     "id": "10870",
@@ -3939,7 +4261,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1225105,
     "status": "open",
     "openingHours": "Mon-Fri: 06:30-16:30, Sat: 07:00-16:30, Sun: 07:30-16:00",
-    "phone": "+44 20 7720 8232"
+    "phone": "+44 20 7720 8232",
+    "brand": "pret"
   },
   {
     "id": "10877",
@@ -3950,7 +4273,8 @@ export const pretLocations: Location[] = [
     "latitude": 51.74945,
     "longitude": -1.2658,
     "status": "open",
-    "openingHours": "Mon-Fri: 07:30-20:00, Sat: 08:00-20:00, Sun: 08:30-18:00"
+    "openingHours": "Mon-Fri: 07:30-20:00, Sat: 08:00-20:00, Sun: 08:30-18:00",
+    "brand": "pret"
   },
   {
     "id": "10887",
@@ -3962,7 +4286,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1860604,
     "status": "open",
     "openingHours": "Mon: 06:30-15:30, Tue-Thu: 06:30-16:00, Fri: 06:30-15:30, Sat: 07:30-15:30, Sun: 08:00-15:30",
-    "phone": "+44 20 8390 3221"
+    "phone": "+44 20 8390 3221",
+    "brand": "pret"
   },
   {
     "id": "10824",
@@ -3973,7 +4298,8 @@ export const pretLocations: Location[] = [
     "latitude": 51.5187,
     "longitude": -0.0827,
     "status": "open",
-    "openingHours": "Mon-Fri: 06:00-20:00, Sat: 07:00-17:30, Sun: 07:00-17:00"
+    "openingHours": "Mon-Fri: 06:00-20:00, Sat: 07:00-17:30, Sun: 07:00-17:00",
+    "brand": "pret"
   },
   {
     "id": "10883",
@@ -3984,7 +4310,8 @@ export const pretLocations: Location[] = [
     "latitude": 51.56155553,
     "longitude": -0.07346572,
     "status": "open",
-    "openingHours": "Mon-Fri: 06:30-17:00, Sat: 08:00-16:30, Sun: 08:00-16:00"
+    "openingHours": "Mon-Fri: 06:30-17:00, Sat: 08:00-16:30, Sun: 08:00-16:00",
+    "brand": "pret"
   },
   {
     "id": "10897",
@@ -3996,7 +4323,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.13127,
     "status": "open",
     "openingHours": "Mon-Thu: 06:00-20:00, Fri: 06:00-18:00, Sat: 08:00-18:00, Sun: 08:00-17:00",
-    "phone": "+44 20 7436 1981"
+    "phone": "+44 20 7436 1981",
+    "brand": "pret"
   },
   {
     "id": "10896",
@@ -4007,7 +4335,8 @@ export const pretLocations: Location[] = [
     "latitude": 51.4823811,
     "longitude": -0.1444907,
     "status": "open",
-    "openingHours": "Mon-Fri: 07:00-20:30, Sat: 08:00-20:30, Sun: 08:00-19:30"
+    "openingHours": "Mon-Fri: 07:00-20:30, Sat: 08:00-20:30, Sun: 08:00-19:30",
+    "brand": "pret"
   },
   {
     "id": "10913",
@@ -4018,7 +4347,8 @@ export const pretLocations: Location[] = [
     "latitude": 51.4928524,
     "longitude": -0.2623105,
     "status": "open",
-    "openingHours": "Mon-Fri: 06:30-17:00, Sat-Sun: Closed"
+    "openingHours": "Mon-Fri: 06:30-17:00, Sat-Sun: Closed",
+    "brand": "pret"
   },
   {
     "id": "10903",
@@ -4030,7 +4360,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.10124,
     "status": "open",
     "openingHours": "Mon-Thu: 06:00-19:30, Fri: 06:00-18:00, Sat: 07:30-17:30, Sun: 07:30-16:30",
-    "phone": "+44 20 7248 9181"
+    "phone": "+44 20 7248 9181",
+    "brand": "pret"
   },
   {
     "id": "10506",
@@ -4042,7 +4373,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1244796,
     "status": "open",
     "openingHours": "Mon: 06:15-19:00, Tue-Fri: 06:15-19:30, Sat-Sun: 06:45-17:00",
-    "phone": "+44 20 7837 7098"
+    "phone": "+44 20 7837 7098",
+    "brand": "pret"
   },
   {
     "id": "10918",
@@ -4054,7 +4386,8 @@ export const pretLocations: Location[] = [
     "longitude": -1.26488,
     "status": "open",
     "openingHours": "Mon-Sat: 08:00-18:00, Sun: 09:00-17:00",
-    "phone": "+44 1865 515060"
+    "phone": "+44 1865 515060",
+    "brand": "pret"
   },
   {
     "id": "10889",
@@ -4065,7 +4398,8 @@ export const pretLocations: Location[] = [
     "latitude": 53.99239191,
     "longitude": -1.53866808,
     "status": "open",
-    "openingHours": "Mon-Fri: 07:00-16:30, Sat: 07:30-17:00, Sun: 08:30-16:00"
+    "openingHours": "Mon-Fri: 07:00-16:30, Sat: 07:30-17:00, Sun: 08:30-16:00",
+    "brand": "pret"
   },
   {
     "id": "10876",
@@ -4077,7 +4411,8 @@ export const pretLocations: Location[] = [
     "longitude": -1.21975,
     "status": "open",
     "openingHours": "Mon-Fri: 06:30-20:00, Sat-Sun: 08:00-16:00",
-    "phone": "+44 1865 760910"
+    "phone": "+44 1865 760910",
+    "brand": "pret"
   },
   {
     "id": "10880",
@@ -4089,7 +4424,8 @@ export const pretLocations: Location[] = [
     "longitude": 0.4737235,
     "status": "open",
     "openingHours": "Mon-Sat: 07:00-18:00, Sun: 08:00-17:00",
-    "phone": "+44 1245 269224"
+    "phone": "+44 1245 269224",
+    "brand": "pret"
   },
   {
     "id": "312",
@@ -4101,7 +4437,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1422169,
     "status": "open",
     "openingHours": "Mon-Thu: 05:30-21:00, Fri-Sat: 06:00-21:00, Sun: 06:30-21:00",
-    "phone": "+44 7721 149049"
+    "phone": "+44 7721 149049",
+    "brand": "pret"
   },
   {
     "id": "10554",
@@ -4113,7 +4450,8 @@ export const pretLocations: Location[] = [
     "longitude": -4.256242,
     "status": "open",
     "openingHours": "Mon-Fri: 06:00-19:30, Sat: 06:30-19:30, Sun: 07:30-17:00",
-    "phone": "+44 141 221 7331"
+    "phone": "+44 141 221 7331",
+    "brand": "pret"
   },
   {
     "id": "10854",
@@ -4124,7 +4462,8 @@ export const pretLocations: Location[] = [
     "latitude": 51.55931334096806,
     "longitude": -0.3979765613428984,
     "status": "open",
-    "openingHours": "Mon-Fri: 05:30-18:30, Sat: 06:30-18:00, Sun: 06:30-17:00"
+    "openingHours": "Mon-Fri: 05:30-18:30, Sat: 06:30-18:00, Sun: 06:30-17:00",
+    "brand": "pret"
   },
   {
     "id": "10871",
@@ -4136,7 +4475,8 @@ export const pretLocations: Location[] = [
     "longitude": -1.08791754177914,
     "status": "open",
     "openingHours": "Mon-Sat: 07:00-18:30, Sun: 08:00-18:00",
-    "phone": "+44 1256 353808"
+    "phone": "+44 1256 353808",
+    "brand": "pret"
   },
   {
     "id": "10872",
@@ -4148,7 +4488,8 @@ export const pretLocations: Location[] = [
     "longitude": -1.88151236257204,
     "status": "open",
     "openingHours": "Mon-Fri: 07:00-18:00, Sat: 07:30-19:00, Sun: 07:30-18:00",
-    "phone": "+44 1202 290417"
+    "phone": "+44 1202 290417",
+    "brand": "pret"
   },
   {
     "id": "10873",
@@ -4160,7 +4501,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.574418750380237,
     "status": "open",
     "openingHours": "Mon-Fri: 07:00-17:30, Sat: 07:30-18:00, Sun: 08:30-17:30",
-    "phone": "+44 1483 458406"
+    "phone": "+44 1483 458406",
+    "brand": "pret"
   },
   {
     "id": "10874",
@@ -4172,7 +4514,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.580346863024071,
     "status": "open",
     "openingHours": "Mon-Sat: 07:00-19:00, Sun: 08:00-18:00",
-    "phone": "+44 1483 725788"
+    "phone": "+44 1483 725788",
+    "brand": "pret"
   },
   {
     "id": "10875",
@@ -4183,7 +4526,8 @@ export const pretLocations: Location[] = [
     "latitude": 51.7523005043286,
     "longitude": -1.25772905703761,
     "status": "open",
-    "openingHours": "Mon-Fri: 07:00-15:00, Sat: 08:00-15:00, Sun: Closed"
+    "openingHours": "Mon-Fri: 07:00-15:00, Sat: 08:00-15:00, Sun: Closed",
+    "brand": "pret"
   },
   {
     "id": "10879",
@@ -4194,7 +4538,8 @@ export const pretLocations: Location[] = [
     "latitude": 51.75316,
     "longitude": -0.33815,
     "status": "open",
-    "openingHours": "Mon-Sat: 07:00-17:00, Sun: 07:30-17:00"
+    "openingHours": "Mon-Sat: 07:00-17:00, Sun: 07:30-17:00",
+    "brand": "pret"
   },
   {
     "id": "10881",
@@ -4205,7 +4550,8 @@ export const pretLocations: Location[] = [
     "latitude": 52.201536536746,
     "longitude": 0.13783147737267,
     "status": "open",
-    "openingHours": "Mon-Fri: 07:00-19:00, Sat: 07:30-17:00, Sun: 08:00-17:00"
+    "openingHours": "Mon-Fri: 07:00-19:00, Sat: 07:30-17:00, Sun: 08:00-17:00",
+    "brand": "pret"
   },
   {
     "id": "10882",
@@ -4216,7 +4562,8 @@ export const pretLocations: Location[] = [
     "latitude": 52.205819,
     "longitude": 0.1197258,
     "status": "open",
-    "openingHours": "Mon-Fri: 07:30-16:00, Sat: 08:00-17:00, Sun: 08:00-16:00"
+    "openingHours": "Mon-Fri: 07:30-16:00, Sat: 08:00-17:00, Sun: 08:00-16:00",
+    "brand": "pret"
   },
   {
     "id": "10845",
@@ -4227,7 +4574,8 @@ export const pretLocations: Location[] = [
     "latitude": 52.47722604,
     "longitude": -1.89919102,
     "status": "open",
-    "openingHours": "Mon: 05:30-19:30, Tue-Thu: 05:30-19:00, Fri: 05:30-19:30, Sat: 06:00-19:00, Sun: 09:00-18:00"
+    "openingHours": "Mon: 05:30-19:30, Tue-Thu: 05:30-19:00, Fri: 05:30-19:30, Sat: 06:00-19:00, Sun: 09:00-18:00",
+    "brand": "pret"
   },
   {
     "id": "10904",
@@ -4239,7 +4587,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.0285417,
     "status": "open",
     "openingHours": "Mon-Tue: 06:30-16:00, Wed: 07:00-16:00, Thu: 06:30-16:30, Fri: 06:30-16:00, Sat: 08:00-16:00, Sun: 08:30-15:30",
-    "phone": "+44 20 8650 1772"
+    "phone": "+44 20 8650 1772",
+    "brand": "pret"
   },
   {
     "id": "10857",
@@ -4251,7 +4600,8 @@ export const pretLocations: Location[] = [
     "longitude": -3.46359359459995,
     "status": "open",
     "openingHours": "Mon-Tue: 07:30-19:00, Wed: 06:00-19:00, Thu: 07:30-19:00, Fri: 06:00-21:00, Sat: 06:00-19:00, Sun: 07:00-21:00",
-    "phone": "+44 1392 436266"
+    "phone": "+44 1392 436266",
+    "brand": "pret"
   },
   {
     "id": "10914",
@@ -4262,7 +4612,8 @@ export const pretLocations: Location[] = [
     "latitude": 51.4925,
     "longitude": -0.26341,
     "status": "open",
-    "openingHours": "Mon-Sat: 07:00-18:00, Sun: 08:00-17:00"
+    "openingHours": "Mon-Sat: 07:00-18:00, Sun: 08:00-17:00",
+    "brand": "pret"
   },
   {
     "id": "10817",
@@ -4273,7 +4624,8 @@ export const pretLocations: Location[] = [
     "latitude": 51.95023983137285,
     "longitude": -1.1985541846640826,
     "status": "open",
-    "openingHours": "Mon-Thu: 06:00-20:00, Fri: 06:00-21:00, Sat: 06:00-20:00, Sun: 07:00-21:00"
+    "openingHours": "Mon-Thu: 06:00-20:00, Fri: 06:00-21:00, Sat: 06:00-20:00, Sun: 07:00-21:00",
+    "brand": "pret"
   },
   {
     "id": "10906",
@@ -4285,7 +4637,8 @@ export const pretLocations: Location[] = [
     "longitude": 0.046837513524284946,
     "status": "open",
     "openingHours": "Mon-Sun: 06:00-18:00",
-    "phone": "+44 20 8554 7395"
+    "phone": "+44 20 8554 7395",
+    "brand": "pret"
   },
   {
     "id": "10865",
@@ -4296,7 +4649,8 @@ export const pretLocations: Location[] = [
     "latitude": 53.9467389871521,
     "longitude": -1.36859577407483,
     "status": "open",
-    "openingHours": "Mon-Sat: 06:00-20:00, Sun: 07:00-20:00"
+    "openingHours": "Mon-Sat: 06:00-20:00, Sun: 07:00-20:00",
+    "brand": "pret"
   },
   {
     "id": "10866",
@@ -4307,7 +4661,8 @@ export const pretLocations: Location[] = [
     "latitude": 52.8216898590715,
     "longitude": -1.30815431573782,
     "status": "open",
-    "openingHours": "Mon-Sat: 07:00-19:00, Sun: 07:00-20:00"
+    "openingHours": "Mon-Sat: 07:00-19:00, Sun: 07:00-20:00",
+    "brand": "pret"
   },
   {
     "id": "10890",
@@ -4318,7 +4673,8 @@ export const pretLocations: Location[] = [
     "latitude": 52.6074314852375,
     "longitude": -1.64012230442322,
     "status": "open",
-    "openingHours": "Mon-Fri: 07:00-18:00, Sat: 06:00-18:00, Sun: 07:00-19:00"
+    "openingHours": "Mon-Fri: 07:00-18:00, Sat: 06:00-18:00, Sun: 07:00-19:00",
+    "brand": "pret"
   },
   {
     "id": "10922",
@@ -4330,7 +4686,8 @@ export const pretLocations: Location[] = [
     "longitude": -2.5865627018228294,
     "status": "open",
     "openingHours": "Mon-Sat: 07:00-17:00, Sun: 08:00-16:00",
-    "phone": "+44 117 924 9376"
+    "phone": "+44 117 924 9376",
+    "brand": "pret"
   },
   {
     "id": "10891",
@@ -4341,7 +4698,8 @@ export const pretLocations: Location[] = [
     "latitude": 52.884371036112,
     "longitude": -2.17054242481578,
     "status": "open",
-    "openingHours": "Mon-Thu: 06:00-19:00, Fri: 06:00-21:00, Sat: 06:00-19:00, Sun: 07:00-21:00"
+    "openingHours": "Mon-Thu: 06:00-19:00, Fri: 06:00-21:00, Sat: 06:00-19:00, Sun: 07:00-21:00",
+    "brand": "pret"
   },
   {
     "id": "10895",
@@ -4353,7 +4711,8 @@ export const pretLocations: Location[] = [
     "longitude": -2.216070001743739,
     "status": "open",
     "openingHours": "Mon-Fri: 06:00-17:00, Sat: 07:00-17:00, Sun: 08:00-16:00",
-    "phone": "+44 161 273 1030"
+    "phone": "+44 161 273 1030",
+    "brand": "pret"
   },
   {
     "id": "10901",
@@ -4365,7 +4724,8 @@ export const pretLocations: Location[] = [
     "longitude": 0.06149208282267444,
     "status": "open",
     "openingHours": "Mon-Fri: 06:00-17:00, Sat: 07:00-17:00, Sun: 08:00-16:00",
-    "phone": "+44 1732 867481"
+    "phone": "+44 1732 867481",
+    "brand": "pret"
   },
   {
     "id": "10892",
@@ -4376,7 +4736,8 @@ export const pretLocations: Location[] = [
     "latitude": 53.6975967091935,
     "longitude": -1.26665496545494,
     "status": "open",
-    "openingHours": "Mon-Sat: 06:00-19:00, Sun: 07:00-20:00"
+    "openingHours": "Mon-Sat: 06:00-19:00, Sun: 07:00-20:00",
+    "brand": "pret"
   },
   {
     "id": "10936",
@@ -4388,7 +4749,8 @@ export const pretLocations: Location[] = [
     "longitude": 0.5212304,
     "status": "open",
     "openingHours": "Mon-Sat: 07:30-17:30, Sun: 09:00-16:30",
-    "phone": "+44 1622 664747"
+    "phone": "+44 1622 664747",
+    "brand": "pret"
   },
   {
     "id": "10940",
@@ -4399,7 +4761,8 @@ export const pretLocations: Location[] = [
     "latitude": 51.53594,
     "longitude": -0.19107,
     "status": "open",
-    "openingHours": "Mon-Fri: 07:00-18:00, Sat: 07:30-18:00, Sun: 08:00-18:00"
+    "openingHours": "Mon-Fri: 07:00-18:00, Sat: 07:30-18:00, Sun: 08:00-18:00",
+    "brand": "pret"
   },
   {
     "id": "10921",
@@ -4411,7 +4774,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.06142,
     "status": "open",
     "openingHours": "Mon-Fri: 05:30-20:00, Sat: 05:30-19:00, Sun: 06:00-18:00",
-    "phone": "+44 20 8363 8856"
+    "phone": "+44 20 8363 8856",
+    "brand": "pret"
   },
   {
     "id": "10935",
@@ -4423,7 +4787,8 @@ export const pretLocations: Location[] = [
     "longitude": 0.26362,
     "status": "open",
     "openingHours": "Mon-Fri: 06:00-17:30, Sat: 07:00-17:30, Sun: 07:00-16:30",
-    "phone": "+44 1892 575392"
+    "phone": "+44 1892 575392",
+    "brand": "pret"
   },
   {
     "id": "10907",
@@ -4434,7 +4799,8 @@ export const pretLocations: Location[] = [
     "latitude": 51.59142,
     "longitude": -0.14267,
     "status": "open",
-    "openingHours": "Mon-Fri: 06:30-18:30, Sat-Sun: 07:00-18:30"
+    "openingHours": "Mon-Fri: 06:30-18:30, Sat-Sun: 07:00-18:30",
+    "brand": "pret"
   },
   {
     "id": "10929",
@@ -4445,7 +4811,8 @@ export const pretLocations: Location[] = [
     "latitude": 52.1931,
     "longitude": -1.7076,
     "status": "open",
-    "openingHours": "Mon-Sat: 08:00-17:30, Sun: 09:00-17:00"
+    "openingHours": "Mon-Sat: 08:00-17:30, Sun: 09:00-17:00",
+    "brand": "pret"
   },
   {
     "id": "10930",
@@ -4457,7 +4824,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.20552719145471196,
     "status": "open",
     "openingHours": "Mon-Sat: 07:30-17:00, Sun: 09:00-16:00",
-    "phone": "+44 1737 860009"
+    "phone": "+44 1737 860009",
+    "brand": "pret"
   },
   {
     "id": "10972",
@@ -4469,7 +4837,8 @@ export const pretLocations: Location[] = [
     "longitude": 0.160271030691,
     "status": "open",
     "openingHours": "Mon-Sat: 07:30-17:00, Sun: 08:00-16:00",
-    "phone": "+44 1279 800029"
+    "phone": "+44 1279 800029",
+    "brand": "pret"
   },
   {
     "id": "10969",
@@ -4481,7 +4850,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.9459703,
     "status": "open",
     "openingHours": "Mon-Fri: 06:00-18:00, Sat: 07:00-17:00, Sun: 08:00-16:00",
-    "phone": "+44 118 986 1393"
+    "phone": "+44 118 986 1393",
+    "brand": "pret"
   },
   {
     "id": "10933",
@@ -4493,7 +4863,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.139318344878207,
     "status": "open",
     "openingHours": "Mon-Sat: 07:00-18:00, Sun: 08:30-17:00",
-    "phone": "+44 1273 779478"
+    "phone": "+44 1273 779478",
+    "brand": "pret"
   },
   {
     "id": "10932",
@@ -4505,7 +4876,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.141403173649544,
     "status": "open",
     "openingHours": "Mon-Fri: 06:00-18:30, Sat: 07:00-18:30, Sun: 07:30-18:00",
-    "phone": "+44 1273 738992"
+    "phone": "+44 1273 738992",
+    "brand": "pret"
   },
   {
     "id": "10934",
@@ -4517,7 +4889,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.1440408,
     "status": "open",
     "openingHours": "Mon-Fri: 07:00-17:00, Sat: 07:00-18:00, Sun: 08:30-17:00",
-    "phone": "+44 1273 894391"
+    "phone": "+44 1273 894391",
+    "brand": "pret"
   },
   {
     "id": "10902",
@@ -4529,7 +4902,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.16887541,
     "status": "open",
     "openingHours": "Mon-Fri: 05:30-19:00, Sat: 06:00-19:00, Sun: 07:00-18:00",
-    "phone": "+44 20 7223 6074"
+    "phone": "+44 20 7223 6074",
+    "brand": "pret"
   },
   {
     "id": "10941",
@@ -4541,7 +4915,8 @@ export const pretLocations: Location[] = [
     "longitude": -1.4115792,
     "status": "open",
     "openingHours": "Mon-Fri: 08:30-21:00, Sat: 09:00-20:00, Sun: 10:00-17:00",
-    "phone": "+44 114 256 9181"
+    "phone": "+44 114 256 9181",
+    "brand": "pret"
   },
   {
     "id": "10962",
@@ -4553,7 +4928,8 @@ export const pretLocations: Location[] = [
     "longitude": -3.17992101534399,
     "status": "open",
     "openingHours": "Mon-Sat: 07:30-18:30, Sun: 09:00-17:00",
-    "phone": "+44 29 2022 4657"
+    "phone": "+44 29 2022 4657",
+    "brand": "pret"
   },
   {
     "id": "10964",
@@ -4565,7 +4941,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.610546361375997,
     "status": "open",
     "openingHours": "Mon-Thu: 08:30-16:30, Fri: 08:00-17:00, Sat-Sun: 09:00-17:00",
-    "phone": "+44 1753 857298"
+    "phone": "+44 1753 857298",
+    "brand": "pret"
   },
   {
     "id": "10963",
@@ -4577,7 +4954,8 @@ export const pretLocations: Location[] = [
     "longitude": -1.79544442328,
     "status": "open",
     "openingHours": "Mon-Fri: 08:00-16:00, Sat: 08:00-16:30, Sun: 09:00-16:00",
-    "phone": "+44 1722 325448"
+    "phone": "+44 1722 325448",
+    "brand": "pret"
   },
   {
     "id": "10920",
@@ -4588,7 +4966,8 @@ export const pretLocations: Location[] = [
     "latitude": 51.45207972,
     "longitude": -0.01604869,
     "status": "open",
-    "openingHours": "Mon-Sun: 06:00-20:00"
+    "openingHours": "Mon-Sun: 06:00-20:00",
+    "brand": "pret"
   },
   {
     "id": "10978",
@@ -4600,7 +4979,8 @@ export const pretLocations: Location[] = [
     "longitude": -2.1587,
     "status": "open",
     "openingHours": "Mon-Sun: 07:00-19:00",
-    "phone": "+44 7961 034696"
+    "phone": "+44 7961 034696",
+    "brand": "pret"
   },
   {
     "id": "10858",
@@ -4612,7 +4992,8 @@ export const pretLocations: Location[] = [
     "longitude": 0.00344265,
     "status": "open",
     "openingHours": "Mon: 05:30-20:00, Tue-Fri: 05:30-20:30, Sat: 06:00-21:00, Sun: 07:00-20:00",
-    "phone": "+44 20 8853 0908"
+    "phone": "+44 20 8853 0908",
+    "brand": "pret"
   },
   {
     "id": "10942",
@@ -4624,7 +5005,8 @@ export const pretLocations: Location[] = [
     "longitude": -2.6948141,
     "status": "open",
     "openingHours": "Mon-Sun: 06:00-18:00",
-    "phone": "+44 1257 421390"
+    "phone": "+44 1257 421390",
+    "brand": "pret"
   },
   {
     "id": "10983",
@@ -4636,7 +5018,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.7763858846596069,
     "status": "open",
     "openingHours": "Mon-Sun: 08:00-17:00",
-    "phone": "+44 7767 028036"
+    "phone": "+44 7767 028036",
+    "brand": "pret"
   },
   {
     "id": "10968",
@@ -4647,7 +5030,8 @@ export const pretLocations: Location[] = [
     "latitude": 54.38047,
     "longitude": -2.85607,
     "status": "open",
-    "openingHours": "Mon-Fri: 07:00-18:00, Sat-Sun: 07:00-20:00"
+    "openingHours": "Mon-Fri: 07:00-18:00, Sat-Sun: 07:00-20:00",
+    "brand": "pret"
   },
   {
     "id": "10979",
@@ -4659,7 +5043,8 @@ export const pretLocations: Location[] = [
     "longitude": -1.31106,
     "status": "open",
     "openingHours": "Mon-Thu: 06:00-19:00, Fri: 06:00-21:00, Sat: 06:00-19:00, Sun: 06:00-21:00",
-    "phone": "+44 7961 036562"
+    "phone": "+44 7961 036562",
+    "brand": "pret"
   },
   {
     "id": "10977",
@@ -4671,7 +5056,8 @@ export const pretLocations: Location[] = [
     "longitude": -1.03687,
     "status": "open",
     "openingHours": "Mon-Thu: 06:00-20:00, Fri: 06:00-21:00, Sat: 06:00-20:00, Sun: 07:00-21:00",
-    "phone": "+44 7961 034170"
+    "phone": "+44 7961 034170",
+    "brand": "pret"
   },
   {
     "id": "11001",
@@ -4682,7 +5068,8 @@ export const pretLocations: Location[] = [
     "latitude": 55.94890601,
     "longitude": -3.36362482,
     "status": "open",
-    "openingHours": "Mon-Sun: 04:00-20:00"
+    "openingHours": "Mon-Sun: 04:00-20:00",
+    "brand": "pret"
   },
   {
     "id": "10996",
@@ -4694,7 +5081,8 @@ export const pretLocations: Location[] = [
     "longitude": -1.4239499,
     "status": "open",
     "openingHours": "Mon-Fri: 07:30-18:30, Sat: 08:00-19:00, Sun: 09:00-17:00",
-    "phone": "+44 113 340 7080"
+    "phone": "+44 113 340 7080",
+    "brand": "pret"
   },
   {
     "id": "10997",
@@ -4706,7 +5094,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.458434967753206,
     "status": "open",
     "openingHours": "Mon-Fri: 05:00-19:00, Sat: 07:00-18:00, Sun: 08:00-17:00",
-    "phone": "+44 1582 342711"
+    "phone": "+44 1582 342711",
+    "brand": "pret"
   },
   {
     "id": "11005",
@@ -4717,7 +5106,8 @@ export const pretLocations: Location[] = [
     "latitude": 51.8887,
     "longitude": 0.9004,
     "status": "open",
-    "openingHours": "Mon-Sat: 07:30-17:00, Sun: 09:00-16:00"
+    "openingHours": "Mon-Sat: 07:30-17:00, Sun: 09:00-16:00",
+    "brand": "pret"
   },
   {
     "id": "11006",
@@ -4728,7 +5118,8 @@ export const pretLocations: Location[] = [
     "latitude": 51.8801,
     "longitude": 0.5509,
     "status": "open",
-    "openingHours": "Mon-Fri: 09:00-18:00, Sat: 08:30-19:00, Sun: 08:30-17:00"
+    "openingHours": "Mon-Fri: 09:00-18:00, Sat: 08:30-19:00, Sun: 08:30-17:00",
+    "brand": "pret"
   },
   {
     "id": "11004",
@@ -4740,7 +5131,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.3711851613615719,
     "status": "open",
     "openingHours": "Mon-Sun: 08:00-17:00",
-    "phone": "+44 7721 416510"
+    "phone": "+44 7721 416510",
+    "brand": "pret"
   },
   {
     "id": "11012",
@@ -4751,7 +5143,8 @@ export const pretLocations: Location[] = [
     "latitude": 51.35477168990843,
     "longitude": -0.8531763620630891,
     "status": "open",
-    "openingHours": "Mon-Wed: 07:00-20:00, Thu-Sun: 07:00-21:00"
+    "openingHours": "Mon-Wed: 07:00-20:00, Thu-Sun: 07:00-21:00",
+    "brand": "pret"
   },
   {
     "id": "11007",
@@ -4762,7 +5155,8 @@ export const pretLocations: Location[] = [
     "latitude": 52.21943208,
     "longitude": -1.50266772000067,
     "status": "open",
-    "openingHours": "Mon-Sun: 07:00-19:00"
+    "openingHours": "Mon-Sun: 07:00-19:00",
+    "brand": "pret"
   },
   {
     "id": "10980",
@@ -4773,7 +5167,8 @@ export const pretLocations: Location[] = [
     "latitude": 51.58707666,
     "longitude": -0.06357376,
     "status": "open",
-    "openingHours": "Mon-Sat: 06:30-19:00, Sun: 07:00-18:30"
+    "openingHours": "Mon-Sat: 06:30-19:00, Sun: 07:00-18:30",
+    "brand": "pret"
   },
   {
     "id": "11015",
@@ -4784,7 +5179,8 @@ export const pretLocations: Location[] = [
     "latitude": 53.79451674587288,
     "longitude": -1.7515428594426157,
     "status": "open",
-    "openingHours": "Mon-Fri: 08:00-17:00, Sat: 09:00-18:00, Sun: Closed"
+    "openingHours": "Mon-Fri: 08:00-17:00, Sat: 09:00-18:00, Sun: Closed",
+    "brand": "pret"
   },
   {
     "id": "11040",
@@ -4795,7 +5191,8 @@ export const pretLocations: Location[] = [
     "latitude": 51.81773310968125,
     "longitude": -4.505122814626002,
     "status": "open",
-    "openingHours": "Mon-Fri: 06:00-18:00, Sat: 07:00-17:00, Sun: 08:00-16:00"
+    "openingHours": "Mon-Fri: 06:00-18:00, Sat: 07:00-17:00, Sun: 08:00-16:00",
+    "brand": "pret"
   },
   {
     "id": "11045",
@@ -4807,7 +5204,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.774,
     "status": "open",
     "openingHours": "Mon-Fri: 05:30-19:00, Sat: 06:00-19:00, Sun: 07:00-19:00",
-    "phone": "+44 1908 393298"
+    "phone": "+44 1908 393298",
+    "brand": "pret"
   },
   {
     "id": "11050",
@@ -4818,7 +5216,8 @@ export const pretLocations: Location[] = [
     "latitude": 53.96192,
     "longitude": -2.7604,
     "status": "open",
-    "openingHours": "Mon-Sun: 07:00-18:00"
+    "openingHours": "Mon-Sun: 07:00-18:00",
+    "brand": "pret"
   },
   {
     "id": "11036",
@@ -4829,7 +5228,8 @@ export const pretLocations: Location[] = [
     "latitude": 51.5774161366792,
     "longitude": 0.18301417274721,
     "status": "open",
-    "openingHours": "Mon-Fri: 06:30-18:30, Sat: 06:30-19:00, Sun: 06:30-17:30"
+    "openingHours": "Mon-Fri: 06:30-18:30, Sat: 06:30-19:00, Sun: 06:30-17:30",
+    "brand": "pret"
   },
   {
     "id": "11059",
@@ -4840,7 +5240,8 @@ export const pretLocations: Location[] = [
     "latitude": 53.56822,
     "longitude": -2.232,
     "status": "open",
-    "openingHours": "Mon-Sat: 07:00-17:00, Sun: 07:00-18:00"
+    "openingHours": "Mon-Sat: 07:00-17:00, Sun: 07:00-18:00",
+    "brand": "pret"
   },
   {
     "id": "11055",
@@ -4851,7 +5252,8 @@ export const pretLocations: Location[] = [
     "latitude": 51.94769,
     "longitude": -0.50387,
     "status": "open",
-    "openingHours": "Mon-Sun: 07:00-20:00"
+    "openingHours": "Mon-Sun: 07:00-20:00",
+    "brand": "pret"
   },
   {
     "id": "11051",
@@ -4863,7 +5265,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.4579,
     "status": "open",
     "openingHours": "Mon-Fri: 07:00-17:00, Sat: 08:00-17:30, Sun: 08:30-17:00",
-    "phone": "+44 1932 848240"
+    "phone": "+44 1932 848240",
+    "brand": "pret"
   },
   {
     "id": "11065",
@@ -4874,7 +5277,8 @@ export const pretLocations: Location[] = [
     "latitude": 51.3746705,
     "longitude": -0.094682,
     "status": "open",
-    "openingHours": "Mon-Fri: 06:00-17:00, Sat-Sun: 07:30-16:00"
+    "openingHours": "Mon-Fri: 06:00-17:00, Sat-Sun: 07:30-16:00",
+    "brand": "pret"
   },
   {
     "id": "11067",
@@ -4885,7 +5289,8 @@ export const pretLocations: Location[] = [
     "latitude": 51.43467,
     "longitude": -0.51096,
     "status": "open",
-    "openingHours": "Mon-Fri: 07:00-18:00, Sat: 07:30-18:30, Sun: 08:00-17:00"
+    "openingHours": "Mon-Fri: 07:00-18:00, Sat: 07:30-18:30, Sun: 08:00-17:00",
+    "brand": "pret"
   },
   {
     "id": "11068",
@@ -4896,7 +5301,8 @@ export const pretLocations: Location[] = [
     "latitude": 51.492875,
     "longitude": 0.121503,
     "status": "open",
-    "openingHours": "Mon-Sat: 06:00-18:00, Sun: 08:00-17:00"
+    "openingHours": "Mon-Sat: 06:00-18:00, Sun: 08:00-17:00",
+    "brand": "pret"
   },
   {
     "id": "11060",
@@ -4907,7 +5313,8 @@ export const pretLocations: Location[] = [
     "latitude": 52.041439,
     "longitude": -0.76056,
     "status": "open",
-    "openingHours": "Mon-Wed: 08:00-18:00, Thu-Sat: 08:00-19:00, Sun: 09:00-17:00"
+    "openingHours": "Mon-Wed: 08:00-18:00, Thu-Sat: 08:00-19:00, Sun: 09:00-17:00",
+    "brand": "pret"
   },
   {
     "id": "11070",
@@ -4919,7 +5326,8 @@ export const pretLocations: Location[] = [
     "longitude": -2.7966551153403927,
     "status": "open",
     "openingHours": "Mon-Sat: 07:30-18:00, Sun: 08:00-18:00",
-    "phone": "+44 1334 478835"
+    "phone": "+44 1334 478835",
+    "brand": "pret"
   },
   {
     "id": "11069",
@@ -4930,7 +5338,8 @@ export const pretLocations: Location[] = [
     "latitude": 57.1460202486865,
     "longitude": -2.1027125079502276,
     "status": "open",
-    "openingHours": "Mon-Fri: 06:30-17:30, Sat-Sun: 08:00-17:00"
+    "openingHours": "Mon-Fri: 06:30-17:30, Sat-Sun: 08:00-17:00",
+    "brand": "pret"
   },
   {
     "id": "11073",
@@ -4941,7 +5350,8 @@ export const pretLocations: Location[] = [
     "latitude": 54.975941,
     "longitude": -1.6128,
     "status": "open",
-    "openingHours": "Mon-Fri: 07:00-17:30, Sat: 07:30-17:30, Sun: 09:30-15:30"
+    "openingHours": "Mon-Fri: 07:00-17:30, Sat: 07:30-17:30, Sun: 09:30-15:30",
+    "brand": "pret"
   },
   {
     "id": "11072",
@@ -4952,7 +5362,8 @@ export const pretLocations: Location[] = [
     "latitude": 53.7974,
     "longitude": -1.54382,
     "status": "open",
-    "openingHours": "Mon-Sat: 07:30-18:00, Sun: 08:00-17:00"
+    "openingHours": "Mon-Sat: 07:30-18:00, Sun: 08:00-17:00",
+    "brand": "pret"
   },
   {
     "id": "11076",
@@ -4963,7 +5374,8 @@ export const pretLocations: Location[] = [
     "latitude": 53.79772,
     "longitude": -1.54941,
     "status": "open",
-    "openingHours": "Mon: 07:00-16:00, Tue-Thu: 07:00-16:30, Fri: 07:00-16:00, Sat-Sun: Closed"
+    "openingHours": "Mon: 07:00-16:00, Tue-Thu: 07:00-16:30, Fri: 07:00-16:00, Sat-Sun: Closed",
+    "brand": "pret"
   },
   {
     "id": "11078",
@@ -4974,7 +5386,8 @@ export const pretLocations: Location[] = [
     "latitude": 51.1555928,
     "longitude": -0.1625842,
     "status": "open",
-    "openingHours": "Mon-Sun: 00:00-23:59"
+    "openingHours": "Mon-Sun: 00:00-23:59",
+    "brand": "pret"
   },
   {
     "id": "11096",
@@ -4985,7 +5398,8 @@ export const pretLocations: Location[] = [
     "latitude": 52.64297,
     "longitude": -2.05768,
     "status": "open",
-    "openingHours": "Mon-Thu: 07:00-18:00, Fri: 06:00-19:00, Sat: 06:00-18:00, Sun: 07:00-19:00"
+    "openingHours": "Mon-Thu: 07:00-18:00, Fri: 06:00-19:00, Sat: 06:00-18:00, Sun: 07:00-19:00",
+    "brand": "pret"
   },
   {
     "id": "11095",
@@ -4996,7 +5410,8 @@ export const pretLocations: Location[] = [
     "latitude": 51.30438,
     "longitude": -0.40567,
     "status": "open",
-    "openingHours": "Mon-Sat: 06:00-19:00, Sun: 07:00-19:00"
+    "openingHours": "Mon-Sat: 06:00-19:00, Sun: 07:00-19:00",
+    "brand": "pret"
   },
   {
     "id": "11101",
@@ -5007,7 +5422,8 @@ export const pretLocations: Location[] = [
     "latitude": 51.15627616,
     "longitude": -0.16271817,
     "status": "open",
-    "openingHours": "Mon-Sun: 05:00-20:00"
+    "openingHours": "Mon-Sun: 05:00-20:00",
+    "brand": "pret"
   },
   {
     "id": "11102",
@@ -5018,7 +5434,8 @@ export const pretLocations: Location[] = [
     "latitude": 51.152069,
     "longitude": -0.16198,
     "status": "open",
-    "openingHours": "Mon-Sun: 05:00-16:00"
+    "openingHours": "Mon-Sun: 05:00-16:00",
+    "brand": "pret"
   },
   {
     "id": "11094",
@@ -5030,7 +5447,8 @@ export const pretLocations: Location[] = [
     "longitude": -2.0995095,
     "status": "open",
     "openingHours": "Mon-Sat: 07:30-18:00, Sun: 09:00-17:00",
-    "phone": "+44 1224 620020"
+    "phone": "+44 1224 620020",
+    "brand": "pret"
   },
   {
     "id": "11061",
@@ -5042,7 +5460,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.593177,
     "status": "open",
     "openingHours": "Mon-Sat: 07:00-18:00, Sun: 09:00-17:00",
-    "phone": "+44 28 9568 5695"
+    "phone": "+44 28 9568 5695",
+    "brand": "pret"
   },
   {
     "id": "11079",
@@ -5054,7 +5473,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.85563424,
     "status": "open",
     "openingHours": "Mon-Sun: 07:00-19:00",
-    "phone": "+44 1908 299700"
+    "phone": "+44 1908 299700",
+    "brand": "pret"
   },
   {
     "id": "11110",
@@ -5065,7 +5485,8 @@ export const pretLocations: Location[] = [
     "latitude": 54.96909,
     "longitude": -1.61813,
     "status": "open",
-    "openingHours": "Mon-Fri: 05:30-20:30, Sat: 07:00-21:00, Sun: 07:30-20:00"
+    "openingHours": "Mon-Fri: 05:30-20:30, Sat: 07:00-21:00, Sun: 07:30-20:00",
+    "brand": "pret"
   },
   {
     "id": "11109",
@@ -5076,7 +5497,8 @@ export const pretLocations: Location[] = [
     "latitude": 53.379372,
     "longitude": -1.47203,
     "status": "open",
-    "openingHours": "Mon-Fri: 07:30-17:00, Sat: 10:00-17:00, Sun: 10:30-17:00"
+    "openingHours": "Mon-Fri: 07:30-17:00, Sat: 10:00-17:00, Sun: 10:30-17:00",
+    "brand": "pret"
   },
   {
     "id": "11112",
@@ -5087,7 +5509,8 @@ export const pretLocations: Location[] = [
     "latitude": 51.160496,
     "longitude": -0.17783708,
     "status": "open",
-    "openingHours": "Mon-Sun: 00:00-23:59"
+    "openingHours": "Mon-Sun: 00:00-23:59",
+    "brand": "pret"
   },
   {
     "id": "11113",
@@ -5098,7 +5521,8 @@ export const pretLocations: Location[] = [
     "latitude": 51.547242706853,
     "longitude": -0.190931838956602,
     "status": "open",
-    "openingHours": "Mon-Fri: 06:00-20:00, Sat: 06:30-19:30, Sun: 07:00-19:30"
+    "openingHours": "Mon-Fri: 06:00-20:00, Sat: 06:30-19:30, Sun: 07:00-19:30",
+    "brand": "pret"
   },
   {
     "id": "209876",
@@ -5109,7 +5533,8 @@ export const pretLocations: Location[] = [
     "latitude": 51.58692,
     "longitude": -0.0635134,
     "status": "open",
-    "openingHours": ""
+    "openingHours": "",
+    "brand": "pret"
   },
   {
     "id": "11121",
@@ -5121,7 +5546,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.9718,
     "status": "open",
     "openingHours": "Mon-Fri: 07:00-18:30, Sat: 07:30-18:30, Sun: 08:30-17:30",
-    "phone": "+44 118 227 5675"
+    "phone": "+44 118 227 5675",
+    "brand": "pret"
   },
   {
     "id": "11120",
@@ -5133,7 +5559,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.9727,
     "status": "open",
     "openingHours": "Mon-Wed: 07:00-18:30, Thu-Fri: 07:00-19:00, Sat: 07:30-19:00, Sun: 08:30-17:30",
-    "phone": "+44 118 958 8020"
+    "phone": "+44 118 958 8020",
+    "brand": "pret"
   },
   {
     "id": "10898",
@@ -5145,7 +5572,8 @@ export const pretLocations: Location[] = [
     "longitude": -1.27011246985964,
     "status": "open",
     "openingHours": "Mon-Fri: 06:00-21:00, Sat: 07:00-19:00, Sun: 07:00-17:00",
-    "phone": "+44 1789 414071"
+    "phone": "+44 1789 414071",
+    "brand": "pret"
   },
   {
     "id": "11130",
@@ -5157,7 +5585,8 @@ export const pretLocations: Location[] = [
     "longitude": -1.1477178,
     "status": "open",
     "openingHours": "Mon-Sat: 07:30-18:30, Sun: 08:30-17:30",
-    "phone": "+44 115 941 9883"
+    "phone": "+44 115 941 9883",
+    "brand": "pret"
   },
   {
     "id": "11131",
@@ -5169,7 +5598,8 @@ export const pretLocations: Location[] = [
     "longitude": -2.0734148,
     "status": "open",
     "openingHours": "Mon-Fri: 07:30-17:30, Sat: 07:30-18:00, Sun: 08:30-17:00",
-    "phone": "+44 1242 220378"
+    "phone": "+44 1242 220378",
+    "brand": "pret"
   },
   {
     "id": "11132",
@@ -5181,7 +5611,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.19236,
     "status": "open",
     "openingHours": "Mon-Fri: 07:00-18:00, Sat: 07:30-18:00, Sun: 08:00-17:00",
-    "phone": "+44 7407 792918"
+    "phone": "+44 7407 792918",
+    "brand": "pret"
   },
   {
     "id": "11135",
@@ -5192,7 +5623,8 @@ export const pretLocations: Location[] = [
     "latitude": 51.274522,
     "longitude": 0.196117,
     "status": "open",
-    "openingHours": "Mon-Fri: 07:30-17:00, Sat-Sun: 08:00-17:00"
+    "openingHours": "Mon-Fri: 07:30-17:00, Sat-Sun: 08:00-17:00",
+    "brand": "pret"
   },
   {
     "id": "11136",
@@ -5204,7 +5636,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.340111,
     "status": "open",
     "openingHours": "Mon-Fri: 06:00-18:00, Sat: 07:00-17:00, Sun: 08:00-16:00",
-    "phone": "+44 1903 497230"
+    "phone": "+44 1903 497230",
+    "brand": "pret"
   },
   {
     "id": "11092",
@@ -5216,7 +5649,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.108083676352313,
     "status": "open",
     "openingHours": "Mon-Sat: 06:30-19:30, Sun: 07:00-19:30",
-    "phone": "+44 20 7263 7598"
+    "phone": "+44 20 7263 7598",
+    "brand": "pret"
   },
   {
     "id": "11138",
@@ -5228,7 +5662,8 @@ export const pretLocations: Location[] = [
     "longitude": -2.96928883862977,
     "status": "open",
     "openingHours": "Mon-Fri: 07:30-17:00, Sat: 09:00-17:00, Sun: 09:00-14:30",
-    "phone": "+44 1382 237717"
+    "phone": "+44 1382 237717",
+    "brand": "pret"
   },
   {
     "id": "11142",
@@ -5239,7 +5674,8 @@ export const pretLocations: Location[] = [
     "latitude": 53.796211,
     "longitude": -1.55781,
     "status": "open",
-    "openingHours": "Mon-Thu: 07:00-17:30, Fri: 07:00-17:00, Sat-Sun: Closed"
+    "openingHours": "Mon-Thu: 07:00-17:30, Fri: 07:00-17:00, Sat-Sun: Closed",
+    "brand": "pret"
   },
   {
     "id": "11146",
@@ -5251,7 +5687,8 @@ export const pretLocations: Location[] = [
     "longitude": -2.87269,
     "status": "open",
     "openingHours": "Mon-Sun: 07:00-16:00",
-    "phone": "+44 7565 996811"
+    "phone": "+44 7565 996811",
+    "brand": "pret"
   },
   {
     "id": "11147",
@@ -5263,7 +5700,8 @@ export const pretLocations: Location[] = [
     "longitude": -2.86991,
     "status": "open",
     "openingHours": "Mon-Sun: 07:00-16:00",
-    "phone": "+44 7565 996811"
+    "phone": "+44 7565 996811",
+    "brand": "pret"
   },
   {
     "id": "11148",
@@ -5275,7 +5713,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.920134,
     "status": "open",
     "openingHours": "Mon-Sat: 08:00-18:00, Sun: 09:00-17:00",
-    "phone": "+44 1858 458880"
+    "phone": "+44 1858 458880",
+    "brand": "pret"
   },
   {
     "id": "11150",
@@ -5287,7 +5726,8 @@ export const pretLocations: Location[] = [
     "longitude": -3.179567,
     "status": "open",
     "openingHours": "Mon-Fri: 06:30-17:30, Sat-Sun: 08:00-17:30",
-    "phone": "+44 131 287 2584"
+    "phone": "+44 131 287 2584",
+    "brand": "pret"
   },
   {
     "id": "11151",
@@ -5299,7 +5739,8 @@ export const pretLocations: Location[] = [
     "longitude": -3.207716,
     "status": "open",
     "openingHours": "Mon-Sat: 06:30-18:00, Sun: 08:00-17:00",
-    "phone": "+44 131 287 0399"
+    "phone": "+44 131 287 0399",
+    "brand": "pret"
   },
   {
     "id": "11152",
@@ -5311,7 +5752,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.195881234055207,
     "status": "open",
     "openingHours": "Mon-Sun: 06:30-18:30",
-    "phone": "+44 7918 337314"
+    "phone": "+44 7918 337314",
+    "brand": "pret"
   },
   {
     "id": "11153",
@@ -5323,7 +5765,8 @@ export const pretLocations: Location[] = [
     "longitude": -1.25419,
     "status": "open",
     "openingHours": "Mon-Thu: 07:00-18:00, Fri: 07:00-19:00, Sat: 06:00-18:00, Sun: 07:00-18:00",
-    "phone": "+44 7961 033029"
+    "phone": "+44 7961 033029",
+    "brand": "pret"
   },
   {
     "id": "11154",
@@ -5335,7 +5778,8 @@ export const pretLocations: Location[] = [
     "longitude": -2.15741,
     "status": "open",
     "openingHours": "Mon-Thu: 07:00-18:00, Fri: 07:00-19:00, Sat-Sun: 07:00-18:00",
-    "phone": "+44 7961 034566"
+    "phone": "+44 7961 034566",
+    "brand": "pret"
   },
   {
     "id": "11157",
@@ -5347,7 +5791,8 @@ export const pretLocations: Location[] = [
     "longitude": -2.8736,
     "status": "open",
     "openingHours": "Mon-Sat: 07:00-18:00, Sun: 08:00-18:00",
-    "phone": "+44 1382 237674"
+    "phone": "+44 1382 237674",
+    "brand": "pret"
   },
   {
     "id": "11156",
@@ -5359,7 +5804,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.0127088492151697,
     "status": "open",
     "openingHours": "Mon-Fri: 06:00-18:00, Sat: 07:00-17:00, Sun: 08:00-16:00",
-    "phone": "+44 1342 645335"
+    "phone": "+44 1342 645335",
+    "brand": "pret"
   },
   {
     "id": "11158",
@@ -5370,7 +5816,8 @@ export const pretLocations: Location[] = [
     "latitude": 51.624893855218,
     "longitude": -0.0593754809996348,
     "status": "open",
-    "openingHours": "Mon-Fri: 06:30-18:00, Sat: 07:00-18:00, Sun: 07:30-17:00"
+    "openingHours": "Mon-Fri: 06:30-18:00, Sat: 07:00-18:00, Sun: 07:30-17:00",
+    "brand": "pret"
   },
   {
     "id": "11159",
@@ -5382,7 +5829,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.20061257,
     "status": "open",
     "openingHours": "Mon-Fri: 07:00-18:30, Sat-Sun: 07:30-17:30",
-    "phone": "+44 7553 356618"
+    "phone": "+44 7553 356618",
+    "brand": "pret"
   },
   {
     "id": "11161",
@@ -5393,7 +5841,8 @@ export const pretLocations: Location[] = [
     "latitude": 54.586587,
     "longitude": -5.950769,
     "status": "open",
-    "openingHours": "Mon-Sun: 06:00-20:00"
+    "openingHours": "Mon-Sun: 06:00-20:00",
+    "brand": "pret"
   },
   {
     "id": "11162",
@@ -5404,7 +5853,8 @@ export const pretLocations: Location[] = [
     "latitude": 53.41525,
     "longitude": -1.41404,
     "status": "open",
-    "openingHours": "Mon-Fri: 10:00-21:00, Sat: 10:00-20:00, Sun: 11:00-17:00"
+    "openingHours": "Mon-Fri: 10:00-21:00, Sat: 10:00-20:00, Sun: 11:00-17:00",
+    "brand": "pret"
   },
   {
     "id": "11164",
@@ -5416,7 +5866,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.62343,
     "status": "open",
     "openingHours": "Mon-Fri: 07:30-19:00, Sat: 08:00-19:00, Sun: 08:30-19:00",
-    "phone": "+44 7503 900076"
+    "phone": "+44 7503 900076",
+    "brand": "pret"
   },
   {
     "id": "11165",
@@ -5428,7 +5879,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.013,
     "status": "open",
     "openingHours": "Mon-Fri: 05:30-19:30, Sat-Sun: 06:00-19:30",
-    "phone": "+44 7443 744825"
+    "phone": "+44 7443 744825",
+    "brand": "pret"
   },
   {
     "id": "11168",
@@ -5440,7 +5892,8 @@ export const pretLocations: Location[] = [
     "longitude": -2.25256,
     "status": "open",
     "openingHours": "Mon-Sat: 08:00-19:00, Sun: 09:00-17:00",
-    "phone": "+44 1452 227637"
+    "phone": "+44 1452 227637",
+    "brand": "pret"
   },
   {
     "id": "11169",
@@ -5451,7 +5904,8 @@ export const pretLocations: Location[] = [
     "latitude": 50.76826,
     "longitude": 0.28648,
     "status": "open",
-    "openingHours": "Mon-Sun: 08:30-17:00"
+    "openingHours": "Mon-Sun: 08:30-17:00",
+    "brand": "pret"
   },
   {
     "id": "11176",
@@ -5463,7 +5917,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.30506,
     "status": "open",
     "openingHours": "Mon-Sat: 07:00-19:00, Sun: 08:00-18:00",
-    "phone": "+44 20 8579 4615"
+    "phone": "+44 20 8579 4615",
+    "brand": "pret"
   },
   {
     "id": "11178",
@@ -5475,7 +5930,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.398025,
     "status": "open",
     "openingHours": "Mon: 06:30-16:30, Tue-Thu: 06:30-17:30, Fri: 06:30-16:30, Sat: 07:30-17:30, Sun: 08:30-17:30",
-    "phone": "+44 1923 805285"
+    "phone": "+44 1923 805285",
+    "brand": "pret"
   },
   {
     "id": "11179",
@@ -5487,7 +5943,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.479919,
     "status": "open",
     "openingHours": "Mon: 07:00-18:00, Tue-Thu: 07:00-18:30, Fri: 07:00-18:00, Sat: 08:00-18:00, Sun: 08:30-17:00",
-    "phone": "+44 1895 238614"
+    "phone": "+44 1895 238614",
+    "brand": "pret"
   },
   {
     "id": "11181",
@@ -5499,7 +5956,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.224183,
     "status": "open",
     "openingHours": "Mon-Sat: 09:00-20:00, Sun: 11:00-19:00",
-    "phone": "+44 20 8203 4719"
+    "phone": "+44 20 8203 4719",
+    "brand": "pret"
   },
   {
     "id": "11182",
@@ -5511,7 +5969,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.277903872,
     "status": "open",
     "openingHours": "Mon: 07:00-18:00, Tue-Fri: 07:00-18:30, Sat: 08:00-19:30, Sun: 08:30-18:30",
-    "phone": "+44 20 8902 1735"
+    "phone": "+44 20 8902 1735",
+    "brand": "pret"
   },
   {
     "id": "11183",
@@ -5523,7 +5982,8 @@ export const pretLocations: Location[] = [
     "longitude": 0.8786,
     "status": "open",
     "openingHours": "Mon-Sun: 08:00-20:00",
-    "phone": "+44 1233 621562"
+    "phone": "+44 1233 621562",
+    "brand": "pret"
   },
   {
     "id": "11188",
@@ -5535,7 +5995,8 @@ export const pretLocations: Location[] = [
     "longitude": -1.35156,
     "status": "open",
     "openingHours": "Mon-Sun: 08:00-16:00",
-    "phone": "+44 1709 288940"
+    "phone": "+44 1709 288940",
+    "brand": "pret"
   },
   {
     "id": "11191",
@@ -5547,7 +6008,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.90546,
     "status": "open",
     "openingHours": "Mon-Sat: 07:30-18:00, Sun: 08:00-17:00",
-    "phone": "+44 1491 527822"
+    "phone": "+44 1491 527822",
+    "brand": "pret"
   },
   {
     "id": "11193",
@@ -5558,7 +6020,8 @@ export const pretLocations: Location[] = [
     "latitude": 55.94548806558049,
     "longitude": -3.21590834887096,
     "status": "open",
-    "openingHours": "Mon-Fri: 05:00-20:00, Sat-Sun: 06:30-16:30"
+    "openingHours": "Mon-Fri: 05:00-20:00, Sat-Sun: 06:30-16:30",
+    "brand": "pret"
   },
   {
     "id": "11203",
@@ -5570,7 +6033,8 @@ export const pretLocations: Location[] = [
     "longitude": 0.535288,
     "status": "open",
     "openingHours": "Mon-Thu: 05:00-19:00, Fri: 05:00-21:00, Sat: 07:00-18:00, Sun: 08:00-21:00",
-    "phone": "+44 1638 590829"
+    "phone": "+44 1638 590829",
+    "brand": "pret"
   },
   {
     "id": "11209",
@@ -5582,7 +6046,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.720859859543313,
     "status": "open",
     "openingHours": "Mon-Fri: 07:00-18:00, Sat: 08:00-16:00, Sun: 09:00-16:00",
-    "phone": "+44 1628 562762"
+    "phone": "+44 1628 562762",
+    "brand": "pret"
   },
   {
     "id": "11180",
@@ -5594,7 +6059,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.336786,
     "status": "open",
     "openingHours": "Mon-Fri: 07:30-17:30, Sat: 07:30-18:00, Sun: 08:30-17:00",
-    "phone": "+44 20 8424 2698"
+    "phone": "+44 20 8424 2698",
+    "brand": "pret"
   },
   {
     "id": "11214",
@@ -5606,7 +6072,8 @@ export const pretLocations: Location[] = [
     "longitude": -1.0811166,
     "status": "open",
     "openingHours": "Mon-Sat: 07:30-17:30, Sun: 08:00-17:30",
-    "phone": "+44 20 3937 7821"
+    "phone": "+44 20 3937 7821",
+    "brand": "pret"
   },
   {
     "id": "11215",
@@ -5618,7 +6085,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.09782261,
     "status": "open",
     "openingHours": "Mon: 06:00-20:00, Tue-Thu: 06:00-20:30, Fri: 06:00-20:00, Sat: 07:00-17:30, Sun: 08:00-17:00",
-    "phone": "+44 7884 923782"
+    "phone": "+44 7884 923782",
+    "brand": "pret"
   },
   {
     "id": "11218",
@@ -5629,7 +6097,8 @@ export const pretLocations: Location[] = [
     "latitude": 51.546393,
     "longitude": -0.055069,
     "status": "open",
-    "openingHours": "Mon-Fri: 06:30-19:00, Sat: 07:30-18:00, Sun: 08:00-18:00"
+    "openingHours": "Mon-Fri: 06:30-19:00, Sat: 07:30-18:00, Sun: 08:00-18:00",
+    "brand": "pret"
   },
   {
     "id": "11220",
@@ -5640,7 +6109,8 @@ export const pretLocations: Location[] = [
     "latitude": 52.42663,
     "longitude": -0.2698,
     "status": "open",
-    "openingHours": "Mon-Sat: 07:00-18:00, Sun: 08:00-18:00"
+    "openingHours": "Mon-Sat: 07:00-18:00, Sun: 08:00-18:00",
+    "brand": "pret"
   },
   {
     "id": "11105",
@@ -5651,7 +6121,8 @@ export const pretLocations: Location[] = [
     "latitude": 51.42600183,
     "longitude": -1.03514983,
     "status": "open",
-    "openingHours": "Mon-Fri: 07:00-19:00, Sat-Sun: 08:00-19:00"
+    "openingHours": "Mon-Fri: 07:00-19:00, Sat-Sun: 08:00-19:00",
+    "brand": "pret"
   },
   {
     "id": "11225",
@@ -5662,7 +6133,8 @@ export const pretLocations: Location[] = [
     "latitude": 50.9578210058115,
     "longitude": -0.139219654339451,
     "status": "open",
-    "openingHours": "Mon-Fri: 06:00-18:00, Sat: 07:00-17:00, Sun: 08:00-16:00"
+    "openingHours": "Mon-Fri: 06:00-18:00, Sat: 07:00-17:00, Sun: 08:00-16:00",
+    "brand": "pret"
   },
   {
     "id": "11226",
@@ -5674,7 +6146,8 @@ export const pretLocations: Location[] = [
     "longitude": 1.061994,
     "status": "open",
     "openingHours": "Mon-Fri: 06:00-18:00, Sat: 07:00-17:00, Sun: 08:00-16:00",
-    "phone": "+44 1227 201850"
+    "phone": "+44 1227 201850",
+    "brand": "pret"
   },
   {
     "id": "11227",
@@ -5685,7 +6158,8 @@ export const pretLocations: Location[] = [
     "latitude": 51.1777868697527,
     "longitude": -2.53622815560272,
     "status": "open",
-    "openingHours": "Mon-Fri: 06:00-18:00, Sat: 07:00-17:00, Sun: 08:00-16:00"
+    "openingHours": "Mon-Fri: 06:00-18:00, Sat: 07:00-17:00, Sun: 08:00-16:00",
+    "brand": "pret"
   },
   {
     "id": "11228",
@@ -5696,7 +6170,8 @@ export const pretLocations: Location[] = [
     "latitude": 51.996253,
     "longitude": -2.114679,
     "status": "open",
-    "openingHours": "Mon-Fri: 09:30-20:30, Sat: 08:30-20:30, Sun: 10:00-16:30"
+    "openingHours": "Mon-Fri: 09:30-20:30, Sat: 08:30-20:30, Sun: 10:00-16:30",
+    "brand": "pret"
   },
   {
     "id": "11230",
@@ -5707,7 +6182,8 @@ export const pretLocations: Location[] = [
     "latitude": 51.4210612,
     "longitude": -0.206539,
     "status": "open",
-    "openingHours": "Mon-Fri: 06:00-18:00, Sat-Sun: 07:00-17:00"
+    "openingHours": "Mon-Fri: 06:00-18:00, Sat-Sun: 07:00-17:00",
+    "brand": "pret"
   },
   {
     "id": "11232",
@@ -5719,7 +6195,8 @@ export const pretLocations: Location[] = [
     "longitude": -3.1883127477264583,
     "status": "open",
     "openingHours": "Mon-Sat: 08:00-20:00, Sun: 09:00-18:00",
-    "phone": "+44 7980 554001"
+    "phone": "+44 7980 554001",
+    "brand": "pret"
   },
   {
     "id": "11234",
@@ -5731,7 +6208,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.313178,
     "status": "open",
     "openingHours": "Mon-Wed: 05:30-19:00, Thu-Fri: 05:30-20:00, Sat: 06:30-20:00, Sun: 07:00-17:00",
-    "phone": "+44 1727 221830"
+    "phone": "+44 1727 221830",
+    "brand": "pret"
   },
   {
     "id": "11235",
@@ -5743,7 +6221,8 @@ export const pretLocations: Location[] = [
     "longitude": -1.5428655,
     "status": "open",
     "openingHours": "Mon-Fri: 06:00-18:00, Sat: 07:00-17:00, Sun: 08:00-16:00",
-    "phone": "+44 1926 293449"
+    "phone": "+44 1926 293449",
+    "brand": "pret"
   },
   {
     "id": "10961",
@@ -5755,7 +6234,8 @@ export const pretLocations: Location[] = [
     "longitude": -3.179496984656,
     "status": "open",
     "openingHours": "Mon-Fri: 07:00-19:00, Sat: 08:00-17:30, Sun: 09:00-16:00",
-    "phone": "+44 29 2022 4736"
+    "phone": "+44 29 2022 4736",
+    "brand": "pret"
   },
   {
     "id": "11240",
@@ -5766,7 +6246,8 @@ export const pretLocations: Location[] = [
     "latitude": 51.49949760960905,
     "longitude": -0.17805464482421263,
     "status": "open",
-    "openingHours": "Mon-Fri: 08:00-19:00, Sat-Sun: 08:00-16:00"
+    "openingHours": "Mon-Fri: 08:00-19:00, Sat-Sun: 08:00-16:00",
+    "brand": "pret"
   },
   {
     "id": "11233",
@@ -5778,7 +6259,8 @@ export const pretLocations: Location[] = [
     "longitude": -1.866051712164305,
     "status": "open",
     "openingHours": "Mon-Fri: 06:00-18:00, Sat: 07:00-17:00, Sun: 08:00-16:00",
-    "phone": "+44 1202 573779"
+    "phone": "+44 1202 573779",
+    "brand": "pret"
   },
   {
     "id": "11236",
@@ -5789,7 +6271,8 @@ export const pretLocations: Location[] = [
     "latitude": 52.2166644621271,
     "longitude": -1.50532163627102,
     "status": "open",
-    "openingHours": "Mon-Sun: 07:00-19:00"
+    "openingHours": "Mon-Sun: 07:00-19:00",
+    "brand": "pret"
   },
   {
     "id": "11237",
@@ -5801,7 +6284,8 @@ export const pretLocations: Location[] = [
     "longitude": -1.3735886,
     "status": "open",
     "openingHours": "Mon-Fri: 06:00-18:00, Sat: 07:00-17:00, Sun: 08:00-16:00",
-    "phone": "+44 191 406 5728"
+    "phone": "+44 191 406 5728",
+    "brand": "pret"
   },
   {
     "id": "11238",
@@ -5813,7 +6297,8 @@ export const pretLocations: Location[] = [
     "longitude": -0.096905,
     "status": "open",
     "openingHours": "Mon-Fri: 06:00-18:00, Sat: 07:00-17:00, Sun: 08:00-16:00",
-    "phone": "+44 20 3837 0687"
+    "phone": "+44 20 3837 0687",
+    "brand": "pret"
   },
   {
     "id": "11248",
@@ -5825,6 +6310,7 @@ export const pretLocations: Location[] = [
     "longitude": -1.9041994629852321,
     "status": "open",
     "openingHours": "Mon-Fri: 06:00-18:00, Sat: 07:00-17:00, Sun: 08:00-16:00",
-    "phone": "+44 1527 911245"
+    "phone": "+44 1527 911245",
+    "brand": "pret"
   }
 ];
