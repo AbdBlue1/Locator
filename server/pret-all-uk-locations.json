@@ -1,12 +1,4 @@
-import type { Location } from "@shared/schema";
-
-// Real Pret A Manger UK locations
-// Scraped from https://www.pret.co.uk/en-GB/shop-finder
-// Total: 491 locations across the UK
-// London: 275 locations
-// Other UK cities: 216 locations
-
-export const pretLocations: Location[] = [
+[
   {
     "id": "10325",
     "name": "Pret A Manger",
@@ -4917,4 +4909,4 @@ export const pretLocations: Location[] = [
     "longitude": -1.9041994629852321,
     "status": "open"
   }
-];
+]
