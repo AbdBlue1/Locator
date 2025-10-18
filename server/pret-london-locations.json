@@ -1,10 +1,4 @@
-import type { Location } from "@shared/schema";
-
-// Real Pret A Manger London locations
-// Scraped from https://www.pret.co.uk/en-GB/shop-finder/l/london
-// Total: 275 locations
-
-export const pretLocations: Location[] = [
+[
   {
     "id": "10325",
     "name": "Pret A Manger",
@@ -2755,4 +2749,4 @@ export const pretLocations: Location[] = [
     "longitude": -0.096905,
     "status": "open"
   }
-];
+]
