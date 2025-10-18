@@ -1,13 +1,16 @@
 import { useState, useMemo } from "react";
 import { useQuery } from "@tanstack/react-query";
 import MapView from "@/components/MapView";
-import MapFilterBox from "@/components/MapFilterBox";
+import MapFilterBox, { type FilterOptions } from "@/components/MapFilterBox";
 import type { Location } from "@shared/schema";
 
 export default function Home() {
-  const [selectedBrand, setSelectedBrand] = useState<'pret' | 'sainsburys'>('pret');
-  const [showLondonOnly, setShowLondonOnly] = useState(false);
-  const [showLocalOnly, setShowLocalOnly] = useState(false);
+  const [filters, setFilters] = useState<FilterOptions>({
+    showPretAll: true,
+    showPretLondon: false,
+    showSainsburysAll: false,
+    showSainsburysLocal: false,
+  });
   const [selectedLocation, setSelectedLocation] = useState<Location | undefined>();
 
   // Fetch all locations from backend
@@ -18,26 +21,45 @@ export default function Home() {
   const allLocations = data?.locations || [];
 
   const filteredLocations = useMemo(() => {
-    let filtered = allLocations;
+    let filtered: Location[] = [];
 
-    // Filter by brand
-    filtered = filtered.filter(loc => loc.brand === selectedBrand);
-
-    // Apply brand-specific filters
-    if (selectedBrand === 'pret' && showLondonOnly) {
-      filtered = filtered.filter(loc => 
-        loc.city.trim().toLowerCase() === 'london'
-      );
+    // Add Pret locations based on filters
+    if (filters.showPretAll) {
+      const pretStores = allLocations.filter(loc => loc.brand === 'pret');
+      filtered = [...filtered, ...pretStores];
     }
 
-    if (selectedBrand === 'sainsburys' && showLocalOnly) {
-      filtered = filtered.filter(loc => 
-        loc.name.toLowerCase().includes('local')
+    if (filters.showPretLondon) {
+      const pretLondon = allLocations.filter(loc => 
+        loc.brand === 'pret' && loc.city.trim().toLowerCase() === 'london'
       );
+      // Only add if not already included from showPretAll
+      if (!filters.showPretAll) {
+        filtered = [...filtered, ...pretLondon];
+      }
     }
 
-    return filtered;
-  }, [allLocations, selectedBrand, showLondonOnly, showLocalOnly]);
+    // Add Sainsbury's locations based on filters
+    if (filters.showSainsburysAll) {
+      const sainsburysStores = allLocations.filter(loc => loc.brand === 'sainsburys');
+      filtered = [...filtered, ...sainsburysStores];
+    }
+
+    if (filters.showSainsburysLocal) {
+      const sainsburysLocal = allLocations.filter(loc => 
+        loc.brand === 'sainsburys' && loc.name.toLowerCase().includes('local')
+      );
+      // Only add if not already included from showSainsburysAll
+      if (!filters.showSainsburysAll) {
+        filtered = [...filtered, ...sainsburysLocal];
+      }
+    }
+
+    // Remove duplicates (in case both "All" and specific filter are checked)
+    const uniqueFiltered = Array.from(new Map(filtered.map(loc => [loc.id, loc])).values());
+    
+    return uniqueFiltered;
+  }, [allLocations, filters]);
 
   if (isLoading) {
     return (
@@ -61,6 +83,19 @@ export default function Home() {
     );
   }
 
+  // Determine which brand to show based on filters
+  const selectedBrand = useMemo(() => {
+    const hasPret = filters.showPretAll || filters.showPretLondon;
+    const hasSainsburys = filters.showSainsburysAll || filters.showSainsburysLocal;
+    
+    // If both or neither are selected, default to pret for map centering
+    if ((hasPret && hasSainsburys) || (!hasPret && !hasSainsburys)) {
+      return 'pret' as const;
+    }
+    
+    return hasSainsburys ? 'sainsburys' as const : 'pret' as const;
+  }, [filters]);
+
   return (
     <div className="relative h-screen w-full overflow-hidden">
       {/* Map takes full screen */}
@@ -74,12 +109,8 @@ export default function Home() {
       {/* Filter box in top-right corner */}
       <div className="absolute top-4 right-4 z-[1000]">
         <MapFilterBox
-          selectedBrand={selectedBrand}
-          onBrandChange={setSelectedBrand}
-          showLondonOnly={showLondonOnly}
-          onLondonToggle={setShowLondonOnly}
-          showLocalOnly={showLocalOnly}
-          onLocalToggle={setShowLocalOnly}
+          filters={filters}
+          onFilterChange={setFilters}
           locationCount={filteredLocations.length}
         />
       </div>
