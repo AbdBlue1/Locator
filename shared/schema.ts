@@ -20,15 +20,16 @@ export type User = typeof users.$inferSelect;
 export const locationSchema = z.object({
   id: z.string(),
   name: z.string(),
-  address: z.string(),
-  city: z.string(),
-  postcode: z.string(),
+  address: z.string().optional(),
+  city: z.string().optional(),
+  postcode: z.string().optional(),
   latitude: z.number(),
   longitude: z.number(),
-  status: z.enum(['open', 'closed', 'closing_soon']),
+  status: z.enum(['open', 'closed', 'closing_soon']).optional(),
   openingHours: z.string().optional(),
   phone: z.string().optional(),
-  brand: z.enum(['pret', 'sainsburys']),
+  brand: z.enum(['pret', 'sainsburys', 'tfl']),
+  modes: z.array(z.string()).optional(), // For TfL: tube, overground, dlr, etc.
 });
 
 export type Location = z.infer<typeof locationSchema>;

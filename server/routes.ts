@@ -3,13 +3,14 @@ import { createServer, type Server } from "http";
 import { storage } from "./storage";
 import { pretLocations } from "./pret-locations-data";
 import { sainsburysLocations } from "./sainsburys-locations-data";
+import { tflStations } from "./tfl-stations-data";
 
 export async function registerRoutes(app: Express): Promise<Server> {
-  // API endpoint to get all locations (Pret + Sainsbury's)
+  // API endpoint to get all locations (Pret + Sainsbury's + TfL)
   app.get("/api/locations", async (req, res) => {
     try {
-      // Combine both Pret and Sainsbury's locations
-      const allLocations = [...pretLocations, ...sainsburysLocations];
+      // Combine all locations
+      const allLocations = [...pretLocations, ...sainsburysLocations, ...tflStations];
       res.json({ success: true, locations: allLocations });
     } catch (error) {
       console.error("Error in /api/locations:", error);
