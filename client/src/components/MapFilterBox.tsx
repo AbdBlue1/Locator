@@ -9,6 +9,7 @@ export interface FilterOptions {
   showSainsburysAll: boolean;
   showSainsburysLocal: boolean;
   showTflStations: boolean;
+  showNationalRail: boolean;
 }
 
 interface MapFilterBoxProps {
@@ -118,7 +119,29 @@ export default function MapFilterBox({
                 data-testid="checkbox-tfl-stations"
               />
               <Label htmlFor="tfl-stations" className="text-sm font-normal cursor-pointer">
-                All stations (566)
+                Tube/DLR/Overground (566)
+              </Label>
+            </div>
+          </div>
+        </div>
+
+        <Separator />
+
+        {/* National Rail */}
+        <div className="space-y-2">
+          <h4 className="text-sm font-medium text-foreground">National Rail</h4>
+          <div className="space-y-2 ml-1">
+            <div className="flex items-center space-x-2">
+              <Checkbox
+                id="national-rail"
+                checked={filters.showNationalRail}
+                onCheckedChange={(checked) => 
+                  onFilterChange({ ...filters, showNationalRail: checked as boolean })
+                }
+                data-testid="checkbox-national-rail"
+              />
+              <Label htmlFor="national-rail" className="text-sm font-normal cursor-pointer">
+                All stations (483)
               </Label>
             </div>
           </div>

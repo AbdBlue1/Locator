@@ -28,8 +28,9 @@ export const locationSchema = z.object({
   status: z.enum(['open', 'closed', 'closing_soon']).optional(),
   openingHours: z.string().optional(),
   phone: z.string().optional(),
-  brand: z.enum(['pret', 'sainsburys', 'tfl']),
+  brand: z.enum(['pret', 'sainsburys', 'tfl', 'national-rail']),
   modes: z.array(z.string()).optional(), // For TfL: tube, overground, dlr, etc.
+  crsCode: z.string().optional(), // For National Rail: 3-letter station code
 });
 
 export type Location = z.infer<typeof locationSchema>;

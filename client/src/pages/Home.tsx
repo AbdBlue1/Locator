@@ -11,6 +11,7 @@ export default function Home() {
     showSainsburysAll: false,
     showSainsburysLocal: false,
     showTflStations: false,
+    showNationalRail: false,
   });
   const [selectedLocation, setSelectedLocation] = useState<Location | undefined>();
 
@@ -62,6 +63,12 @@ export default function Home() {
       filtered = [...filtered, ...tflStations];
     }
 
+    // Add National Rail stations based on filters
+    if (filters.showNationalRail) {
+      const nationalRailStations = allLocations.filter(loc => loc.brand === 'national-rail');
+      filtered = [...filtered, ...nationalRailStations];
+    }
+
     // Remove duplicates (in case both "All" and specific filter are checked)
     const uniqueFiltered = Array.from(new Map(filtered.map(loc => [loc.id, loc])).values());
     
@@ -73,9 +80,10 @@ export default function Home() {
     const hasPret = filters.showPretAll || filters.showPretLondon;
     const hasSainsburys = filters.showSainsburysAll || filters.showSainsburysLocal;
     const hasTfl = filters.showTflStations;
+    const hasNationalRail = filters.showNationalRail;
     
-    // If TfL or Sainsbury's is selected, zoom to London (both are London-based)
-    if (hasTfl || hasSainsburys) {
+    // If TfL, National Rail, or Sainsbury's is selected, zoom to London (all are London-based)
+    if (hasTfl || hasNationalRail || hasSainsburys) {
       return 'sainsburys' as const;
     }
     

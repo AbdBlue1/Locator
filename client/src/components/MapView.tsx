@@ -79,14 +79,15 @@ export default function MapView({ locations, selectedLocation, onLocationSelect,
       // Determine brand colors
       const brandColor = location.brand === 'pret' ? '#8B1538' : 
                         location.brand === 'sainsburys' ? '#F06D00' : 
-                        '#0019A8'; // Pret burgundy, Sainsbury's orange, or TfL blue
+                        location.brand === 'tfl' ? '#0019A8' :
+                        '#E2231A'; // Pret burgundy, Sainsbury's orange, TfL blue, or National Rail red
       
       // Create custom marker element
       const el = document.createElement('div');
       el.className = 'mapbox-marker';
       el.style.backgroundColor = brandColor;
-      el.style.width = location.brand === 'tfl' ? '12px' : '20px';
-      el.style.height = location.brand === 'tfl' ? '12px' : '20px';
+      el.style.width = (location.brand === 'tfl' || location.brand === 'national-rail') ? '12px' : '20px';
+      el.style.height = (location.brand === 'tfl' || location.brand === 'national-rail') ? '12px' : '20px';
       el.style.borderRadius = '50%';
       el.style.border = '2px solid white';
       el.style.cursor = 'pointer';
@@ -103,6 +104,17 @@ export default function MapView({ locations, selectedLocation, onLocationSelect,
             <h3 style="font-weight: 600; font-size: 15px; margin: 0 0 10px 0; color: ${brandColor}; border-bottom: 2px solid ${brandColor}; padding-bottom: 6px;">${location.name}</h3>
             <div style="margin-bottom: 8px;">
               <p style="font-size: 13px; color: #333; margin: 3px 0; line-height: 1.4;">🚇 ${modesDisplay}</p>
+            </div>
+          </div>
+        `;
+      } else if (location.brand === 'national-rail') {
+        // National Rail station popup
+        const crsCode = location.crsCode || '';
+        popupContent = `
+          <div style="padding: 12px; min-width: 200px; max-width: 300px; font-family: Inter, sans-serif;">
+            <h3 style="font-weight: 600; font-size: 15px; margin: 0 0 10px 0; color: ${brandColor}; border-bottom: 2px solid ${brandColor}; padding-bottom: 6px;">${location.name}</h3>
+            <div style="margin-bottom: 8px;">
+              <p style="font-size: 13px; color: #333; margin: 3px 0; line-height: 1.4;">🚆 National Rail ${crsCode ? `(${crsCode})` : ''}</p>
             </div>
           </div>
         `;
