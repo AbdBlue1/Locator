@@ -7,10 +7,10 @@ interface MapViewProps {
   locations: Location[];
   selectedLocation?: Location;
   onLocationSelect: (location: Location) => void;
-  showLondonOnly?: boolean;
+  selectedBrand: 'pret' | 'sainsburys';
 }
 
-export default function MapView({ locations, selectedLocation, onLocationSelect, showLondonOnly }: MapViewProps) {
+export default function MapView({ locations, selectedLocation, onLocationSelect, selectedBrand }: MapViewProps) {
   const mapContainerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<mapboxgl.Map | null>(null);
   const markersRef = useRef<mapboxgl.Marker[]>([]);
@@ -45,26 +45,26 @@ export default function MapView({ locations, selectedLocation, onLocationSelect,
     };
   }, []);
 
-  // Adjust map view when filter changes
+  // Adjust map view when brand changes (Sainsbury's is London-only, Pret is UK-wide)
   useEffect(() => {
-    if (!mapRef.current) return;
+    if (!mapRef.current || locations.length === 0) return;
     
-    if (showLondonOnly) {
-      // Zoom to London
+    if (selectedBrand === 'sainsburys') {
+      // Zoom to London for Sainsbury's (all stores are in London)
       mapRef.current.flyTo({
         center: [-0.1276, 51.5074], // London center
         zoom: 10,
         duration: 1500,
       });
     } else {
-      // Zoom out to show all UK
+      // Zoom out to show all UK for Pret
       mapRef.current.flyTo({
         center: [-3.5, 54.5], // UK center
         zoom: 5.5,
         duration: 1500,
       });
     }
-  }, [showLondonOnly]);
+  }, [selectedBrand, locations.length]);
 
   // Update markers when locations change
   useEffect(() => {
@@ -76,10 +76,13 @@ export default function MapView({ locations, selectedLocation, onLocationSelect,
 
     // Add markers for all locations
     locations.forEach(location => {
+      // Determine brand colors
+      const brandColor = location.brand === 'pret' ? '#8B1538' : '#F06D00'; // Pret burgundy or Sainsbury's orange
+      
       // Create custom marker element
       const el = document.createElement('div');
       el.className = 'mapbox-marker';
-      el.style.backgroundColor = '#8B1538'; // Pret burgundy
+      el.style.backgroundColor = brandColor;
       el.style.width = '20px';
       el.style.height = '20px';
       el.style.borderRadius = '50%';
@@ -94,7 +97,7 @@ export default function MapView({ locations, selectedLocation, onLocationSelect,
         closeOnClick: false,
       }).setHTML(`
         <div style="padding: 12px; min-width: 250px; max-width: 350px; font-family: Inter, sans-serif;">
-          <h3 style="font-weight: 600; font-size: 15px; margin: 0 0 10px 0; color: #8B1538; border-bottom: 2px solid #8B1538; padding-bottom: 6px;">${location.name}</h3>
+          <h3 style="font-weight: 600; font-size: 15px; margin: 0 0 10px 0; color: ${brandColor}; border-bottom: 2px solid ${brandColor}; padding-bottom: 6px;">${location.name}</h3>
           <div style="margin-bottom: 8px;">
             <p style="font-size: 13px; color: #333; margin: 3px 0; line-height: 1.4;">📍 ${location.address}</p>
             <p style="font-size: 13px; color: #333; margin: 3px 0;">${location.city}, ${location.postcode}</p>
