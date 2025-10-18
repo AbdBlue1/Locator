@@ -8,6 +8,7 @@ export interface FilterOptions {
   showPretLondon: boolean;
   showSainsburysAll: boolean;
   showSainsburysLocal: boolean;
+  showTflStations: boolean;
 }
 
 interface MapFilterBoxProps {
@@ -96,6 +97,28 @@ export default function MapFilterBox({
               />
               <Label htmlFor="sainsburys-local" className="text-sm font-normal cursor-pointer">
                 Local stores only (267)
+              </Label>
+            </div>
+          </div>
+        </div>
+
+        <Separator />
+
+        {/* TfL Stations */}
+        <div className="space-y-2">
+          <h4 className="text-sm font-medium text-foreground">TfL Stations</h4>
+          <div className="space-y-2 ml-1">
+            <div className="flex items-center space-x-2">
+              <Checkbox
+                id="tfl-stations"
+                checked={filters.showTflStations}
+                onCheckedChange={(checked) => 
+                  onFilterChange({ ...filters, showTflStations: checked as boolean })
+                }
+                data-testid="checkbox-tfl-stations"
+              />
+              <Label htmlFor="tfl-stations" className="text-sm font-normal cursor-pointer">
+                All stations (566)
               </Label>
             </div>
           </div>

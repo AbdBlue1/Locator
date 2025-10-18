@@ -77,44 +77,65 @@ export default function MapView({ locations, selectedLocation, onLocationSelect,
     // Add markers for all locations
     locations.forEach(location => {
       // Determine brand colors
-      const brandColor = location.brand === 'pret' ? '#8B1538' : '#F06D00'; // Pret burgundy or Sainsbury's orange
+      const brandColor = location.brand === 'pret' ? '#8B1538' : 
+                        location.brand === 'sainsburys' ? '#F06D00' : 
+                        '#0019A8'; // Pret burgundy, Sainsbury's orange, or TfL blue
       
       // Create custom marker element
       const el = document.createElement('div');
       el.className = 'mapbox-marker';
       el.style.backgroundColor = brandColor;
-      el.style.width = '20px';
-      el.style.height = '20px';
+      el.style.width = location.brand === 'tfl' ? '12px' : '20px';
+      el.style.height = location.brand === 'tfl' ? '12px' : '20px';
       el.style.borderRadius = '50%';
       el.style.border = '2px solid white';
       el.style.cursor = 'pointer';
       el.style.boxShadow = '0 2px 4px rgba(0,0,0,0.3)';
+
+      // Create popup content based on location type
+      let popupContent = '';
+      
+      if (location.brand === 'tfl') {
+        // TfL station popup
+        const modesDisplay = location.modes?.join(', ') || 'Station';
+        popupContent = `
+          <div style="padding: 12px; min-width: 200px; max-width: 300px; font-family: Inter, sans-serif;">
+            <h3 style="font-weight: 600; font-size: 15px; margin: 0 0 10px 0; color: ${brandColor}; border-bottom: 2px solid ${brandColor}; padding-bottom: 6px;">${location.name}</h3>
+            <div style="margin-bottom: 8px;">
+              <p style="font-size: 13px; color: #333; margin: 3px 0; line-height: 1.4;">🚇 ${modesDisplay}</p>
+            </div>
+          </div>
+        `;
+      } else {
+        // Pret or Sainsbury's popup
+        popupContent = `
+          <div style="padding: 12px; min-width: 250px; max-width: 350px; font-family: Inter, sans-serif;">
+            <h3 style="font-weight: 600; font-size: 15px; margin: 0 0 10px 0; color: ${brandColor}; border-bottom: 2px solid ${brandColor}; padding-bottom: 6px;">${location.name}</h3>
+            <div style="margin-bottom: 8px;">
+              <p style="font-size: 13px; color: #333; margin: 3px 0; line-height: 1.4;">📍 ${location.address || ''}</p>
+              <p style="font-size: 13px; color: #333; margin: 3px 0;">${location.city || ''}, ${location.postcode || ''}</p>
+            </div>
+            ${location.openingHours ? `
+              <div style="margin-top: 10px; padding-top: 8px; border-top: 1px solid #eee;">
+                <p style="font-size: 12px; color: #555; margin: 0 0 4px 0; font-weight: 500;">⏰ Opening Hours</p>
+                <p style="font-size: 12px; color: #666; margin: 0; line-height: 1.5;">${location.openingHours}</p>
+              </div>
+            ` : ''}
+            ${location.phone ? `
+              <div style="margin-top: 8px;">
+                <p style="font-size: 12px; color: #555; margin: 0;">📞 <a href="tel:${location.phone}" style="color: ${brandColor}; text-decoration: none;">${location.phone}</a></p>
+              </div>
+            ` : ''}
+          </div>
+        `;
+      }
 
       // Create popup
       const popup = new mapboxgl.Popup({
         offset: 25,
         closeButton: true,
         closeOnClick: false,
-      }).setHTML(`
-        <div style="padding: 12px; min-width: 250px; max-width: 350px; font-family: Inter, sans-serif;">
-          <h3 style="font-weight: 600; font-size: 15px; margin: 0 0 10px 0; color: ${brandColor}; border-bottom: 2px solid ${brandColor}; padding-bottom: 6px;">${location.name}</h3>
-          <div style="margin-bottom: 8px;">
-            <p style="font-size: 13px; color: #333; margin: 3px 0; line-height: 1.4;">📍 ${location.address}</p>
-            <p style="font-size: 13px; color: #333; margin: 3px 0;">${location.city}, ${location.postcode}</p>
-          </div>
-          ${location.openingHours ? `
-            <div style="margin-top: 10px; padding-top: 8px; border-top: 1px solid #eee;">
-              <p style="font-size: 12px; color: #555; margin: 0 0 4px 0; font-weight: 500;">⏰ Opening Hours</p>
-              <p style="font-size: 12px; color: #666; margin: 0; line-height: 1.5;">${location.openingHours}</p>
-            </div>
-          ` : ''}
-          ${location.phone ? `
-            <div style="margin-top: 8px;">
-              <p style="font-size: 12px; color: #555; margin: 0;">📞 <a href="tel:${location.phone}" style="color: #8B1538; text-decoration: none;">${location.phone}</a></p>
-            </div>
-          ` : ''}
-        </div>
-      `);
+      }).setHTML(popupContent);
 
       // Create marker
       const marker = new mapboxgl.Marker(el)

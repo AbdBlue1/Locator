@@ -10,6 +10,7 @@ export default function Home() {
     showPretLondon: false,
     showSainsburysAll: false,
     showSainsburysLocal: false,
+    showTflStations: false,
   });
   const [selectedLocation, setSelectedLocation] = useState<Location | undefined>();
 
@@ -55,23 +56,30 @@ export default function Home() {
       }
     }
 
+    // Add TfL stations based on filters
+    if (filters.showTflStations) {
+      const tflStations = allLocations.filter(loc => loc.brand === 'tfl');
+      filtered = [...filtered, ...tflStations];
+    }
+
     // Remove duplicates (in case both "All" and specific filter are checked)
     const uniqueFiltered = Array.from(new Map(filtered.map(loc => [loc.id, loc])).values());
     
     return uniqueFiltered;
   }, [allLocations, filters]);
 
-  // Determine which brand to show based on filters
+  // Determine which brand to show based on filters (for map centering)
   const selectedBrand = useMemo(() => {
     const hasPret = filters.showPretAll || filters.showPretLondon;
     const hasSainsburys = filters.showSainsburysAll || filters.showSainsburysLocal;
+    const hasTfl = filters.showTflStations;
     
-    // If both or neither are selected, default to pret for map centering
-    if ((hasPret && hasSainsburys) || (!hasPret && !hasSainsburys)) {
-      return 'pret' as const;
+    // If TfL or Sainsbury's is selected, zoom to London (both are London-based)
+    if (hasTfl || hasSainsburys) {
+      return 'sainsburys' as const;
     }
     
-    return hasSainsburys ? 'sainsburys' as const : 'pret' as const;
+    return 'pret' as const;
   }, [filters]);
 
   if (isLoading) {
