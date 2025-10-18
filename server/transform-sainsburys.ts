@@ -51,7 +51,7 @@ function formatOpeningTimes(times: any[]): string {
 }
 
 async function transformSainsburys() {
-  const rawData = JSON.parse(await fs.readFile('/tmp/sainsburys-london.json', 'utf-8'));
+  const rawData = JSON.parse(await fs.readFile('/tmp/sainsburys-london-comprehensive.json', 'utf-8'));
   
   const transformedLocations: Location[] = rawData
     .filter((store: any) => store.location && store.location.lat && store.location.lon)
