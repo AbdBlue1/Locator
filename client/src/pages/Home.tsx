@@ -17,11 +17,13 @@ export default function Home() {
   const [selectedLocation, setSelectedLocation] = useState<Location | undefined>();
 
   // Try to fetch from API (works on Replit), fallback to static data (works on Vercel)
-  const { data, isLoading, error } = useQuery<{ success: boolean; locations: Location[] }>({
+  const { data, isLoading } = useQuery<{ success: boolean; locations: Location[] }>({
     queryKey: ["/api/locations"],
+    retry: false, // Don't retry on Vercel
+    refetchOnWindowFocus: false,
   });
 
-  // Use API data if available, otherwise use static data
+  // Use API data if available, otherwise use static data (always works)
   const allLocations = data?.locations || staticLocations;
 
   const filteredLocations = useMemo(() => {
@@ -92,7 +94,8 @@ export default function Home() {
     return 'pret' as const;
   }, [filters]);
 
-  if (isLoading) {
+  // Only show loading on initial load with no static data yet
+  if (isLoading && allLocations.length === 0) {
     return (
       <div className="flex items-center justify-center h-screen bg-background">
         <div className="text-center space-y-4">
@@ -103,7 +106,8 @@ export default function Home() {
     );
   }
 
-  if (error) {
+  // Show error only if we have no data at all (shouldn't happen with static fallback)
+  if (allLocations.length === 0) {
     return (
       <div className="flex items-center justify-center h-screen bg-background">
         <div className="text-center space-y-4 p-8">
