@@ -1,10 +1,13 @@
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import MapView from "@/components/MapView";
 import MapFilterBox, { type FilterOptions } from "@/components/MapFilterBox";
 import type { Location } from "@shared/schema";
-import { allLocations } from "@/data/all-locations";
 
 export default function Home() {
+  const [allLocations, setAllLocations] = useState<Location[]>([]);
+  const [isLoading, setIsLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+  
   const [filters, setFilters] = useState<FilterOptions>({
     showPretAll: true,
     showPretLondon: false,
@@ -14,6 +17,23 @@ export default function Home() {
     showNationalRail: false,
   });
   const [selectedLocation, setSelectedLocation] = useState<Location | undefined>();
+
+  // Fetch locations data from JSON file
+  useEffect(() => {
+    fetch('/data/locations.json')
+      .then(res => {
+        if (!res.ok) throw new Error('Failed to load locations');
+        return res.json();
+      })
+      .then((data: Location[]) => {
+        setAllLocations(data);
+        setIsLoading(false);
+      })
+      .catch(err => {
+        setError(err.message);
+        setIsLoading(false);
+      });
+  }, []);
 
   const filteredLocations = useMemo(() => {
     let filtered: Location[] = [];
@@ -83,6 +103,36 @@ export default function Home() {
     return 'pret' as const;
   }, [filters]);
 
+
+  // Show loading state
+  if (isLoading) {
+    return (
+      <div className="flex items-center justify-center h-screen w-full bg-background">
+        <div className="text-center space-y-4">
+          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary mx-auto"></div>
+          <p className="text-muted-foreground" data-testid="text-loading">Loading locations...</p>
+        </div>
+      </div>
+    );
+  }
+
+  // Show error state
+  if (error) {
+    return (
+      <div className="flex items-center justify-center h-screen w-full bg-background">
+        <div className="text-center space-y-4">
+          <p className="text-destructive font-semibold" data-testid="text-error">Error: {error}</p>
+          <button 
+            onClick={() => window.location.reload()} 
+            className="px-4 py-2 bg-primary text-primary-foreground rounded-md hover-elevate"
+            data-testid="button-retry"
+          >
+            Retry
+          </button>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="relative h-screen w-full overflow-hidden">
