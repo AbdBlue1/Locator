@@ -1,9 +1,8 @@
 import { useState, useMemo } from "react";
-import { useQuery } from "@tanstack/react-query";
 import MapView from "@/components/MapView";
 import MapFilterBox, { type FilterOptions } from "@/components/MapFilterBox";
 import type { Location } from "@shared/schema";
-import { allLocations as staticLocations } from "@/data/all-locations";
+import { allLocations } from "@/data/all-locations";
 
 export default function Home() {
   const [filters, setFilters] = useState<FilterOptions>({
@@ -15,16 +14,6 @@ export default function Home() {
     showNationalRail: false,
   });
   const [selectedLocation, setSelectedLocation] = useState<Location | undefined>();
-
-  // Try to fetch from API (works on Replit), fallback to static data (works on Vercel)
-  const { data, isLoading } = useQuery<{ success: boolean; locations: Location[] }>({
-    queryKey: ["/api/locations"],
-    retry: false, // Don't retry on Vercel
-    refetchOnWindowFocus: false,
-  });
-
-  // Use API data if available, otherwise use static data (always works)
-  const allLocations = data?.locations || staticLocations;
 
   const filteredLocations = useMemo(() => {
     let filtered: Location[] = [];
@@ -94,29 +83,6 @@ export default function Home() {
     return 'pret' as const;
   }, [filters]);
 
-  // Only show loading on initial load with no static data yet
-  if (isLoading && allLocations.length === 0) {
-    return (
-      <div className="flex items-center justify-center h-screen bg-background">
-        <div className="text-center space-y-4">
-          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary mx-auto" data-testid="loading-spinner"></div>
-          <p className="text-muted-foreground">Loading locations...</p>
-        </div>
-      </div>
-    );
-  }
-
-  // Show error only if we have no data at all (shouldn't happen with static fallback)
-  if (allLocations.length === 0) {
-    return (
-      <div className="flex items-center justify-center h-screen bg-background">
-        <div className="text-center space-y-4 p-8">
-          <p className="text-destructive font-semibold">Error loading locations</p>
-          <p className="text-sm text-muted-foreground">Please try refreshing the page</p>
-        </div>
-      </div>
-    );
-  }
 
   return (
     <div className="relative h-screen w-full overflow-hidden">
