@@ -3,6 +3,7 @@ import { useQuery } from "@tanstack/react-query";
 import MapView from "@/components/MapView";
 import MapFilterBox, { type FilterOptions } from "@/components/MapFilterBox";
 import type { Location } from "@shared/schema";
+import { allLocations as staticLocations } from "@/data/all-locations";
 
 export default function Home() {
   const [filters, setFilters] = useState<FilterOptions>({
@@ -15,12 +16,13 @@ export default function Home() {
   });
   const [selectedLocation, setSelectedLocation] = useState<Location | undefined>();
 
-  // Fetch all locations from backend
+  // Try to fetch from API (works on Replit), fallback to static data (works on Vercel)
   const { data, isLoading, error } = useQuery<{ success: boolean; locations: Location[] }>({
     queryKey: ["/api/locations"],
   });
 
-  const allLocations = data?.locations || [];
+  // Use API data if available, otherwise use static data
+  const allLocations = data?.locations || staticLocations;
 
   const filteredLocations = useMemo(() => {
     let filtered: Location[] = [];
